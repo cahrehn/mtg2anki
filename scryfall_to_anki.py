@@ -18,7 +18,7 @@ ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
 ANKICONNECT_URL = "http://localhost:8765"
 
 # File paths
-SCRIPT_DIR = Path.home() / "dev" / "mtg2anki"
+SCRIPT_DIR = Path(__file__).resolve().parent
 STATE_FILE = SCRIPT_DIR / f"{SET_CODE}_state.json"
 LOG_FILE = SCRIPT_DIR / "card-monitor.log"
 
