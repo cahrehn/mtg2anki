@@ -22,6 +22,8 @@ SCRIPT_DIR = Path.home() / "dev" / "mtg2anki"
 STATE_FILE = SCRIPT_DIR / f"{SET_CODE}_state.json"
 LOG_FILE = SCRIPT_DIR / "card-monitor.log"
 
+DECK_FOLDER = f'Main::MTG'
+
 # ===== HELPER FUNCTIONS =====
 
 def log_message(message):
@@ -195,7 +197,7 @@ def main():
     try:
         # Fetch set info
         set_info = fetch_set_info(SET_CODE)
-        deck_name = f"Main::MTG::{set_info['name']}"
+        deck_name = f"{DECK_FOLDER}::{set_info['name']}"
         log_message(f"Set: '{set_info['name']}' ({SET_CODE})")
         log_message(f"Target deck: {deck_name}")
 
