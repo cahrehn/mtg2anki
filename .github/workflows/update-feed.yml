@@ -1,6 +1,17 @@
 name: Update card feed
 
 on:
+  # Scheduled runs and the "Run workflow" button only exist once this file is on
+  # the default branch. Pushing to a claude/* branch runs it there so the whole
+  # thing can be tested before merging.
+  push:
+    branches:
+      - "claude/**"
+    paths:
+      - "build_feed.py"
+      - "mtg2anki/**"
+      - "tests/**"
+      - ".github/workflows/update-feed.yml"
   schedule:
     - cron: "17 * * * *"  # hourly; new spoilers show up in the feed within the hour
   workflow_dispatch:

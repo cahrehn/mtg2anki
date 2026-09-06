@@ -1,13 +1,23 @@
 """Scryfall API access."""
 
+import time
+
 import requests
 
 API = "https://api.scryfall.com"
 
+# Scryfall asks clients to identify themselves and to leave 50-100ms between
+# requests. https://scryfall.com/docs/api
+HEADERS = {
+    "User-Agent": "mtg2anki/1.0 (+https://github.com/cahrehn/mtg2anki)",
+    "Accept": "application/json",
+}
+REQUEST_DELAY = 0.1
+
 
 def fetch_set_info(set_code):
     """Fetch set information from Scryfall API"""
-    response = requests.get(f"{API}/sets/{set_code}")
+    response = requests.get(f"{API}/sets/{set_code}", headers=HEADERS)
     response.raise_for_status()
     data = response.json()
     return {
@@ -24,7 +34,8 @@ def fetch_cards(set_code, log=print):
 
     all_cards = []
     while url:
-        response = requests.get(url)
+        time.sleep(REQUEST_DELAY)
+        response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
         data = response.json()
 

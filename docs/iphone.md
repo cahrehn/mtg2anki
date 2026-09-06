@@ -25,14 +25,18 @@ the Mac is asleep. Cards sync to AnkiWeb and back to the Mac as usual.
 
 ## One-time setup
 
-1. Merge this branch to `main` and make sure Actions is enabled for the repo
-   (Settings → Actions → General → "Allow all actions").
+1. Make sure Actions is enabled for the repo (Settings → Actions → General →
+   "Allow all actions").
 2. Set the set code: Settings → Secrets and variables → Actions → Variables →
-   new repository variable `MTG2ANKI_SET` (e.g. `tla`). Without it the workflow
-   falls back to `tla`.
-3. Run the workflow once by hand (Actions → "Update card feed" → Run workflow),
-   or wait for the hourly schedule. It commits `feed/current.json` and
-   `state/feed.json`.
+   New repository variable, name `MTG2ANKI_SET`, value e.g. `tla`. Direct link:
+   <https://github.com/cahrehn/mtg2anki/settings/variables/actions>. This is a
+   *variable*, not a secret — its value shows in run logs, which is fine for a
+   set code. **Optional:** without it the workflow falls back to `tla`, so you
+   can skip this until you switch sets.
+3. Get a feed built — see [Testing before you merge](#testing-before-you-merge)
+   if the branch isn't merged yet, otherwise Actions → "Update card feed" → Run
+   workflow, or just wait for the hourly schedule. It commits
+   `feed/current.json` and `state/feed.json`.
 4. Build the Shortcut below.
 
 The feed lives at:
@@ -40,6 +44,38 @@ The feed lives at:
 ```
 https://raw.githubusercontent.com/cahrehn/mtg2anki/main/feed/current.json
 ```
+
+## Testing before you merge
+
+GitHub has a catch here: **`schedule` and the "Run workflow" button only exist
+for workflow files that are on the default branch.** Until this is merged,
+Actions shows nothing to click, even though the file is there on the branch.
+
+`push` triggers have no such restriction, so the workflow also runs on any push
+to a `claude/**` branch that touches `build_feed.py`, `mtg2anki/`, `tests/` or
+the workflow itself. It commits the feed back to *that branch*, so you get a
+real end-to-end test — real Scryfall data, real feed, real Shortcut run —
+without merging anything.
+
+While testing, point the Shortcut at the branch:
+
+```
+https://raw.githubusercontent.com/cahrehn/mtg2anki/claude/mobile-script-anki-import-ye9ptr/feed/current.json
+```
+
+and swap `claude/mobile-script-anki-import-ye9ptr` for `main` after merging. To
+kick off a run without a code change, edit any file in the branch from the
+GitHub web UI (the pencil icon works fine on a phone) and commit — e.g. add a
+line to this file.
+
+Two things worth knowing while testing:
+
+- Sequence numbers are assigned once and committed to `state/feed.json`. If you
+  test on the branch and then merge, the numbers carry over — the phone cursor
+  stays valid. If you'd rather start clean, delete `state/feed.json` and the
+  next run renumbers from 1.
+- The `.tsv` files and `feed/current.json` are committed by the bot, so merging
+  the branch brings that data along with it.
 
 ## The feed format
 
@@ -148,6 +184,36 @@ Scryfall (`Main::MTG::<set name>`).
 runs from the Mac (`python build_feed.py`) or from [a-Shell](https://holzschu.github.io/a-Shell_iOS/)
 on the phone itself if you'd rather not depend on CI. Point the Shortcut at a
 local file instead of the raw URL in that case.
+
+## What GitHub Actions costs
+
+Nothing, for this repo. Standard GitHub-hosted runners are **free with no minute
+cap on public repositories** — the billed minute allowances only apply to
+private repos. This job takes well under a minute, so even hourly it is noise.
+
+Things that do apply:
+
+- **If you ever make this repo private**, the free tier is 2,000 minutes/month
+  and this workflow would burn roughly a third of it (~730 runs, billed with a
+  1-minute minimum each). Drop the schedule to every few hours if you do that.
+- **Scheduled workflows get disabled after 60 days of repository inactivity.**
+  GitHub emails the owner and you re-enable with one click. During spoiler
+  season the workflow's own commits count as activity; in the off-season expect
+  to get that mail eventually.
+- **Cron is best-effort.** The minimum interval is 5 minutes, and scheduled runs
+  are queued on shared infrastructure — they can be delayed by several minutes
+  to an hour at peak times, and can be dropped entirely under heavy load. Fine
+  for spoilers; don't treat the hourly cadence as a guarantee.
+- **Schedules only run on the default branch**, so the hourly run starts after
+  you merge.
+- The other ceilings (6 hours per job, 20 concurrent jobs, 35 days of log
+  retention) are nowhere near what this uses.
+- Repo size grows by one commit whenever the card list changes — a few hundred
+  KB across a whole spoiler season. The feed is deliberately not rewritten when
+  nothing changed, so quiet hours produce no commits at all.
+- Scryfall is free and has no key. The script identifies itself with a
+  User-Agent and spaces out paginated requests, as their API asks. Two or three
+  requests an hour is far below anything they'd care about.
 
 ## Staleness
 
