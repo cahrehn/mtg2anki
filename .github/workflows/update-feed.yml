@@ -1,0 +1,51 @@
+name: Update card feed
+
+on:
+  schedule:
+    - cron: "17 * * * *"  # hourly; new spoilers show up in the feed within the hour
+  workflow_dispatch:
+    inputs:
+      set_code:
+        description: "MTG set code to monitor (defaults to the MTG2ANKI_SET repo variable)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Build feed
+        env:
+          MTG2ANKI_SET: ${{ inputs.set_code || vars.MTG2ANKI_SET || 'tla' }}
+        run: python build_feed.py
+
+      - name: Commit feed changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed state
+          if git diff --cached --quiet; then
+            echo "No feed changes"
+            exit 0
+          fi
+          git commit -m "Update card feed"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
