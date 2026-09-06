@@ -1,0 +1,2830 @@
+{
+  "set": {
+    "code": "tla",
+    "name": "Avatar: The Last Airbender",
+    "released_at": "2025-11-21"
+  },
+  "deck": "Main::MTG::Avatar: The Last Airbender",
+  "count": 201,
+  "latest_seq": 201,
+  "tsv_headers": {
+    "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Avatar: The Last Airbender\n#columns:Front\tUUID",
+    "MTG Saga": "#separator:tab\n#html:true\n#notetype:MTG Saga\n#deck:Main::MTG::Avatar: The Last Airbender\n#columns:Front\tUUID"
+  },
+  "cards": [
+    {
+      "seq": 1,
+      "id": "fa940e68-010e-4b68-be8a-555d7068f7b4",
+      "name": "Firebending Lesson",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Firebending Lesson",
+        "UUID": "fa940e68-010e-4b68-be8a-555d7068f7b4"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Firebending%20Lesson&fldUUID=fa940e68-010e-4b68-be8a-555d7068f7b4&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Firebending Lesson\tfa940e68-010e-4b68-be8a-555d7068f7b4"
+    },
+    {
+      "seq": 2,
+      "id": "50d0be73-a2c8-44a0-9178-9949f342f6f9",
+      "name": "Waterbending Scroll",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Waterbending Scroll",
+        "UUID": "50d0be73-a2c8-44a0-9178-9949f342f6f9"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Waterbending%20Scroll&fldUUID=50d0be73-a2c8-44a0-9178-9949f342f6f9&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Waterbending Scroll\t50d0be73-a2c8-44a0-9178-9949f342f6f9"
+    },
+    {
+      "seq": 3,
+      "id": "3da81dbd-dc80-47ff-a33b-270d23a24e0a",
+      "name": "Wandering Musicians",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Wandering Musicians",
+        "UUID": "3da81dbd-dc80-47ff-a33b-270d23a24e0a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Wandering%20Musicians&fldUUID=3da81dbd-dc80-47ff-a33b-270d23a24e0a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Wandering Musicians\t3da81dbd-dc80-47ff-a33b-270d23a24e0a"
+    },
+    {
+      "seq": 4,
+      "id": "5c998994-6c3b-4f34-9b31-babba2b17266",
+      "name": "Pirate Peddlers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Pirate Peddlers",
+        "UUID": "5c998994-6c3b-4f34-9b31-babba2b17266"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Pirate%20Peddlers&fldUUID=5c998994-6c3b-4f34-9b31-babba2b17266&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Pirate Peddlers\t5c998994-6c3b-4f34-9b31-babba2b17266"
+    },
+    {
+      "seq": 5,
+      "id": "ad8933d6-cdc7-4d60-a78e-b43ffecfb136",
+      "name": "Zuko's Conviction",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Zuko's Conviction",
+        "UUID": "ad8933d6-cdc7-4d60-a78e-b43ffecfb136"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Zuko%27s%20Conviction&fldUUID=ad8933d6-cdc7-4d60-a78e-b43ffecfb136&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Zuko's Conviction\tad8933d6-cdc7-4d60-a78e-b43ffecfb136"
+    },
+    {
+      "seq": 6,
+      "id": "a9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5",
+      "name": "Team Avatar",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Team Avatar",
+        "UUID": "a9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Team%20Avatar&fldUUID=a9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Team Avatar\ta9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5"
+    },
+    {
+      "seq": 7,
+      "id": "cba9260d-ef07-4429-99f9-6004cc1fea0f",
+      "name": "Lo and Li, Twin Tutors",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Lo and Li, Twin Tutors",
+        "UUID": "cba9260d-ef07-4429-99f9-6004cc1fea0f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Lo%20and%20Li%2C%20Twin%20Tutors&fldUUID=cba9260d-ef07-4429-99f9-6004cc1fea0f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Lo and Li, Twin Tutors\tcba9260d-ef07-4429-99f9-6004cc1fea0f"
+    },
+    {
+      "seq": 8,
+      "id": "68b1c746-a4b8-4a45-9f0e-3962f0ae40e3",
+      "name": "Meteor Sword",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Meteor Sword",
+        "UUID": "68b1c746-a4b8-4a45-9f0e-3962f0ae40e3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Meteor%20Sword&fldUUID=68b1c746-a4b8-4a45-9f0e-3962f0ae40e3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Meteor Sword\t68b1c746-a4b8-4a45-9f0e-3962f0ae40e3"
+    },
+    {
+      "seq": 9,
+      "id": "3f5d2c38-663c-4f64-8cfc-c102462e82ef",
+      "name": "Rumble Arena",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rumble Arena",
+        "UUID": "3f5d2c38-663c-4f64-8cfc-c102462e82ef"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rumble%20Arena&fldUUID=3f5d2c38-663c-4f64-8cfc-c102462e82ef&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rumble Arena\t3f5d2c38-663c-4f64-8cfc-c102462e82ef"
+    },
+    {
+      "seq": 10,
+      "id": "10874416-fa4c-4aa3-b885-4351d011d208",
+      "name": "Air Nomad Legacy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Air Nomad Legacy",
+        "UUID": "10874416-fa4c-4aa3-b885-4351d011d208"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Air%20Nomad%20Legacy&fldUUID=10874416-fa4c-4aa3-b885-4351d011d208&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Air Nomad Legacy\t10874416-fa4c-4aa3-b885-4351d011d208"
+    },
+    {
+      "seq": 11,
+      "id": "78a75317-94f7-47a4-b4da-5a027fa73248",
+      "name": "Foggy Swamp Vinebender",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Foggy Swamp Vinebender",
+        "UUID": "78a75317-94f7-47a4-b4da-5a027fa73248"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Foggy%20Swamp%20Vinebender&fldUUID=78a75317-94f7-47a4-b4da-5a027fa73248&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Foggy Swamp Vinebender\t78a75317-94f7-47a4-b4da-5a027fa73248"
+    },
+    {
+      "seq": 12,
+      "id": "087a445c-5f63-45d6-83e8-20d22650db20",
+      "name": "Boar-q-pine",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Boar-q-pine",
+        "UUID": "087a445c-5f63-45d6-83e8-20d22650db20"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Boar-q-pine&fldUUID=087a445c-5f63-45d6-83e8-20d22650db20&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Boar-q-pine\t087a445c-5f63-45d6-83e8-20d22650db20"
+    },
+    {
+      "seq": 13,
+      "id": "53161747-c82b-41e8-90ea-7791ea262a85",
+      "name": "Ruinous Waterbending",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Ruinous Waterbending",
+        "UUID": "53161747-c82b-41e8-90ea-7791ea262a85"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Ruinous%20Waterbending&fldUUID=53161747-c82b-41e8-90ea-7791ea262a85&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ruinous Waterbending\t53161747-c82b-41e8-90ea-7791ea262a85"
+    },
+    {
+      "seq": 14,
+      "id": "30a30bfb-f0f3-425b-b37d-20079ee27046",
+      "name": "Canyon Crawler",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Canyon Crawler",
+        "UUID": "30a30bfb-f0f3-425b-b37d-20079ee27046"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Canyon%20Crawler&fldUUID=30a30bfb-f0f3-425b-b37d-20079ee27046&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Canyon Crawler\t30a30bfb-f0f3-425b-b37d-20079ee27046"
+    },
+    {
+      "seq": 15,
+      "id": "a6335319-6c92-40d4-ab2d-c06c79049c30",
+      "name": "Accumulate Wisdom",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Accumulate Wisdom",
+        "UUID": "a6335319-6c92-40d4-ab2d-c06c79049c30"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Accumulate%20Wisdom&fldUUID=a6335319-6c92-40d4-ab2d-c06c79049c30&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Accumulate Wisdom\ta6335319-6c92-40d4-ab2d-c06c79049c30"
+    },
+    {
+      "seq": 16,
+      "id": "8cabb6ed-5c80-4dab-b96c-9d4d9fe72db7",
+      "name": "Vengeful Villagers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Vengeful Villagers",
+        "UUID": "8cabb6ed-5c80-4dab-b96c-9d4d9fe72db7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Vengeful%20Villagers&fldUUID=8cabb6ed-5c80-4dab-b96c-9d4d9fe72db7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Vengeful Villagers\t8cabb6ed-5c80-4dab-b96c-9d4d9fe72db7"
+    },
+    {
+      "seq": 17,
+      "id": "0a0cdf97-1927-47c6-8ef1-29969e3567ee",
+      "name": "Water Tribe Captain",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Water Tribe Captain",
+        "UUID": "0a0cdf97-1927-47c6-8ef1-29969e3567ee"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Water%20Tribe%20Captain&fldUUID=0a0cdf97-1927-47c6-8ef1-29969e3567ee&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Water Tribe Captain\t0a0cdf97-1927-47c6-8ef1-29969e3567ee"
+    },
+    {
+      "seq": 18,
+      "id": "2402d759-84b6-41d2-ad78-9333974e9222",
+      "name": "Curious Farm Animals",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Curious Farm Animals",
+        "UUID": "2402d759-84b6-41d2-ad78-9333974e9222"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Curious%20Farm%20Animals&fldUUID=2402d759-84b6-41d2-ad78-9333974e9222&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Curious Farm Animals\t2402d759-84b6-41d2-ad78-9333974e9222"
+    },
+    {
+      "seq": 19,
+      "id": "257e6862-96fe-4312-aff2-509d0696843a",
+      "name": "Kyoshi Battle Fan",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Kyoshi Battle Fan",
+        "UUID": "257e6862-96fe-4312-aff2-509d0696843a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Kyoshi%20Battle%20Fan&fldUUID=257e6862-96fe-4312-aff2-509d0696843a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Kyoshi Battle Fan\t257e6862-96fe-4312-aff2-509d0696843a"
+    },
+    {
+      "seq": 20,
+      "id": "7ae1439f-a0c4-42c2-a4f3-8851defa981e",
+      "name": "Joo Dee, One of Many",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Joo Dee, One of Many",
+        "UUID": "7ae1439f-a0c4-42c2-a4f3-8851defa981e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Joo%20Dee%2C%20One%20of%20Many&fldUUID=7ae1439f-a0c4-42c2-a4f3-8851defa981e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Joo Dee, One of Many\t7ae1439f-a0c4-42c2-a4f3-8851defa981e"
+    },
+    {
+      "seq": 21,
+      "id": "6b7078e4-2892-4b5f-83ab-90369e0d6dba",
+      "name": "Airbender's Reversal",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Airbender's Reversal",
+        "UUID": "6b7078e4-2892-4b5f-83ab-90369e0d6dba"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Airbender%27s%20Reversal&fldUUID=6b7078e4-2892-4b5f-83ab-90369e0d6dba&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Airbender's Reversal\t6b7078e4-2892-4b5f-83ab-90369e0d6dba"
+    },
+    {
+      "seq": 22,
+      "id": "5d0ee441-a057-41b5-abb8-dc86864ac248",
+      "name": "Hermitic Herbalist",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Hermitic Herbalist",
+        "UUID": "5d0ee441-a057-41b5-abb8-dc86864ac248"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Hermitic%20Herbalist&fldUUID=5d0ee441-a057-41b5-abb8-dc86864ac248&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Hermitic Herbalist\t5d0ee441-a057-41b5-abb8-dc86864ac248"
+    },
+    {
+      "seq": 23,
+      "id": "6a2946c0-0a40-4cdb-92c8-af2bafecca09",
+      "name": "Messenger Hawk",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Messenger Hawk",
+        "UUID": "6a2946c0-0a40-4cdb-92c8-af2bafecca09"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Messenger%20Hawk&fldUUID=6a2946c0-0a40-4cdb-92c8-af2bafecca09&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Messenger Hawk\t6a2946c0-0a40-4cdb-92c8-af2bafecca09"
+    },
+    {
+      "seq": 24,
+      "id": "e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2",
+      "name": "Walltop Sentries",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Walltop Sentries",
+        "UUID": "e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Walltop%20Sentries&fldUUID=e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Walltop Sentries\te55f1c63-58f6-4e2b-aaeb-f2d5faca47a2"
+    },
+    {
+      "seq": 25,
+      "id": "52b213d3-6f68-43e6-91e9-435d8fe1f34c",
+      "name": "Rockalanche",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rockalanche",
+        "UUID": "52b213d3-6f68-43e6-91e9-435d8fe1f34c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rockalanche&fldUUID=52b213d3-6f68-43e6-91e9-435d8fe1f34c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rockalanche\t52b213d3-6f68-43e6-91e9-435d8fe1f34c"
+    },
+    {
+      "seq": 26,
+      "id": "6348b6bf-08a7-45f0-8b2d-2827ab89f21c",
+      "name": "Swampsnare Trap",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Swampsnare Trap",
+        "UUID": "6348b6bf-08a7-45f0-8b2d-2827ab89f21c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Swampsnare%20Trap&fldUUID=6348b6bf-08a7-45f0-8b2d-2827ab89f21c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Swampsnare Trap\t6348b6bf-08a7-45f0-8b2d-2827ab89f21c"
+    },
+    {
+      "seq": 27,
+      "id": "3f6e5869-ca25-4b98-a844-8a498cb40aab",
+      "name": "Foggy Swamp Hunters",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Foggy Swamp Hunters",
+        "UUID": "3f6e5869-ca25-4b98-a844-8a498cb40aab"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Foggy%20Swamp%20Hunters&fldUUID=3f6e5869-ca25-4b98-a844-8a498cb40aab&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Foggy Swamp Hunters\t3f6e5869-ca25-4b98-a844-8a498cb40aab"
+    },
+    {
+      "seq": 28,
+      "id": "8554e862-f78a-42f5-b876-076aac6c9504",
+      "name": "Knowledge Seeker",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Knowledge Seeker",
+        "UUID": "8554e862-f78a-42f5-b876-076aac6c9504"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Knowledge%20Seeker&fldUUID=8554e862-f78a-42f5-b876-076aac6c9504&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Knowledge Seeker\t8554e862-f78a-42f5-b876-076aac6c9504"
+    },
+    {
+      "seq": 29,
+      "id": "9fd02eb4-1ef5-4a14-89a8-b25e720e8016",
+      "name": "Crashing Wave",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Crashing Wave",
+        "UUID": "9fd02eb4-1ef5-4a14-89a8-b25e720e8016"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Crashing%20Wave&fldUUID=9fd02eb4-1ef5-4a14-89a8-b25e720e8016&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Crashing Wave\t9fd02eb4-1ef5-4a14-89a8-b25e720e8016"
+    },
+    {
+      "seq": 30,
+      "id": "7ffb79cd-d170-4047-89c8-6e85188f30da",
+      "name": "Benevolent River Spirit",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Benevolent River Spirit",
+        "UUID": "7ffb79cd-d170-4047-89c8-6e85188f30da"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Benevolent%20River%20Spirit&fldUUID=7ffb79cd-d170-4047-89c8-6e85188f30da&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Benevolent River Spirit\t7ffb79cd-d170-4047-89c8-6e85188f30da"
+    },
+    {
+      "seq": 31,
+      "id": "211045e1-85c7-4088-b830-a2afa0fe520b",
+      "name": "Kyoshi Warriors",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Kyoshi Warriors",
+        "UUID": "211045e1-85c7-4088-b830-a2afa0fe520b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Kyoshi%20Warriors&fldUUID=211045e1-85c7-4088-b830-a2afa0fe520b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Kyoshi Warriors\t211045e1-85c7-4088-b830-a2afa0fe520b"
+    },
+    {
+      "seq": 32,
+      "id": "b8845bba-d116-43cd-8ae0-e553f3324d66",
+      "name": "Invasion Reinforcements",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Invasion Reinforcements",
+        "UUID": "b8845bba-d116-43cd-8ae0-e553f3324d66"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Invasion%20Reinforcements&fldUUID=b8845bba-d116-43cd-8ae0-e553f3324d66&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Invasion Reinforcements\tb8845bba-d116-43cd-8ae0-e553f3324d66"
+    },
+    {
+      "seq": 33,
+      "id": "27baccc0-7e25-4f39-be0d-31cd98ca0dc5",
+      "name": "Professor Zei, Anthropologist",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Professor Zei, Anthropologist",
+        "UUID": "27baccc0-7e25-4f39-be0d-31cd98ca0dc5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Professor%20Zei%2C%20Anthropologist&fldUUID=27baccc0-7e25-4f39-be0d-31cd98ca0dc5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Professor Zei, Anthropologist\t27baccc0-7e25-4f39-be0d-31cd98ca0dc5"
+    },
+    {
+      "seq": 34,
+      "id": "9c25ea98-9823-4487-bf6b-ee29ce5a4ed8",
+      "name": "Kyoshi Island Plaza",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Kyoshi Island Plaza",
+        "UUID": "9c25ea98-9823-4487-bf6b-ee29ce5a4ed8"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Kyoshi%20Island%20Plaza&fldUUID=9c25ea98-9823-4487-bf6b-ee29ce5a4ed8&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Kyoshi Island Plaza\t9c25ea98-9823-4487-bf6b-ee29ce5a4ed8"
+    },
+    {
+      "seq": 35,
+      "id": "ede1bbdb-c726-46e3-aaf1-b8cf2be2c341",
+      "name": "Fire Nation Raider",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Nation Raider",
+        "UUID": "ede1bbdb-c726-46e3-aaf1-b8cf2be2c341"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Nation%20Raider&fldUUID=ede1bbdb-c726-46e3-aaf1-b8cf2be2c341&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Nation Raider\tede1bbdb-c726-46e3-aaf1-b8cf2be2c341"
+    },
+    {
+      "seq": 36,
+      "id": "fdcca576-2ef2-44cc-9944-a92bd146444a",
+      "name": "Combustion Technique",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Combustion Technique",
+        "UUID": "fdcca576-2ef2-44cc-9944-a92bd146444a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Combustion%20Technique&fldUUID=fdcca576-2ef2-44cc-9944-a92bd146444a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Combustion Technique\tfdcca576-2ef2-44cc-9944-a92bd146444a"
+    },
+    {
+      "seq": 37,
+      "id": "86f7399d-6876-4e85-ba34-ff1f97dc144a",
+      "name": "Combustion Man",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Combustion Man",
+        "UUID": "86f7399d-6876-4e85-ba34-ff1f97dc144a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Combustion%20Man&fldUUID=86f7399d-6876-4e85-ba34-ff1f97dc144a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Combustion Man\t86f7399d-6876-4e85-ba34-ff1f97dc144a"
+    },
+    {
+      "seq": 38,
+      "id": "2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2",
+      "name": "Wolfbat",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Wolfbat",
+        "UUID": "2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Wolfbat&fldUUID=2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Wolfbat\t2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2"
+    },
+    {
+      "seq": 39,
+      "id": "3343933d-4425-4ede-8d92-876bd0c6df60",
+      "name": "Fatal Fissure",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fatal Fissure",
+        "UUID": "3343933d-4425-4ede-8d92-876bd0c6df60"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fatal%20Fissure&fldUUID=3343933d-4425-4ede-8d92-876bd0c6df60&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fatal Fissure\t3343933d-4425-4ede-8d92-876bd0c6df60"
+    },
+    {
+      "seq": 40,
+      "id": "b3bf4a25-4329-4318-870a-2b06aa620dc4",
+      "name": "Sandbenders' Storm",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sandbenders' Storm",
+        "UUID": "b3bf4a25-4329-4318-870a-2b06aa620dc4"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sandbenders%27%20Storm&fldUUID=b3bf4a25-4329-4318-870a-2b06aa620dc4&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sandbenders' Storm\tb3bf4a25-4329-4318-870a-2b06aa620dc4"
+    },
+    {
+      "seq": 41,
+      "id": "d263472e-1d75-4cb9-8f7b-986fa22bc841",
+      "name": "Earth Kingdom Protectors",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Kingdom Protectors",
+        "UUID": "d263472e-1d75-4cb9-8f7b-986fa22bc841"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Kingdom%20Protectors&fldUUID=d263472e-1d75-4cb9-8f7b-986fa22bc841&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Kingdom Protectors\td263472e-1d75-4cb9-8f7b-986fa22bc841"
+    },
+    {
+      "seq": 42,
+      "id": "d4605cf7-03bc-4a7f-b50a-49b83b09b54d",
+      "name": "Destined Confrontation",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Destined Confrontation",
+        "UUID": "d4605cf7-03bc-4a7f-b50a-49b83b09b54d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Destined%20Confrontation&fldUUID=d4605cf7-03bc-4a7f-b50a-49b83b09b54d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Destined Confrontation\td4605cf7-03bc-4a7f-b50a-49b83b09b54d"
+    },
+    {
+      "seq": 43,
+      "id": "17ab958a-abc6-472e-ad6a-97c731d89c74",
+      "name": "Boomerang Basics",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Boomerang Basics",
+        "UUID": "17ab958a-abc6-472e-ad6a-97c731d89c74"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Boomerang%20Basics&fldUUID=17ab958a-abc6-472e-ad6a-97c731d89c74&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Boomerang Basics\t17ab958a-abc6-472e-ad6a-97c731d89c74"
+    },
+    {
+      "seq": 44,
+      "id": "ec27a466-5457-44c6-a842-1de7d3788d66",
+      "name": "The Boulder, Ready to Rumble",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "The Boulder, Ready to Rumble",
+        "UUID": "ec27a466-5457-44c6-a842-1de7d3788d66"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=The%20Boulder%2C%20Ready%20to%20Rumble&fldUUID=ec27a466-5457-44c6-a842-1de7d3788d66&x-success=shortcuts%3A%2F%2F",
+      "tsv": "The Boulder, Ready to Rumble\tec27a466-5457-44c6-a842-1de7d3788d66"
+    },
+    {
+      "seq": 45,
+      "id": "18d15fed-1f8f-4407-a221-a47ce75001a8",
+      "name": "Iroh's Demonstration",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Iroh's Demonstration",
+        "UUID": "18d15fed-1f8f-4407-a221-a47ce75001a8"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Iroh%27s%20Demonstration&fldUUID=18d15fed-1f8f-4407-a221-a47ce75001a8&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Iroh's Demonstration\t18d15fed-1f8f-4407-a221-a47ce75001a8"
+    },
+    {
+      "seq": 46,
+      "id": "e58372cc-9a89-47a4-a0db-df5435e26cd3",
+      "name": "Fire Navy Trebuchet",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Navy Trebuchet",
+        "UUID": "e58372cc-9a89-47a4-a0db-df5435e26cd3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Navy%20Trebuchet&fldUUID=e58372cc-9a89-47a4-a0db-df5435e26cd3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Navy Trebuchet\te58372cc-9a89-47a4-a0db-df5435e26cd3"
+    },
+    {
+      "seq": 47,
+      "id": "9d70707b-2e25-40b1-80a8-9a5492bca7e2",
+      "name": "Cruel Administrator",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Cruel Administrator",
+        "UUID": "9d70707b-2e25-40b1-80a8-9a5492bca7e2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Cruel%20Administrator&fldUUID=9d70707b-2e25-40b1-80a8-9a5492bca7e2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cruel Administrator\t9d70707b-2e25-40b1-80a8-9a5492bca7e2"
+    },
+    {
+      "seq": 48,
+      "id": "a268697b-22b0-4e1b-a5b6-d9be95025e57",
+      "name": "Bumi, King of Three Trials",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Bumi, King of Three Trials",
+        "UUID": "a268697b-22b0-4e1b-a5b6-d9be95025e57"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Bumi%2C%20King%20of%20Three%20Trials&fldUUID=a268697b-22b0-4e1b-a5b6-d9be95025e57&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bumi, King of Three Trials\ta268697b-22b0-4e1b-a5b6-d9be95025e57"
+    },
+    {
+      "seq": 49,
+      "id": "9207362c-3605-4794-803f-ad1d0175fcca",
+      "name": "Earth Kingdom Jailer",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Kingdom Jailer",
+        "UUID": "9207362c-3605-4794-803f-ad1d0175fcca"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Kingdom%20Jailer&fldUUID=9207362c-3605-4794-803f-ad1d0175fcca&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Kingdom Jailer\t9207362c-3605-4794-803f-ad1d0175fcca"
+    },
+    {
+      "seq": 50,
+      "id": "a8f3d2cb-d073-4df8-8769-49612628a377",
+      "name": "Enter the Avatar State",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Enter the Avatar State",
+        "UUID": "a8f3d2cb-d073-4df8-8769-49612628a377"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Enter%20the%20Avatar%20State&fldUUID=a8f3d2cb-d073-4df8-8769-49612628a377&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Enter the Avatar State\ta8f3d2cb-d073-4df8-8769-49612628a377"
+    },
+    {
+      "seq": 51,
+      "id": "3e8de6a9-9859-4ed2-8ece-ef80a7209be9",
+      "name": "Bitter Work",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Bitter Work",
+        "UUID": "3e8de6a9-9859-4ed2-8ece-ef80a7209be9"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Bitter%20Work&fldUUID=3e8de6a9-9859-4ed2-8ece-ef80a7209be9&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bitter Work\t3e8de6a9-9859-4ed2-8ece-ef80a7209be9"
+    },
+    {
+      "seq": 52,
+      "id": "8688fce5-74b1-41e1-a59a-05a3878a75cb",
+      "name": "Earth Kingdom General",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Kingdom General",
+        "UUID": "8688fce5-74b1-41e1-a59a-05a3878a75cb"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Kingdom%20General&fldUUID=8688fce5-74b1-41e1-a59a-05a3878a75cb&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Kingdom General\t8688fce5-74b1-41e1-a59a-05a3878a75cb"
+    },
+    {
+      "seq": 53,
+      "id": "ae04c862-095f-41d2-8aef-21036d5a0cdc",
+      "name": "Sun-Blessed Peak",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sun-Blessed Peak",
+        "UUID": "ae04c862-095f-41d2-8aef-21036d5a0cdc"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sun-Blessed%20Peak&fldUUID=ae04c862-095f-41d2-8aef-21036d5a0cdc&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sun-Blessed Peak\tae04c862-095f-41d2-8aef-21036d5a0cdc"
+    },
+    {
+      "seq": 54,
+      "id": "ad87bff5-9b8c-44e4-a6d3-8cc71be9640a",
+      "name": "Serpent's Pass",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Serpent's Pass",
+        "UUID": "ad87bff5-9b8c-44e4-a6d3-8cc71be9640a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Serpent%27s%20Pass&fldUUID=ad87bff5-9b8c-44e4-a6d3-8cc71be9640a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Serpent's Pass\tad87bff5-9b8c-44e4-a6d3-8cc71be9640a"
+    },
+    {
+      "seq": 55,
+      "id": "c21e413b-96ed-4ded-b567-f1647074ce5f",
+      "name": "Omashu City",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Omashu City",
+        "UUID": "c21e413b-96ed-4ded-b567-f1647074ce5f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Omashu%20City&fldUUID=c21e413b-96ed-4ded-b567-f1647074ce5f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Omashu City\tc21e413b-96ed-4ded-b567-f1647074ce5f"
+    },
+    {
+      "seq": 56,
+      "id": "7cc29ddb-8f44-4493-985d-2fac35f9f34d",
+      "name": "Misty Palms Oasis",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Misty Palms Oasis",
+        "UUID": "7cc29ddb-8f44-4493-985d-2fac35f9f34d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Misty%20Palms%20Oasis&fldUUID=7cc29ddb-8f44-4493-985d-2fac35f9f34d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Misty Palms Oasis\t7cc29ddb-8f44-4493-985d-2fac35f9f34d"
+    },
+    {
+      "seq": 57,
+      "id": "bcf7b9da-d35d-4338-b4d9-83e47dc058ee",
+      "name": "North Pole Gates",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "North Pole Gates",
+        "UUID": "bcf7b9da-d35d-4338-b4d9-83e47dc058ee"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=North%20Pole%20Gates&fldUUID=bcf7b9da-d35d-4338-b4d9-83e47dc058ee&x-success=shortcuts%3A%2F%2F",
+      "tsv": "North Pole Gates\tbcf7b9da-d35d-4338-b4d9-83e47dc058ee"
+    },
+    {
+      "seq": 58,
+      "id": "cc078fc6-4470-473f-9e24-d2c470e09141",
+      "name": "Meditation Pools",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Meditation Pools",
+        "UUID": "cc078fc6-4470-473f-9e24-d2c470e09141"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Meditation%20Pools&fldUUID=cc078fc6-4470-473f-9e24-d2c470e09141&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Meditation Pools\tcc078fc6-4470-473f-9e24-d2c470e09141"
+    },
+    {
+      "seq": 59,
+      "id": "8d5f3008-2af8-4e81-8847-1c91f524e747",
+      "name": "Kyoshi Village",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Kyoshi Village",
+        "UUID": "8d5f3008-2af8-4e81-8847-1c91f524e747"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Kyoshi%20Village&fldUUID=8d5f3008-2af8-4e81-8847-1c91f524e747&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Kyoshi Village\t8d5f3008-2af8-4e81-8847-1c91f524e747"
+    },
+    {
+      "seq": 60,
+      "id": "226af626-873d-4bd2-b889-000f8316786f",
+      "name": "Foggy Bottom Swamp",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Foggy Bottom Swamp",
+        "UUID": "226af626-873d-4bd2-b889-000f8316786f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Foggy%20Bottom%20Swamp&fldUUID=226af626-873d-4bd2-b889-000f8316786f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Foggy Bottom Swamp\t226af626-873d-4bd2-b889-000f8316786f"
+    },
+    {
+      "seq": 61,
+      "id": "1c2e2220-54d1-4180-93a0-964e3b0ba8b8",
+      "name": "Boiling Rock Prison",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Boiling Rock Prison",
+        "UUID": "1c2e2220-54d1-4180-93a0-964e3b0ba8b8"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Boiling%20Rock%20Prison&fldUUID=1c2e2220-54d1-4180-93a0-964e3b0ba8b8&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Boiling Rock Prison\t1c2e2220-54d1-4180-93a0-964e3b0ba8b8"
+    },
+    {
+      "seq": 62,
+      "id": "0b98ba34-f251-4bd0-9d75-1d4445be5cfd",
+      "name": "Airship Engine Room",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Airship Engine Room",
+        "UUID": "0b98ba34-f251-4bd0-9d75-1d4445be5cfd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Airship%20Engine%20Room&fldUUID=0b98ba34-f251-4bd0-9d75-1d4445be5cfd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Airship Engine Room\t0b98ba34-f251-4bd0-9d75-1d4445be5cfd"
+    },
+    {
+      "seq": 63,
+      "id": "d822b9ad-a787-4355-88c2-07ae2bd3a78e",
+      "name": "Tolls of War",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Tolls of War",
+        "UUID": "d822b9ad-a787-4355-88c2-07ae2bd3a78e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Tolls%20of%20War&fldUUID=d822b9ad-a787-4355-88c2-07ae2bd3a78e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tolls of War\td822b9ad-a787-4355-88c2-07ae2bd3a78e"
+    },
+    {
+      "seq": 64,
+      "id": "7ebf742a-3995-4b22-9dc7-b05f57889683",
+      "name": "Platypus-Bear",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Platypus-Bear",
+        "UUID": "7ebf742a-3995-4b22-9dc7-b05f57889683"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Platypus-Bear&fldUUID=7ebf742a-3995-4b22-9dc7-b05f57889683&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Platypus-Bear\t7ebf742a-3995-4b22-9dc7-b05f57889683"
+    },
+    {
+      "seq": 65,
+      "id": "e7847ba5-e85e-417f-96c0-aef2e6f83994",
+      "name": "Shared Roots",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Shared Roots",
+        "UUID": "e7847ba5-e85e-417f-96c0-aef2e6f83994"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Shared%20Roots&fldUUID=e7847ba5-e85e-417f-96c0-aef2e6f83994&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Shared Roots\te7847ba5-e85e-417f-96c0-aef2e6f83994"
+    },
+    {
+      "seq": 66,
+      "id": "dc399ae0-36b5-4c92-9fe2-138caf8d7a86",
+      "name": "Twin Blades",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Twin Blades",
+        "UUID": "dc399ae0-36b5-4c92-9fe2-138caf8d7a86"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Twin%20Blades&fldUUID=dc399ae0-36b5-4c92-9fe2-138caf8d7a86&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Twin Blades\tdc399ae0-36b5-4c92-9fe2-138caf8d7a86"
+    },
+    {
+      "seq": 67,
+      "id": "067bd117-04e6-410e-89c4-6d431d627751",
+      "name": "Tiger-Dillo",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Tiger-Dillo",
+        "UUID": "067bd117-04e6-410e-89c4-6d431d627751"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Tiger-Dillo&fldUUID=067bd117-04e6-410e-89c4-6d431d627751&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tiger-Dillo\t067bd117-04e6-410e-89c4-6d431d627751"
+    },
+    {
+      "seq": 68,
+      "id": "1affba6d-2cca-4cdf-8690-1e23ffbe8462",
+      "name": "Sold Out",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sold Out",
+        "UUID": "1affba6d-2cca-4cdf-8690-1e23ffbe8462"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sold%20Out&fldUUID=1affba6d-2cca-4cdf-8690-1e23ffbe8462&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sold Out\t1affba6d-2cca-4cdf-8690-1e23ffbe8462"
+    },
+    {
+      "seq": 69,
+      "id": "f22610e9-6b14-4914-bb67-bd6723bec9aa",
+      "name": "Callous Inspector",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Callous Inspector",
+        "UUID": "f22610e9-6b14-4914-bb67-bd6723bec9aa"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Callous%20Inspector&fldUUID=f22610e9-6b14-4914-bb67-bd6723bec9aa&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Callous Inspector\tf22610e9-6b14-4914-bb67-bd6723bec9aa"
+    },
+    {
+      "seq": 70,
+      "id": "0f79a7fc-36b1-4397-8e67-6638379d3a38",
+      "name": "Ember Island Production",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Ember Island Production",
+        "UUID": "0f79a7fc-36b1-4397-8e67-6638379d3a38"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Ember%20Island%20Production&fldUUID=0f79a7fc-36b1-4397-8e67-6638379d3a38&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ember Island Production\t0f79a7fc-36b1-4397-8e67-6638379d3a38"
+    },
+    {
+      "seq": 71,
+      "id": "96e2b3d0-f060-4f3c-9d12-a0444b202008",
+      "name": "Gather the White Lotus",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Gather the White Lotus",
+        "UUID": "96e2b3d0-f060-4f3c-9d12-a0444b202008"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Gather%20the%20White%20Lotus&fldUUID=96e2b3d0-f060-4f3c-9d12-a0444b202008&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Gather the White Lotus\t96e2b3d0-f060-4f3c-9d12-a0444b202008"
+    },
+    {
+      "seq": 72,
+      "id": "cd624be9-e960-4485-a8a9-2d5f2dd51777",
+      "name": "Foggy Swamp Spirit Keeper",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Foggy Swamp Spirit Keeper",
+        "UUID": "cd624be9-e960-4485-a8a9-2d5f2dd51777"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Foggy%20Swamp%20Spirit%20Keeper&fldUUID=cd624be9-e960-4485-a8a9-2d5f2dd51777&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Foggy Swamp Spirit Keeper\tcd624be9-e960-4485-a8a9-2d5f2dd51777"
+    },
+    {
+      "seq": 73,
+      "id": "732e6bc9-0798-4c00-aea0-5ef4298b45f5",
+      "name": "Mai, Jaded Edge",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Mai, Jaded Edge",
+        "UUID": "732e6bc9-0798-4c00-aea0-5ef4298b45f5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Mai%2C%20Jaded%20Edge&fldUUID=732e6bc9-0798-4c00-aea0-5ef4298b45f5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Mai, Jaded Edge\t732e6bc9-0798-4c00-aea0-5ef4298b45f5"
+    },
+    {
+      "seq": 74,
+      "id": "3a1b1329-531c-47ed-9802-c505501f8fd9",
+      "name": "The Spirit Oasis",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "The Spirit Oasis",
+        "UUID": "3a1b1329-531c-47ed-9802-c505501f8fd9"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=The%20Spirit%20Oasis&fldUUID=3a1b1329-531c-47ed-9802-c505501f8fd9&x-success=shortcuts%3A%2F%2F",
+      "tsv": "The Spirit Oasis\t3a1b1329-531c-47ed-9802-c505501f8fd9"
+    },
+    {
+      "seq": 75,
+      "id": "3fd48a57-b0bb-4177-a0f3-bd317a179cbe",
+      "name": "Zhao, Ruthless Admiral",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Zhao, Ruthless Admiral",
+        "UUID": "3fd48a57-b0bb-4177-a0f3-bd317a179cbe"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Zhao%2C%20Ruthless%20Admiral&fldUUID=3fd48a57-b0bb-4177-a0f3-bd317a179cbe&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Zhao, Ruthless Admiral\t3fd48a57-b0bb-4177-a0f3-bd317a179cbe"
+    },
+    {
+      "seq": 76,
+      "id": "148bbaab-bc7b-46ab-8e18-ade69d71d847",
+      "name": "June, Bounty Hunter",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "June, Bounty Hunter",
+        "UUID": "148bbaab-bc7b-46ab-8e18-ade69d71d847"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=June%2C%20Bounty%20Hunter&fldUUID=148bbaab-bc7b-46ab-8e18-ade69d71d847&x-success=shortcuts%3A%2F%2F",
+      "tsv": "June, Bounty Hunter\t148bbaab-bc7b-46ab-8e18-ade69d71d847"
+    },
+    {
+      "seq": 77,
+      "id": "a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e",
+      "name": "Jeong Jeong, the Deserter",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Jeong Jeong, the Deserter",
+        "UUID": "a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Jeong%20Jeong%2C%20the%20Deserter&fldUUID=a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Jeong Jeong, the Deserter\ta9f63d3b-bee5-48bc-8b04-d8b24b0bda6e"
+    },
+    {
+      "seq": 78,
+      "id": "9fbe94e9-a71d-4a31-9210-c599abe08e3f",
+      "name": "Price of Freedom",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Price of Freedom",
+        "UUID": "9fbe94e9-a71d-4a31-9210-c599abe08e3f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Price%20of%20Freedom&fldUUID=9fbe94e9-a71d-4a31-9210-c599abe08e3f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Price of Freedom\t9fbe94e9-a71d-4a31-9210-c599abe08e3f"
+    },
+    {
+      "seq": 79,
+      "id": "a9394200-7ffc-440f-8b5f-c08b7930133c",
+      "name": "Treetop Freedom Fighters",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Treetop Freedom Fighters",
+        "UUID": "a9394200-7ffc-440f-8b5f-c08b7930133c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Treetop%20Freedom%20Fighters&fldUUID=a9394200-7ffc-440f-8b5f-c08b7930133c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Treetop Freedom Fighters\ta9394200-7ffc-440f-8b5f-c08b7930133c"
+    },
+    {
+      "seq": 80,
+      "id": "9202c044-15e4-4218-a94d-16287ba19d69",
+      "name": "Jet, Freedom Fighter",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Jet, Freedom Fighter",
+        "UUID": "9202c044-15e4-4218-a94d-16287ba19d69"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Jet%2C%20Freedom%20Fighter&fldUUID=9202c044-15e4-4218-a94d-16287ba19d69&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Jet, Freedom Fighter\t9202c044-15e4-4218-a94d-16287ba19d69"
+    },
+    {
+      "seq": 81,
+      "id": "b17e8bdb-4b91-4a9d-bfe1-8a55f0bd040b",
+      "name": "Jet's Brainwashing",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Jet's Brainwashing",
+        "UUID": "b17e8bdb-4b91-4a9d-bfe1-8a55f0bd040b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Jet%27s%20Brainwashing&fldUUID=b17e8bdb-4b91-4a9d-bfe1-8a55f0bd040b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Jet's Brainwashing\tb17e8bdb-4b91-4a9d-bfe1-8a55f0bd040b"
+    },
+    {
+      "seq": 82,
+      "id": "a9b2a843-c6fe-4d19-801e-1538e4381ab0",
+      "name": "Appa, Loyal Sky Bison",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Appa, Loyal Sky Bison",
+        "UUID": "a9b2a843-c6fe-4d19-801e-1538e4381ab0"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Appa%2C%20Loyal%20Sky%20Bison&fldUUID=a9b2a843-c6fe-4d19-801e-1538e4381ab0&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Appa, Loyal Sky Bison\ta9b2a843-c6fe-4d19-801e-1538e4381ab0"
+    },
+    {
+      "seq": 83,
+      "id": "25749f9a-260d-4bdc-bd28-429c12faa4a5",
+      "name": "Origin of Metalbending",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Origin of Metalbending",
+        "UUID": "25749f9a-260d-4bdc-bd28-429c12faa4a5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Origin%20of%20Metalbending&fldUUID=25749f9a-260d-4bdc-bd28-429c12faa4a5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Origin of Metalbending\t25749f9a-260d-4bdc-bd28-429c12faa4a5"
+    },
+    {
+      "seq": 84,
+      "id": "ce96a826-53a0-4029-bf34-46779d133b13",
+      "name": "Octopus Form",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Octopus Form",
+        "UUID": "ce96a826-53a0-4029-bf34-46779d133b13"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Octopus%20Form&fldUUID=ce96a826-53a0-4029-bf34-46779d133b13&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Octopus Form\tce96a826-53a0-4029-bf34-46779d133b13"
+    },
+    {
+      "seq": 85,
+      "id": "af5299f5-1633-4c07-ade5-fd47e29ea4aa",
+      "name": "Invasion Submersible",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Invasion Submersible",
+        "UUID": "af5299f5-1633-4c07-ade5-fd47e29ea4aa"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Invasion%20Submersible&fldUUID=af5299f5-1633-4c07-ade5-fd47e29ea4aa&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Invasion Submersible\taf5299f5-1633-4c07-ade5-fd47e29ea4aa"
+    },
+    {
+      "seq": 86,
+      "id": "74fca0b8-12e1-405f-b999-160d65fe0ade",
+      "name": "Earth Rumble Wrestlers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Rumble Wrestlers",
+        "UUID": "74fca0b8-12e1-405f-b999-160d65fe0ade"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Rumble%20Wrestlers&fldUUID=74fca0b8-12e1-405f-b999-160d65fe0ade&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Rumble Wrestlers\t74fca0b8-12e1-405f-b999-160d65fe0ade"
+    },
+    {
+      "seq": 87,
+      "id": "4661daf6-d960-4278-8946-70948efaf99d",
+      "name": "Deadly Precision",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Deadly Precision",
+        "UUID": "4661daf6-d960-4278-8946-70948efaf99d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Deadly%20Precision&fldUUID=4661daf6-d960-4278-8946-70948efaf99d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Deadly Precision\t4661daf6-d960-4278-8946-70948efaf99d"
+    },
+    {
+      "seq": 88,
+      "id": "e8895479-26cb-4ee8-98ca-6d46c43f0dbd",
+      "name": "Bumi Bash",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Bumi Bash",
+        "UUID": "e8895479-26cb-4ee8-98ca-6d46c43f0dbd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Bumi%20Bash&fldUUID=e8895479-26cb-4ee8-98ca-6d46c43f0dbd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bumi Bash\te8895479-26cb-4ee8-98ca-6d46c43f0dbd"
+    },
+    {
+      "seq": 89,
+      "id": "41ecc1de-353e-4131-b735-d2ce18c9c2d5",
+      "name": "Fire Nation Warship",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Nation Warship",
+        "UUID": "41ecc1de-353e-4131-b735-d2ce18c9c2d5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Nation%20Warship&fldUUID=41ecc1de-353e-4131-b735-d2ce18c9c2d5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Nation Warship\t41ecc1de-353e-4131-b735-d2ce18c9c2d5"
+    },
+    {
+      "seq": 90,
+      "id": "1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd",
+      "name": "Fire Nation Cadets",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Nation Cadets",
+        "UUID": "1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Nation%20Cadets&fldUUID=1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Nation Cadets\t1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd"
+    },
+    {
+      "seq": 91,
+      "id": "8c55b333-dc8b-4332-895b-eec5eb45543f",
+      "name": "True Ancestry",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "True Ancestry",
+        "UUID": "8c55b333-dc8b-4332-895b-eec5eb45543f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=True%20Ancestry&fldUUID=8c55b333-dc8b-4332-895b-eec5eb45543f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "True Ancestry\t8c55b333-dc8b-4332-895b-eec5eb45543f"
+    },
+    {
+      "seq": 92,
+      "id": "24d1e22c-0d99-4ed5-94f0-fd055fd8e2be",
+      "name": "White Lotus Hideout",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "White Lotus Hideout",
+        "UUID": "24d1e22c-0d99-4ed5-94f0-fd055fd8e2be"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=White%20Lotus%20Hideout&fldUUID=24d1e22c-0d99-4ed5-94f0-fd055fd8e2be&x-success=shortcuts%3A%2F%2F",
+      "tsv": "White Lotus Hideout\t24d1e22c-0d99-4ed5-94f0-fd055fd8e2be"
+    },
+    {
+      "seq": 93,
+      "id": "13c66fce-8f8e-4a98-8413-9f05aebf6e13",
+      "name": "Tundra Tank",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Tundra Tank",
+        "UUID": "13c66fce-8f8e-4a98-8413-9f05aebf6e13"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Tundra%20Tank&fldUUID=13c66fce-8f8e-4a98-8413-9f05aebf6e13&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tundra Tank\t13c66fce-8f8e-4a98-8413-9f05aebf6e13"
+    },
+    {
+      "seq": 94,
+      "id": "db8e88e3-0931-403f-90e7-3c22c0b61dac",
+      "name": "Lost Days",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Lost Days",
+        "UUID": "db8e88e3-0931-403f-90e7-3c22c0b61dac"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Lost%20Days&fldUUID=db8e88e3-0931-403f-90e7-3c22c0b61dac&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Lost Days\tdb8e88e3-0931-403f-90e7-3c22c0b61dac"
+    },
+    {
+      "seq": 95,
+      "id": "023e7ad4-6af0-4f29-a716-27a313974227",
+      "name": "Forecasting Fortune Teller",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Forecasting Fortune Teller",
+        "UUID": "023e7ad4-6af0-4f29-a716-27a313974227"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Forecasting%20Fortune%20Teller&fldUUID=023e7ad4-6af0-4f29-a716-27a313974227&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Forecasting Fortune Teller\t023e7ad4-6af0-4f29-a716-27a313974227"
+    },
+    {
+      "seq": 96,
+      "id": "7517f2eb-a24d-49f6-82bf-08de55d3789a",
+      "name": "Glider Staff",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Glider Staff",
+        "UUID": "7517f2eb-a24d-49f6-82bf-08de55d3789a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Glider%20Staff&fldUUID=7517f2eb-a24d-49f6-82bf-08de55d3789a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Glider Staff\t7517f2eb-a24d-49f6-82bf-08de55d3789a"
+    },
+    {
+      "seq": 97,
+      "id": "9350bf4a-fa12-4867-b31f-1f1394d99571",
+      "name": "Momo, Playful Pet",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Momo, Playful Pet",
+        "UUID": "9350bf4a-fa12-4867-b31f-1f1394d99571"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Momo%2C%20Playful%20Pet&fldUUID=9350bf4a-fa12-4867-b31f-1f1394d99571&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Momo, Playful Pet\t9350bf4a-fa12-4867-b31f-1f1394d99571"
+    },
+    {
+      "seq": 98,
+      "id": "9c59f8c5-4063-4e5a-b684-fde175c4a981",
+      "name": "Fancy Footwork",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fancy Footwork",
+        "UUID": "9c59f8c5-4063-4e5a-b684-fde175c4a981"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fancy%20Footwork&fldUUID=9c59f8c5-4063-4e5a-b684-fde175c4a981&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fancy Footwork\t9c59f8c5-4063-4e5a-b684-fde175c4a981"
+    },
+    {
+      "seq": 99,
+      "id": "88d5f8fd-d4de-4e64-9b74-e53719ffbcdc",
+      "name": "Compassionate Healer",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Compassionate Healer",
+        "UUID": "88d5f8fd-d4de-4e64-9b74-e53719ffbcdc"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Compassionate%20Healer&fldUUID=88d5f8fd-d4de-4e64-9b74-e53719ffbcdc&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Compassionate Healer\t88d5f8fd-d4de-4e64-9b74-e53719ffbcdc"
+    },
+    {
+      "seq": 100,
+      "id": "06b7675e-e665-49cb-a8d9-7092a654d464",
+      "name": "Northern Air Temple",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Northern Air Temple",
+        "UUID": "06b7675e-e665-49cb-a8d9-7092a654d464"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Northern%20Air%20Temple&fldUUID=06b7675e-e665-49cb-a8d9-7092a654d464&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Northern Air Temple\t06b7675e-e665-49cb-a8d9-7092a654d464"
+    },
+    {
+      "seq": 101,
+      "id": "66906ed4-baac-4be0-9359-34f453d1a04a",
+      "name": "Teo, Spirited Glider",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Teo, Spirited Glider",
+        "UUID": "66906ed4-baac-4be0-9359-34f453d1a04a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Teo%2C%20Spirited%20Glider&fldUUID=66906ed4-baac-4be0-9359-34f453d1a04a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Teo, Spirited Glider\t66906ed4-baac-4be0-9359-34f453d1a04a"
+    },
+    {
+      "seq": 102,
+      "id": "dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7",
+      "name": "Ty Lee, Artful Acrobat",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Ty Lee, Artful Acrobat",
+        "UUID": "dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Ty%20Lee%2C%20Artful%20Acrobat&fldUUID=dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ty Lee, Artful Acrobat\tdcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7"
+    },
+    {
+      "seq": 103,
+      "id": "0a838009-b115-4497-b35d-682e41ead7db",
+      "name": "Unlucky Cabbage Merchant",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Unlucky Cabbage Merchant",
+        "UUID": "0a838009-b115-4497-b35d-682e41ead7db"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Unlucky%20Cabbage%20Merchant&fldUUID=0a838009-b115-4497-b35d-682e41ead7db&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Unlucky Cabbage Merchant\t0a838009-b115-4497-b35d-682e41ead7db"
+    },
+    {
+      "seq": 104,
+      "id": "520f5a03-ff5a-43ed-8f15-cf24596d60cd",
+      "name": "Sparring Dummy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sparring Dummy",
+        "UUID": "520f5a03-ff5a-43ed-8f15-cf24596d60cd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sparring%20Dummy&fldUUID=520f5a03-ff5a-43ed-8f15-cf24596d60cd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sparring Dummy\t520f5a03-ff5a-43ed-8f15-cf24596d60cd"
+    },
+    {
+      "seq": 105,
+      "id": "6829b20d-c2fa-41a6-89ca-f21c522d8866",
+      "name": "War Balloon",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "War Balloon",
+        "UUID": "6829b20d-c2fa-41a6-89ca-f21c522d8866"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=War%20Balloon&fldUUID=6829b20d-c2fa-41a6-89ca-f21c522d8866&x-success=shortcuts%3A%2F%2F",
+      "tsv": "War Balloon\t6829b20d-c2fa-41a6-89ca-f21c522d8866"
+    },
+    {
+      "seq": 106,
+      "id": "df99a166-6d58-4d92-9037-2fdfbaf65629",
+      "name": "Trusty Boomerang",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Trusty Boomerang",
+        "UUID": "df99a166-6d58-4d92-9037-2fdfbaf65629"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Trusty%20Boomerang&fldUUID=df99a166-6d58-4d92-9037-2fdfbaf65629&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Trusty Boomerang\tdf99a166-6d58-4d92-9037-2fdfbaf65629"
+    },
+    {
+      "seq": 107,
+      "id": "6c085441-e023-4032-89a0-d24ce5060ac3",
+      "name": "Energybending",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Energybending",
+        "UUID": "6c085441-e023-4032-89a0-d24ce5060ac3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Energybending&fldUUID=6c085441-e023-4032-89a0-d24ce5060ac3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Energybending\t6c085441-e023-4032-89a0-d24ce5060ac3"
+    },
+    {
+      "seq": 108,
+      "id": "9090b055-3406-4fed-a8c6-3f6353a9600e",
+      "name": "Zuko's Exile",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Zuko's Exile",
+        "UUID": "9090b055-3406-4fed-a8c6-3f6353a9600e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Zuko%27s%20Exile&fldUUID=9090b055-3406-4fed-a8c6-3f6353a9600e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Zuko's Exile\t9090b055-3406-4fed-a8c6-3f6353a9600e"
+    },
+    {
+      "seq": 109,
+      "id": "e477d750-42d2-48c8-bc1f-8148d15d5f53",
+      "name": "Sun Warriors",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sun Warriors",
+        "UUID": "e477d750-42d2-48c8-bc1f-8148d15d5f53"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sun%20Warriors&fldUUID=e477d750-42d2-48c8-bc1f-8148d15d5f53&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sun Warriors\te477d750-42d2-48c8-bc1f-8148d15d5f53"
+    },
+    {
+      "seq": 110,
+      "id": "5c88672c-0eba-4e93-a0ec-30bbb1bb7661",
+      "name": "Uncle Iroh",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Uncle Iroh",
+        "UUID": "5c88672c-0eba-4e93-a0ec-30bbb1bb7661"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Uncle%20Iroh&fldUUID=5c88672c-0eba-4e93-a0ec-30bbb1bb7661&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Uncle Iroh\t5c88672c-0eba-4e93-a0ec-30bbb1bb7661"
+    },
+    {
+      "seq": 111,
+      "id": "4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316",
+      "name": "White Lotus Reinforcements",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "White Lotus Reinforcements",
+        "UUID": "4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=White%20Lotus%20Reinforcements&fldUUID=4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316&x-success=shortcuts%3A%2F%2F",
+      "tsv": "White Lotus Reinforcements\t4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316"
+    },
+    {
+      "seq": 112,
+      "id": "224a2241-0dce-4008-8d9c-86db40ec5f8b",
+      "name": "Guru Pathik",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Guru Pathik",
+        "UUID": "224a2241-0dce-4008-8d9c-86db40ec5f8b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Guru%20Pathik&fldUUID=224a2241-0dce-4008-8d9c-86db40ec5f8b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Guru Pathik\t224a2241-0dce-4008-8d9c-86db40ec5f8b"
+    },
+    {
+      "seq": 113,
+      "id": "6fa1197d-7b19-4d86-81e2-5c87de87757b",
+      "name": "Hama, the Bloodbender",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Hama, the Bloodbender",
+        "UUID": "6fa1197d-7b19-4d86-81e2-5c87de87757b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Hama%2C%20the%20Bloodbender&fldUUID=6fa1197d-7b19-4d86-81e2-5c87de87757b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Hama, the Bloodbender\t6fa1197d-7b19-4d86-81e2-5c87de87757b"
+    },
+    {
+      "seq": 114,
+      "id": "9ddb8715-341b-400a-b6eb-f3f90518157c",
+      "name": "Dai Li Agents",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Dai Li Agents",
+        "UUID": "9ddb8715-341b-400a-b6eb-f3f90518157c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Dai%20Li%20Agents&fldUUID=9ddb8715-341b-400a-b6eb-f3f90518157c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Dai Li Agents\t9ddb8715-341b-400a-b6eb-f3f90518157c"
+    },
+    {
+      "seq": 115,
+      "id": "16be5cc4-b15a-4c5e-8a6e-05c87b519127",
+      "name": "Dragonfly Swarm",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Dragonfly Swarm",
+        "UUID": "16be5cc4-b15a-4c5e-8a6e-05c87b519127"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Dragonfly%20Swarm&fldUUID=16be5cc4-b15a-4c5e-8a6e-05c87b519127&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Dragonfly Swarm\t16be5cc4-b15a-4c5e-8a6e-05c87b519127"
+    },
+    {
+      "seq": 116,
+      "id": "b18995c2-efe3-46ca-8204-e2dc0e42f6e3",
+      "name": "Leaves from the Vine",
+      "layout": "saga",
+      "note_type": "MTG Saga",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Leaves from the Vine",
+        "UUID": "b18995c2-efe3-46ca-8204-e2dc0e42f6e3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Leaves%20from%20the%20Vine&fldUUID=b18995c2-efe3-46ca-8204-e2dc0e42f6e3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Leaves from the Vine\tb18995c2-efe3-46ca-8204-e2dc0e42f6e3"
+    },
+    {
+      "seq": 117,
+      "id": "a7b93c2a-c478-4734-8aca-03f3e9c11b20",
+      "name": "Seismic Sense",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Seismic Sense",
+        "UUID": "a7b93c2a-c478-4734-8aca-03f3e9c11b20"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Seismic%20Sense&fldUUID=a7b93c2a-c478-4734-8aca-03f3e9c11b20&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Seismic Sense\ta7b93c2a-c478-4734-8aca-03f3e9c11b20"
+    },
+    {
+      "seq": 118,
+      "id": "27c6330d-49f6-4707-b4d4-d1411fa422eb",
+      "name": "Invasion Tactics",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Invasion Tactics",
+        "UUID": "27c6330d-49f6-4707-b4d4-d1411fa422eb"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Invasion%20Tactics&fldUUID=27c6330d-49f6-4707-b4d4-d1411fa422eb&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Invasion Tactics\t27c6330d-49f6-4707-b4d4-d1411fa422eb"
+    },
+    {
+      "seq": 119,
+      "id": "233f4a05-057b-48f4-8f56-8d4a060a40e4",
+      "name": "Cycle of Renewal",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Cycle of Renewal",
+        "UUID": "233f4a05-057b-48f4-8f56-8d4a060a40e4"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Cycle%20of%20Renewal&fldUUID=233f4a05-057b-48f4-8f56-8d4a060a40e4&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cycle of Renewal\t233f4a05-057b-48f4-8f56-8d4a060a40e4"
+    },
+    {
+      "seq": 120,
+      "id": "11a77897-2aba-4a9b-bbe6-1768ca9f12cb",
+      "name": "Allies at Last",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Allies at Last",
+        "UUID": "11a77897-2aba-4a9b-bbe6-1768ca9f12cb"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Allies%20at%20Last&fldUUID=11a77897-2aba-4a9b-bbe6-1768ca9f12cb&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Allies at Last\t11a77897-2aba-4a9b-bbe6-1768ca9f12cb"
+    },
+    {
+      "seq": 121,
+      "id": "f22ac19f-66fb-4d54-9f09-495a20a29577",
+      "name": "Solstice Revelations",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Solstice Revelations",
+        "UUID": "f22ac19f-66fb-4d54-9f09-495a20a29577"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Solstice%20Revelations&fldUUID=f22ac19f-66fb-4d54-9f09-495a20a29577&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Solstice Revelations\tf22ac19f-66fb-4d54-9f09-495a20a29577"
+    },
+    {
+      "seq": 122,
+      "id": "0ff7c993-ba29-43b0-9639-7c4bc0292fa2",
+      "name": "Cunning Maneuver",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Cunning Maneuver",
+        "UUID": "0ff7c993-ba29-43b0-9639-7c4bc0292fa2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Cunning%20Maneuver&fldUUID=0ff7c993-ba29-43b0-9639-7c4bc0292fa2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cunning Maneuver\t0ff7c993-ba29-43b0-9639-7c4bc0292fa2"
+    },
+    {
+      "seq": 123,
+      "id": "04c85150-269e-4158-a1b9-bd11bc6b7d79",
+      "name": "Crescent Island Temple",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Crescent Island Temple",
+        "UUID": "04c85150-269e-4158-a1b9-bd11bc6b7d79"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Crescent%20Island%20Temple&fldUUID=04c85150-269e-4158-a1b9-bd11bc6b7d79&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Crescent Island Temple\t04c85150-269e-4158-a1b9-bd11bc6b7d79"
+    },
+    {
+      "seq": 124,
+      "id": "50bf5c8b-f218-46b7-843c-8d8083f02fd2",
+      "name": "The Cave of Two Lovers",
+      "layout": "saga",
+      "note_type": "MTG Saga",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "The Cave of Two Lovers",
+        "UUID": "50bf5c8b-f218-46b7-843c-8d8083f02fd2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=The%20Cave%20of%20Two%20Lovers&fldUUID=50bf5c8b-f218-46b7-843c-8d8083f02fd2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "The Cave of Two Lovers\t50bf5c8b-f218-46b7-843c-8d8083f02fd2"
+    },
+    {
+      "seq": 125,
+      "id": "1335a145-248a-4f1e-8760-9a5d531e14e3",
+      "name": "Azula, On the Hunt",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Azula, On the Hunt",
+        "UUID": "1335a145-248a-4f1e-8760-9a5d531e14e3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Azula%2C%20On%20the%20Hunt&fldUUID=1335a145-248a-4f1e-8760-9a5d531e14e3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Azula, On the Hunt\t1335a145-248a-4f1e-8760-9a5d531e14e3"
+    },
+    {
+      "seq": 126,
+      "id": "c2c0c138-5b61-4949-8431-4a6d458ead6a",
+      "name": "North Pole Patrol",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "North Pole Patrol",
+        "UUID": "c2c0c138-5b61-4949-8431-4a6d458ead6a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=North%20Pole%20Patrol&fldUUID=c2c0c138-5b61-4949-8431-4a6d458ead6a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "North Pole Patrol\tc2c0c138-5b61-4949-8431-4a6d458ead6a"
+    },
+    {
+      "seq": 127,
+      "id": "57e0ccb0-22f0-4e4d-9a47-c4fec2c7f251",
+      "name": "Honest Work",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Honest Work",
+        "UUID": "57e0ccb0-22f0-4e4d-9a47-c4fec2c7f251"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Honest%20Work&fldUUID=57e0ccb0-22f0-4e4d-9a47-c4fec2c7f251&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Honest Work\t57e0ccb0-22f0-4e4d-9a47-c4fec2c7f251"
+    },
+    {
+      "seq": 128,
+      "id": "fa434b41-e5f7-4989-865a-95db67b05cb1",
+      "name": "Gran-Gran",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Gran-Gran",
+        "UUID": "fa434b41-e5f7-4989-865a-95db67b05cb1"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Gran-Gran&fldUUID=fa434b41-e5f7-4989-865a-95db67b05cb1&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Gran-Gran\tfa434b41-e5f7-4989-865a-95db67b05cb1"
+    },
+    {
+      "seq": 129,
+      "id": "43f4b10e-165b-4100-82f3-728e1b0c78ed",
+      "name": "Yip Yip!",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Yip Yip!",
+        "UUID": "43f4b10e-165b-4100-82f3-728e1b0c78ed"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Yip%20Yip%21&fldUUID=43f4b10e-165b-4100-82f3-728e1b0c78ed&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Yip Yip!\t43f4b10e-165b-4100-82f3-728e1b0c78ed"
+    },
+    {
+      "seq": 130,
+      "id": "4e744b6c-1c2f-451a-818a-5ee7785b5213",
+      "name": "Water Tribe Rallier",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Water Tribe Rallier",
+        "UUID": "4e744b6c-1c2f-451a-818a-5ee7785b5213"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Water%20Tribe%20Rallier&fldUUID=4e744b6c-1c2f-451a-818a-5ee7785b5213&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Water Tribe Rallier\t4e744b6c-1c2f-451a-818a-5ee7785b5213"
+    },
+    {
+      "seq": 131,
+      "id": "26bcff57-428e-4f30-a153-a778fbfc437d",
+      "name": "Watery Grasp",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Watery Grasp",
+        "UUID": "26bcff57-428e-4f30-a153-a778fbfc437d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Watery%20Grasp&fldUUID=26bcff57-428e-4f30-a153-a778fbfc437d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Watery Grasp\t26bcff57-428e-4f30-a153-a778fbfc437d"
+    },
+    {
+      "seq": 132,
+      "id": "6a73b372-9c0e-4a85-89d2-440163330687",
+      "name": "Zuko, Exiled Prince",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Zuko, Exiled Prince",
+        "UUID": "6a73b372-9c0e-4a85-89d2-440163330687"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Zuko%2C%20Exiled%20Prince&fldUUID=6a73b372-9c0e-4a85-89d2-440163330687&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Zuko, Exiled Prince\t6a73b372-9c0e-4a85-89d2-440163330687"
+    },
+    {
+      "seq": 133,
+      "id": "99244462-a996-4a5b-91fb-947045647d6d",
+      "name": "Yuyan Archers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Yuyan Archers",
+        "UUID": "99244462-a996-4a5b-91fb-947045647d6d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Yuyan%20Archers&fldUUID=99244462-a996-4a5b-91fb-947045647d6d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Yuyan Archers\t99244462-a996-4a5b-91fb-947045647d6d"
+    },
+    {
+      "seq": 134,
+      "id": "4f81e3b5-a0a9-4764-8c2d-b499ce1740b4",
+      "name": "Waterbending Lesson",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Waterbending Lesson",
+        "UUID": "4f81e3b5-a0a9-4764-8c2d-b499ce1740b4"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Waterbending%20Lesson&fldUUID=4f81e3b5-a0a9-4764-8c2d-b499ce1740b4&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Waterbending Lesson\t4f81e3b5-a0a9-4764-8c2d-b499ce1740b4"
+    },
+    {
+      "seq": 135,
+      "id": "aefcd734-3916-4c77-9d98-3ea2c2795658",
+      "name": "Turtle-Duck",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Turtle-Duck",
+        "UUID": "aefcd734-3916-4c77-9d98-3ea2c2795658"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Turtle-Duck&fldUUID=aefcd734-3916-4c77-9d98-3ea2c2795658&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Turtle-Duck\taefcd734-3916-4c77-9d98-3ea2c2795658"
+    },
+    {
+      "seq": 136,
+      "id": "0f34de05-39a9-425f-a3b4-3a9d46c917ac",
+      "name": "Vindictive Warden",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Vindictive Warden",
+        "UUID": "0f34de05-39a9-425f-a3b4-3a9d46c917ac"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Vindictive%20Warden&fldUUID=0f34de05-39a9-425f-a3b4-3a9d46c917ac&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Vindictive Warden\t0f34de05-39a9-425f-a3b4-3a9d46c917ac"
+    },
+    {
+      "seq": 137,
+      "id": "ff68fa7b-8065-407b-a8b4-bfbb14f1c99c",
+      "name": "Toph, the Blind Bandit",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Toph, the Blind Bandit",
+        "UUID": "ff68fa7b-8065-407b-a8b4-bfbb14f1c99c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Toph%2C%20the%20Blind%20Bandit&fldUUID=ff68fa7b-8065-407b-a8b4-bfbb14f1c99c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Toph, the Blind Bandit\tff68fa7b-8065-407b-a8b4-bfbb14f1c99c"
+    },
+    {
+      "seq": 138,
+      "id": "3e311480-04f8-4b8f-938e-1cc6d06b9902",
+      "name": "Suki, Kyoshi Warrior",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Suki, Kyoshi Warrior",
+        "UUID": "3e311480-04f8-4b8f-938e-1cc6d06b9902"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Suki%2C%20Kyoshi%20Warrior&fldUUID=3e311480-04f8-4b8f-938e-1cc6d06b9902&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Suki, Kyoshi Warrior\t3e311480-04f8-4b8f-938e-1cc6d06b9902"
+    },
+    {
+      "seq": 139,
+      "id": "1326c5db-4615-495f-8e30-376243d91352",
+      "name": "Sokka, Lateral Strategist",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sokka, Lateral Strategist",
+        "UUID": "1326c5db-4615-495f-8e30-376243d91352"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sokka%2C%20Lateral%20Strategist&fldUUID=1326c5db-4615-495f-8e30-376243d91352&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sokka, Lateral Strategist\t1326c5db-4615-495f-8e30-376243d91352"
+    },
+    {
+      "seq": 140,
+      "id": "87595843-15bc-48bb-8a81-3e6ad924ed44",
+      "name": "Serpent of the Pass",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Serpent of the Pass",
+        "UUID": "87595843-15bc-48bb-8a81-3e6ad924ed44"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Serpent%20of%20the%20Pass&fldUUID=87595843-15bc-48bb-8a81-3e6ad924ed44&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Serpent of the Pass\t87595843-15bc-48bb-8a81-3e6ad924ed44"
+    },
+    {
+      "seq": 141,
+      "id": "b15f302d-c451-4e79-a5af-75ee3ba4cadf",
+      "name": "Saber-Tooth Moose-Lion",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Saber-Tooth Moose-Lion",
+        "UUID": "b15f302d-c451-4e79-a5af-75ee3ba4cadf"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Saber-Tooth%20Moose-Lion&fldUUID=b15f302d-c451-4e79-a5af-75ee3ba4cadf&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Saber-Tooth Moose-Lion\tb15f302d-c451-4e79-a5af-75ee3ba4cadf"
+    },
+    {
+      "seq": 142,
+      "id": "17d71522-b133-4003-b787-0c742a2fd70e",
+      "name": "Rowdy Snowballers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rowdy Snowballers",
+        "UUID": "17d71522-b133-4003-b787-0c742a2fd70e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rowdy%20Snowballers&fldUUID=17d71522-b133-4003-b787-0c742a2fd70e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rowdy Snowballers\t17d71522-b133-4003-b787-0c742a2fd70e"
+    },
+    {
+      "seq": 143,
+      "id": "a8bc29cf-f6f8-4bb8-b722-f016b58b6d2d",
+      "name": "Rough Rhino Cavalry",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rough Rhino Cavalry",
+        "UUID": "a8bc29cf-f6f8-4bb8-b722-f016b58b6d2d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rough%20Rhino%20Cavalry&fldUUID=a8bc29cf-f6f8-4bb8-b722-f016b58b6d2d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rough Rhino Cavalry\ta8bc29cf-f6f8-4bb8-b722-f016b58b6d2d"
+    },
+    {
+      "seq": 144,
+      "id": "e64a4a8b-323c-4c8b-92af-1a3295799e65",
+      "name": "Rebellious Captives",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rebellious Captives",
+        "UUID": "e64a4a8b-323c-4c8b-92af-1a3295799e65"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rebellious%20Captives&fldUUID=e64a4a8b-323c-4c8b-92af-1a3295799e65&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rebellious Captives\te64a4a8b-323c-4c8b-92af-1a3295799e65"
+    },
+    {
+      "seq": 145,
+      "id": "52fd910f-6d42-41f5-a4be-f375aa254ea2",
+      "name": "Rocky Rebuke",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rocky Rebuke",
+        "UUID": "52fd910f-6d42-41f5-a4be-f375aa254ea2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rocky%20Rebuke&fldUUID=52fd910f-6d42-41f5-a4be-f375aa254ea2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rocky Rebuke\t52fd910f-6d42-41f5-a4be-f375aa254ea2"
+    },
+    {
+      "seq": 146,
+      "id": "b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a",
+      "name": "Razor Rings",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Razor Rings",
+        "UUID": "b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Razor%20Rings&fldUUID=b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Razor Rings\tb05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a"
+    },
+    {
+      "seq": 147,
+      "id": "ccd03ec3-0fae-48b2-9f04-9c57d2f94267",
+      "name": "Raucous Audience",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Raucous Audience",
+        "UUID": "ccd03ec3-0fae-48b2-9f04-9c57d2f94267"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Raucous%20Audience&fldUUID=ccd03ec3-0fae-48b2-9f04-9c57d2f94267&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Raucous Audience\tccd03ec3-0fae-48b2-9f04-9c57d2f94267"
+    },
+    {
+      "seq": 148,
+      "id": "62a983b4-ac73-4949-9317-05a75a8ce164",
+      "name": "Rabaroo Troop",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Rabaroo Troop",
+        "UUID": "62a983b4-ac73-4949-9317-05a75a8ce164"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Rabaroo%20Troop&fldUUID=62a983b4-ac73-4949-9317-05a75a8ce164&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rabaroo Troop\t62a983b4-ac73-4949-9317-05a75a8ce164"
+    },
+    {
+      "seq": 149,
+      "id": "d1af91a5-8681-4a05-910d-96f7a819bfaa",
+      "name": "Pretending Poxbearers",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Pretending Poxbearers",
+        "UUID": "d1af91a5-8681-4a05-910d-96f7a819bfaa"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Pretending%20Poxbearers&fldUUID=d1af91a5-8681-4a05-910d-96f7a819bfaa&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Pretending Poxbearers\td1af91a5-8681-4a05-910d-96f7a819bfaa"
+    },
+    {
+      "seq": 150,
+      "id": "f177e9cc-0c41-417d-9215-5ff23a1a0657",
+      "name": "Pillar Launch",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Pillar Launch",
+        "UUID": "f177e9cc-0c41-417d-9215-5ff23a1a0657"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Pillar%20Launch&fldUUID=f177e9cc-0c41-417d-9215-5ff23a1a0657&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Pillar Launch\tf177e9cc-0c41-417d-9215-5ff23a1a0657"
+    },
+    {
+      "seq": 151,
+      "id": "f936d64a-0db4-49c1-8a57-6d99e012a555",
+      "name": "Path to Redemption",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Path to Redemption",
+        "UUID": "f936d64a-0db4-49c1-8a57-6d99e012a555"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Path%20to%20Redemption&fldUUID=f936d64a-0db4-49c1-8a57-6d99e012a555&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Path to Redemption\tf936d64a-0db4-49c1-8a57-6d99e012a555"
+    },
+    {
+      "seq": 152,
+      "id": "22cad680-d46a-4589-a633-b6ee9a78d61e",
+      "name": "Ozai's Cruelty",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Ozai's Cruelty",
+        "UUID": "22cad680-d46a-4589-a633-b6ee9a78d61e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Ozai%27s%20Cruelty&fldUUID=22cad680-d46a-4589-a633-b6ee9a78d61e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ozai's Cruelty\t22cad680-d46a-4589-a633-b6ee9a78d61e"
+    },
+    {
+      "seq": 153,
+      "id": "5ca3fd45-9301-44ef-afc0-4d7999d66d36",
+      "name": "Ostrich-Horse",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Ostrich-Horse",
+        "UUID": "5ca3fd45-9301-44ef-afc0-4d7999d66d36"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Ostrich-Horse&fldUUID=5ca3fd45-9301-44ef-afc0-4d7999d66d36&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ostrich-Horse\t5ca3fd45-9301-44ef-afc0-4d7999d66d36"
+    },
+    {
+      "seq": 154,
+      "id": "480b6279-bb34-4b3f-a639-868b52af92b9",
+      "name": "Otter-Penguin",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Otter-Penguin",
+        "UUID": "480b6279-bb34-4b3f-a639-868b52af92b9"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Otter-Penguin&fldUUID=480b6279-bb34-4b3f-a639-868b52af92b9&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Otter-Penguin\t480b6279-bb34-4b3f-a639-868b52af92b9"
+    },
+    {
+      "seq": 155,
+      "id": "7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c",
+      "name": "Mongoose Lizard",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Mongoose Lizard",
+        "UUID": "7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Mongoose%20Lizard&fldUUID=7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Mongoose Lizard\t7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c"
+    },
+    {
+      "seq": 156,
+      "id": "752ffa24-93b6-4b33-bf10-7222357ac472",
+      "name": "Merchant of Many Hats",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Merchant of Many Hats",
+        "UUID": "752ffa24-93b6-4b33-bf10-7222357ac472"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Merchant%20of%20Many%20Hats&fldUUID=752ffa24-93b6-4b33-bf10-7222357ac472&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Merchant of Many Hats\t752ffa24-93b6-4b33-bf10-7222357ac472"
+    },
+    {
+      "seq": 157,
+      "id": "3e4a042c-f2a6-45e7-9444-acd1ca838b87",
+      "name": "Master Piandao",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Master Piandao",
+        "UUID": "3e4a042c-f2a6-45e7-9444-acd1ca838b87"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Master%20Piandao&fldUUID=3e4a042c-f2a6-45e7-9444-acd1ca838b87&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Master Piandao\t3e4a042c-f2a6-45e7-9444-acd1ca838b87"
+    },
+    {
+      "seq": 158,
+      "id": "91e30df5-63f7-4281-8d64-8d522d663652",
+      "name": "Master Pakku",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Master Pakku",
+        "UUID": "91e30df5-63f7-4281-8d64-8d522d663652"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Master%20Pakku&fldUUID=91e30df5-63f7-4281-8d64-8d522d663652&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Master Pakku\t91e30df5-63f7-4281-8d64-8d522d663652"
+    },
+    {
+      "seq": 159,
+      "id": "a3eb92fe-bc59-4472-9028-f368bd015609",
+      "name": "Long Feng, Grand Secretariat",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Long Feng, Grand Secretariat",
+        "UUID": "a3eb92fe-bc59-4472-9028-f368bd015609"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Long%20Feng%2C%20Grand%20Secretariat&fldUUID=a3eb92fe-bc59-4472-9028-f368bd015609&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Long Feng, Grand Secretariat\ta3eb92fe-bc59-4472-9028-f368bd015609"
+    },
+    {
+      "seq": 160,
+      "id": "5787b0e0-9469-4a6d-8b81-c992628e28c0",
+      "name": "Lightning Strike",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Lightning Strike",
+        "UUID": "5787b0e0-9469-4a6d-8b81-c992628e28c0"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Lightning%20Strike&fldUUID=5787b0e0-9469-4a6d-8b81-c992628e28c0&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Lightning Strike\t5787b0e0-9469-4a6d-8b81-c992628e28c0"
+    },
+    {
+      "seq": 161,
+      "id": "e8372167-383f-4302-a8ea-b6bf495c870c",
+      "name": "Katara, Bending Prodigy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Katara, Bending Prodigy",
+        "UUID": "e8372167-383f-4302-a8ea-b6bf495c870c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Katara%2C%20Bending%20Prodigy&fldUUID=e8372167-383f-4302-a8ea-b6bf495c870c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Katara, Bending Prodigy\te8372167-383f-4302-a8ea-b6bf495c870c"
+    },
+    {
+      "seq": 162,
+      "id": "060966f9-5e56-4512-9ef3-2b216daf093c",
+      "name": "Jeong Jeong's Deserters",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Jeong Jeong's Deserters",
+        "UUID": "060966f9-5e56-4512-9ef3-2b216daf093c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Jeong%20Jeong%27s%20Deserters&fldUUID=060966f9-5e56-4512-9ef3-2b216daf093c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Jeong Jeong's Deserters\t060966f9-5e56-4512-9ef3-2b216daf093c"
+    },
+    {
+      "seq": 163,
+      "id": "47c25e41-f43c-4447-81b5-b9631448bd29",
+      "name": "It'll Quench Ya!",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "It'll Quench Ya!",
+        "UUID": "47c25e41-f43c-4447-81b5-b9631448bd29"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=It%27ll%20Quench%20Ya%21&fldUUID=47c25e41-f43c-4447-81b5-b9631448bd29&x-success=shortcuts%3A%2F%2F",
+      "tsv": "It'll Quench Ya!\t47c25e41-f43c-4447-81b5-b9631448bd29"
+    },
+    {
+      "seq": 164,
+      "id": "7faa3e3d-c08a-4908-85ef-1370d3f90815",
+      "name": "Iguana Parrot",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Iguana Parrot",
+        "UUID": "7faa3e3d-c08a-4908-85ef-1370d3f90815"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Iguana%20Parrot&fldUUID=7faa3e3d-c08a-4908-85ef-1370d3f90815&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Iguana Parrot\t7faa3e3d-c08a-4908-85ef-1370d3f90815"
+    },
+    {
+      "seq": 165,
+      "id": "23b3bf1e-ea85-47f5-8473-4d16615f68d7",
+      "name": "How to Start a Riot",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "How to Start a Riot",
+        "UUID": "23b3bf1e-ea85-47f5-8473-4d16615f68d7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=How%20to%20Start%20a%20Riot&fldUUID=23b3bf1e-ea85-47f5-8473-4d16615f68d7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "How to Start a Riot\t23b3bf1e-ea85-47f5-8473-4d16615f68d7"
+    },
+    {
+      "seq": 166,
+      "id": "4f442970-5355-4abf-8684-17daaa8e469b",
+      "name": "Hog-Monkey",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Hog-Monkey",
+        "UUID": "4f442970-5355-4abf-8684-17daaa8e469b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Hog-Monkey&fldUUID=4f442970-5355-4abf-8684-17daaa8e469b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Hog-Monkey\t4f442970-5355-4abf-8684-17daaa8e469b"
+    },
+    {
+      "seq": 167,
+      "id": "060d24e0-1567-41f1-ae8c-2d3b1834df3c",
+      "name": "Hei Bai, Spirit of Balance",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Hei Bai, Spirit of Balance",
+        "UUID": "060d24e0-1567-41f1-ae8c-2d3b1834df3c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Hei%20Bai%2C%20Spirit%20of%20Balance&fldUUID=060d24e0-1567-41f1-ae8c-2d3b1834df3c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Hei Bai, Spirit of Balance\t060d24e0-1567-41f1-ae8c-2d3b1834df3c"
+    },
+    {
+      "seq": 168,
+      "id": "b57c57a8-d72b-4c6c-a2db-a7ef61190f42",
+      "name": "Heartless Act",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Heartless Act",
+        "UUID": "b57c57a8-d72b-4c6c-a2db-a7ef61190f42"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Heartless%20Act&fldUUID=b57c57a8-d72b-4c6c-a2db-a7ef61190f42&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Heartless Act\tb57c57a8-d72b-4c6c-a2db-a7ef61190f42"
+    },
+    {
+      "seq": 169,
+      "id": "9657a0c0-2c26-4331-8e62-f032265a01af",
+      "name": "Haru, Hidden Talent",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Haru, Hidden Talent",
+        "UUID": "9657a0c0-2c26-4331-8e62-f032265a01af"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Haru%2C%20Hidden%20Talent&fldUUID=9657a0c0-2c26-4331-8e62-f032265a01af&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Haru, Hidden Talent\t9657a0c0-2c26-4331-8e62-f032265a01af"
+    },
+    {
+      "seq": 170,
+      "id": "0613afb5-4cee-4132-8adf-404767ed8d07",
+      "name": "Glider Kids",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Glider Kids",
+        "UUID": "0613afb5-4cee-4132-8adf-404767ed8d07"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Glider%20Kids&fldUUID=0613afb5-4cee-4132-8adf-404767ed8d07&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Glider Kids\t0613afb5-4cee-4132-8adf-404767ed8d07"
+    },
+    {
+      "seq": 171,
+      "id": "3938ec1f-979c-48e5-bb13-bebace006a8f",
+      "name": "Giant Koi",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Giant Koi",
+        "UUID": "3938ec1f-979c-48e5-bb13-bebace006a8f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Giant%20Koi&fldUUID=3938ec1f-979c-48e5-bb13-bebace006a8f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Giant Koi\t3938ec1f-979c-48e5-bb13-bebace006a8f"
+    },
+    {
+      "seq": 172,
+      "id": "4d25428d-e5a5-43c4-8544-43120ed1c4d5",
+      "name": "Geyser Leaper",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Geyser Leaper",
+        "UUID": "4d25428d-e5a5-43c4-8544-43120ed1c4d5"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Geyser%20Leaper&fldUUID=4d25428d-e5a5-43c4-8544-43120ed1c4d5&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Geyser Leaper\t4d25428d-e5a5-43c4-8544-43120ed1c4d5"
+    },
+    {
+      "seq": 173,
+      "id": "082f4abc-c09f-42cf-977f-060875dfd411",
+      "name": "Flopsie, Bumi's Buddy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Flopsie, Bumi's Buddy",
+        "UUID": "082f4abc-c09f-42cf-977f-060875dfd411"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Flopsie%2C%20Bumi%27s%20Buddy&fldUUID=082f4abc-c09f-42cf-977f-060875dfd411&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Flopsie, Bumi's Buddy\t082f4abc-c09f-42cf-977f-060875dfd411"
+    },
+    {
+      "seq": 174,
+      "id": "1447ebce-7e48-4b21-a39c-740920538bdd",
+      "name": "Flexible Waterbender",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Flexible Waterbender",
+        "UUID": "1447ebce-7e48-4b21-a39c-740920538bdd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Flexible%20Waterbender&fldUUID=1447ebce-7e48-4b21-a39c-740920538bdd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Flexible Waterbender\t1447ebce-7e48-4b21-a39c-740920538bdd"
+    },
+    {
+      "seq": 175,
+      "id": "ea22d29d-3a62-4ae2-91d5-21a678be9b48",
+      "name": "First-Time Flyer",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "First-Time Flyer",
+        "UUID": "ea22d29d-3a62-4ae2-91d5-21a678be9b48"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=First-Time%20Flyer&fldUUID=ea22d29d-3a62-4ae2-91d5-21a678be9b48&x-success=shortcuts%3A%2F%2F",
+      "tsv": "First-Time Flyer\tea22d29d-3a62-4ae2-91d5-21a678be9b48"
+    },
+    {
+      "seq": 176,
+      "id": "71a9fa44-306f-417a-a9d9-991aff95025c",
+      "name": "Fire Sages",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Sages",
+        "UUID": "71a9fa44-306f-417a-a9d9-991aff95025c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Sages&fldUUID=71a9fa44-306f-417a-a9d9-991aff95025c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Sages\t71a9fa44-306f-417a-a9d9-991aff95025c"
+    },
+    {
+      "seq": 177,
+      "id": "5daba108-277d-46c8-ac35-7610f4786813",
+      "name": "Fire Nation Engineer",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Nation Engineer",
+        "UUID": "5daba108-277d-46c8-ac35-7610f4786813"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Nation%20Engineer&fldUUID=5daba108-277d-46c8-ac35-7610f4786813&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Nation Engineer\t5daba108-277d-46c8-ac35-7610f4786813"
+    },
+    {
+      "seq": 178,
+      "id": "3b4a6804-04f5-4467-bb1c-9466a47bc55f",
+      "name": "Epic Downfall",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Epic Downfall",
+        "UUID": "3b4a6804-04f5-4467-bb1c-9466a47bc55f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Epic%20Downfall&fldUUID=3b4a6804-04f5-4467-bb1c-9466a47bc55f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Epic Downfall\t3b4a6804-04f5-4467-bb1c-9466a47bc55f"
+    },
+    {
+      "seq": 179,
+      "id": "4692610e-d64c-438e-b5ad-0cf67fd57f1f",
+      "name": "Corrupt Court Official",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Corrupt Court Official",
+        "UUID": "4692610e-d64c-438e-b5ad-0cf67fd57f1f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Corrupt%20Court%20Official&fldUUID=4692610e-d64c-438e-b5ad-0cf67fd57f1f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Corrupt Court Official\t4692610e-d64c-438e-b5ad-0cf67fd57f1f"
+    },
+    {
+      "seq": 180,
+      "id": "56d4e0b7-232f-4953-84a3-e6f17781aa45",
+      "name": "Earth Village Ruffians",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Village Ruffians",
+        "UUID": "56d4e0b7-232f-4953-84a3-e6f17781aa45"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Village%20Ruffians&fldUUID=56d4e0b7-232f-4953-84a3-e6f17781aa45&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Village Ruffians\t56d4e0b7-232f-4953-84a3-e6f17781aa45"
+    },
+    {
+      "seq": 181,
+      "id": "62730505-56f1-4043-a8b9-4fb7bc508b47",
+      "name": "Earth Rumble",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Rumble",
+        "UUID": "62730505-56f1-4043-a8b9-4fb7bc508b47"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Rumble&fldUUID=62730505-56f1-4043-a8b9-4fb7bc508b47&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Rumble\t62730505-56f1-4043-a8b9-4fb7bc508b47"
+    },
+    {
+      "seq": 182,
+      "id": "2d543d35-945a-4ffa-beb7-7c5d4f894f79",
+      "name": "Earth Kingdom Soldier",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earth Kingdom Soldier",
+        "UUID": "2d543d35-945a-4ffa-beb7-7c5d4f894f79"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earth%20Kingdom%20Soldier&fldUUID=2d543d35-945a-4ffa-beb7-7c5d4f894f79&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earth Kingdom Soldier\t2d543d35-945a-4ffa-beb7-7c5d4f894f79"
+    },
+    {
+      "seq": 183,
+      "id": "14f2ed5a-042b-4cce-82ad-cfb4bd511d98",
+      "name": "Deserter's Disciple",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Deserter's Disciple",
+        "UUID": "14f2ed5a-042b-4cce-82ad-cfb4bd511d98"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Deserter%27s%20Disciple&fldUUID=14f2ed5a-042b-4cce-82ad-cfb4bd511d98&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Deserter's Disciple\t14f2ed5a-042b-4cce-82ad-cfb4bd511d98"
+    },
+    {
+      "seq": 184,
+      "id": "eca652b8-44f1-4bd9-b4bf-036eeead13aa",
+      "name": "Dai Li Indoctrination",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Dai Li Indoctrination",
+        "UUID": "eca652b8-44f1-4bd9-b4bf-036eeead13aa"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Dai%20Li%20Indoctrination&fldUUID=eca652b8-44f1-4bd9-b4bf-036eeead13aa&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Dai Li Indoctrination\teca652b8-44f1-4bd9-b4bf-036eeead13aa"
+    },
+    {
+      "seq": 185,
+      "id": "d7df3391-dbe5-4eb4-85c1-037c5f3ea971",
+      "name": "Cat-Owl",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Cat-Owl",
+        "UUID": "d7df3391-dbe5-4eb4-85c1-037c5f3ea971"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Cat-Owl&fldUUID=d7df3391-dbe5-4eb4-85c1-037c5f3ea971&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cat-Owl\td7df3391-dbe5-4eb4-85c1-037c5f3ea971"
+    },
+    {
+      "seq": 186,
+      "id": "ec83a825-79e6-42a4-919c-3bc498ff4433",
+      "name": "Cat-Gator",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Cat-Gator",
+        "UUID": "ec83a825-79e6-42a4-919c-3bc498ff4433"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Cat-Gator&fldUUID=ec83a825-79e6-42a4-919c-3bc498ff4433&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cat-Gator\tec83a825-79e6-42a4-919c-3bc498ff4433"
+    },
+    {
+      "seq": 187,
+      "id": "42d83229-0555-4361-8964-4b525c825843",
+      "name": "Buzzard-Wasp Colony",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Buzzard-Wasp Colony",
+        "UUID": "42d83229-0555-4361-8964-4b525c825843"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Buzzard-Wasp%20Colony&fldUUID=42d83229-0555-4361-8964-4b525c825843&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Buzzard-Wasp Colony\t42d83229-0555-4361-8964-4b525c825843"
+    },
+    {
+      "seq": 188,
+      "id": "6d4a1712-d19e-4475-9614-a0b1af4da610",
+      "name": "Bender's Waterskin",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Bender's Waterskin",
+        "UUID": "6d4a1712-d19e-4475-9614-a0b1af4da610"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Bender%27s%20Waterskin&fldUUID=6d4a1712-d19e-4475-9614-a0b1af4da610&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bender's Waterskin\t6d4a1712-d19e-4475-9614-a0b1af4da610"
+    },
+    {
+      "seq": 189,
+      "id": "c2eed79f-38c1-4aac-9525-d54cb114f17f",
+      "name": "Beetle-Headed Merchants",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Beetle-Headed Merchants",
+        "UUID": "c2eed79f-38c1-4aac-9525-d54cb114f17f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Beetle-Headed%20Merchants&fldUUID=c2eed79f-38c1-4aac-9525-d54cb114f17f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Beetle-Headed Merchants\tc2eed79f-38c1-4aac-9525-d54cb114f17f"
+    },
+    {
+      "seq": 190,
+      "id": "4fd83083-3779-41f0-90a0-a00e3270e4e6",
+      "name": "Barrels of Blasting Jelly",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Barrels of Blasting Jelly",
+        "UUID": "4fd83083-3779-41f0-90a0-a00e3270e4e6"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Barrels%20of%20Blasting%20Jelly&fldUUID=4fd83083-3779-41f0-90a0-a00e3270e4e6&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Barrels of Blasting Jelly\t4fd83083-3779-41f0-90a0-a00e3270e4e6"
+    },
+    {
+      "seq": 191,
+      "id": "aabbd420-b7fc-496f-9168-bad823d51d9e",
+      "name": "Badgermole",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Badgermole",
+        "UUID": "aabbd420-b7fc-496f-9168-bad823d51d9e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Badgermole&fldUUID=aabbd420-b7fc-496f-9168-bad823d51d9e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Badgermole\taabbd420-b7fc-496f-9168-bad823d51d9e"
+    },
+    {
+      "seq": 192,
+      "id": "416b9207-a2af-44d1-9b87-4943f6e46d42",
+      "name": "Azula Always Lies",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Azula Always Lies",
+        "UUID": "416b9207-a2af-44d1-9b87-4943f6e46d42"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Azula%20Always%20Lies&fldUUID=416b9207-a2af-44d1-9b87-4943f6e46d42&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Azula Always Lies\t416b9207-a2af-44d1-9b87-4943f6e46d42"
+    },
+    {
+      "seq": 193,
+      "id": "e2bcd0a6-e94d-4a21-a334-a57459c1b8cc",
+      "name": "Airbending Lesson",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Airbending Lesson",
+        "UUID": "e2bcd0a6-e94d-4a21-a334-a57459c1b8cc"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Airbending%20Lesson&fldUUID=e2bcd0a6-e94d-4a21-a334-a57459c1b8cc&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Airbending Lesson\te2bcd0a6-e94d-4a21-a334-a57459c1b8cc"
+    },
+    {
+      "seq": 194,
+      "id": "74ca45a4-97ab-4255-9129-884e8b42b984",
+      "name": "Abandon Attachments",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Abandon Attachments",
+        "UUID": "74ca45a4-97ab-4255-9129-884e8b42b984"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Abandon%20Attachments&fldUUID=74ca45a4-97ab-4255-9129-884e8b42b984&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Abandon Attachments\t74ca45a4-97ab-4255-9129-884e8b42b984"
+    },
+    {
+      "seq": 195,
+      "id": "245e008c-e073-443f-9592-6f628c0026ec",
+      "name": "Aang, the Last Airbender",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Aang, the Last Airbender",
+        "UUID": "245e008c-e073-443f-9592-6f628c0026ec"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Aang%2C%20the%20Last%20Airbender&fldUUID=245e008c-e073-443f-9592-6f628c0026ec&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Aang, the Last Airbender\t245e008c-e073-443f-9592-6f628c0026ec"
+    },
+    {
+      "seq": 196,
+      "id": "eccd63b3-3a3a-4661-9d6e-fb8152429bdb",
+      "name": "Earthbending Lesson",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Earthbending Lesson",
+        "UUID": "eccd63b3-3a3a-4661-9d6e-fb8152429bdb"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Earthbending%20Lesson&fldUUID=eccd63b3-3a3a-4661-9d6e-fb8152429bdb&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Earthbending Lesson\teccd63b3-3a3a-4661-9d6e-fb8152429bdb"
+    },
+    {
+      "seq": 197,
+      "id": "9cc10845-8989-46ca-a57a-fd728fca0729",
+      "name": "Fire Nation Attacks",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Fire Nation Attacks",
+        "UUID": "9cc10845-8989-46ca-a57a-fd728fca0729"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Fire%20Nation%20Attacks&fldUUID=9cc10845-8989-46ca-a57a-fd728fca0729&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fire Nation Attacks\t9cc10845-8989-46ca-a57a-fd728fca0729"
+    },
+    {
+      "seq": 198,
+      "id": "004be4bc-ac3c-4026-8d36-f4687ab18c70",
+      "name": "Sokka's Haiku",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Sokka's Haiku",
+        "UUID": "004be4bc-ac3c-4026-8d36-f4687ab18c70"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Sokka%27s%20Haiku&fldUUID=004be4bc-ac3c-4026-8d36-f4687ab18c70&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sokka's Haiku\t004be4bc-ac3c-4026-8d36-f4687ab18c70"
+    },
+    {
+      "seq": 199,
+      "id": "5c172f9b-2184-4736-9f90-74ce08596292",
+      "name": "Southern Air Temple",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Southern Air Temple",
+        "UUID": "5c172f9b-2184-4736-9f90-74ce08596292"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Southern%20Air%20Temple&fldUUID=5c172f9b-2184-4736-9f90-74ce08596292&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Southern Air Temple\t5c172f9b-2184-4736-9f90-74ce08596292"
+    },
+    {
+      "seq": 200,
+      "id": "7292e5f2-d5a1-4e39-8f75-eba471819f04",
+      "name": "Avatar Enthusiasts",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Avatar Enthusiasts",
+        "UUID": "7292e5f2-d5a1-4e39-8f75-eba471819f04"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Avatar%20Enthusiasts&fldUUID=7292e5f2-d5a1-4e39-8f75-eba471819f04&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Avatar Enthusiasts\t7292e5f2-d5a1-4e39-8f75-eba471819f04"
+    },
+    {
+      "seq": 201,
+      "id": "5e51f727-5a9b-4bc7-83a9-dbcf1c933e15",
+      "name": "Aang's Journey",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Avatar: The Last Airbender",
+      "fields": {
+        "Front": "Aang's Journey",
+        "UUID": "5e51f727-5a9b-4bc7-83a9-dbcf1c933e15"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Aang%27s%20Journey&fldUUID=5e51f727-5a9b-4bc7-83a9-dbcf1c933e15&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Aang's Journey\t5e51f727-5a9b-4bc7-83a9-dbcf1c933e15"
+    }
+  ]
+}
