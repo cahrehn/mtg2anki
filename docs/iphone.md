@@ -63,7 +63,10 @@ While testing, point the Shortcut at the branch:
 https://raw.githubusercontent.com/cahrehn/mtg2anki/claude/mobile-script-anki-import-ye9ptr/feed/current.json
 ```
 
-and swap `claude/mobile-script-anki-import-ye9ptr` for `main` after merging. To
+(the unambiguous form, if a branch name with slashes ever confuses something, is
+`.../mtg2anki/refs/heads/<branch>/feed/current.json` — both work.)
+
+Swap the branch for `main` after merging. To
 kick off a run without a code change, edit any file in the branch from the
 GitHub web UI (the pencil icon works fine on a phone) and commit — e.g. add a
 line to this file.
