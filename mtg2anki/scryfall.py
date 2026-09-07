@@ -27,10 +27,19 @@ def fetch_set_info(set_code):
     }
 
 
+def search_query(set_code):
+    """Commons and uncommons, minus basics, DFCs and Alchemy rebalances.
+
+    Rebalanced cards share a set code with their paper originals, so without
+    -is:rebalanced a set like DMU returns "A-Radha, Coalition Warlord"
+    alongside "Radha, Coalition Warlord" - ten duplicate notes in that set.
+    """
+    return f"set:{set_code} r<r -type:basic -is:dfc -is:rebalanced"
+
+
 def fetch_cards(set_code, log=print):
-    """Fetch commons/uncommons for a set, excluding basics and DFCs"""
-    query = f"set:{set_code} r<r -type:basic -is:dfc"
-    url = f"{API}/cards/search?q={query}&order=spoiled"
+    """Fetch the cards we make notes for, following pagination"""
+    url = f"{API}/cards/search?q={search_query(set_code)}&order=spoiled"
 
     all_cards = []
     while url:

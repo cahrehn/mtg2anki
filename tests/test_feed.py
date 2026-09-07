@@ -3,7 +3,7 @@
 import json
 from urllib.parse import parse_qs, urlparse
 
-from mtg2anki import config
+from mtg2anki import config, scryfall
 from mtg2anki.feed import addnote_url, build_feed, tsv_file, write_if_changed
 from mtg2anki.notes import build_note
 from mtg2anki.state import FeedState
@@ -19,6 +19,15 @@ CARDS = [
 
 def notes():
     return [build_note(card, DECK) for card in CARDS]
+
+
+def test_search_query_excludes_alchemy_rebalances():
+    query = scryfall.search_query("dmu")
+    assert "set:dmu" in query
+    assert "-is:rebalanced" in query  # else A-Radha ships alongside Radha
+    assert "-type:basic" in query
+    assert "-is:dfc" in query
+    assert "r<r" in query
 
 
 def test_note_types_and_fields():
