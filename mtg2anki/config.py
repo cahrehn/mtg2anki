@@ -6,8 +6,7 @@ from pathlib import Path
 
 # ===== CONFIGURATION =====
 SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # set the desktop run imports
-MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards
-SAGA_NOTE_TYPE = "MTG Saga"  # Anki note type for saga cards
+MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards and sagas
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
 DECK_PREFIX = "Main::MTG"  # New cards land in "<prefix>::<set name>"
 ANKICONNECT_URL = os.environ.get("ANKICONNECT_URL", "http://localhost:8765")

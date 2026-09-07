@@ -90,7 +90,8 @@ Two things worth knowing while testing:
       "seq": 1,                       // stable, only ever increases
       "id": "...",                    // Scryfall ID, goes in the UUID field
       "name": "Aang, Airbending Master",
-      "layout": "normal",             // normal | saga | adventure
+      "layout": "normal",             // normal | saga | adventure (saga and
+                                      // normal share a note type)
       "note_type": "MTG Text Box",
       "deck": "Main::MTG::Avatar: The Last Airbender",
       "fields": { "Front": "...", "UUID": "..." },
@@ -157,7 +158,6 @@ text file per note type:
 
 ```
 feed/current-mtg-text-box.tsv
-feed/current-mtg-saga.tsv
 feed/current-mtg-adventure.tsv
 ```
 

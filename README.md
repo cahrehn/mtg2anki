@@ -24,7 +24,8 @@ Monitors Scryfall for new cards and imports them directly into Anki.
 - Filters for commons/uncommons, excluding basics and DFCs
 - Detects new cards by comparing with previous runs
 - Imports directly to Anki via AnkiConnect
-- Supports multiple card layouts: regular cards, sagas, and adventures
+- Supports multiple card layouts: regular cards and sagas share the text box
+  note type, adventures get their own
 - Logs all activity to `card-monitor.log`
 
 **Usage:**
@@ -61,8 +62,7 @@ python build_feed.py
 
 ```python
 SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # set the desktop run imports
-MTG_NOTE_TYPE = "MTG Text Box"
-SAGA_NOTE_TYPE = "MTG Saga"
+MTG_NOTE_TYPE = "MTG Text Box"   # regular cards and sagas
 ADVENTURE_NOTE_TYPE = "MTG Adventure"
 DECK_PREFIX = "Main::MTG"  # cards land in "Main::MTG::<set name>"
 ```

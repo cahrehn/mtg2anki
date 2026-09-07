@@ -41,8 +41,9 @@ def test_note_types_and_fields():
     regular, saga, adventure = notes()
     assert regular.note_type == "MTG Text Box"
     assert regular.fields == {"Front": "Aang, Airbending Master", "UUID": "id-1"}
-    assert saga.note_type == "MTG Saga"
-    assert saga.fields["Front"] == "Legend of the Avatar"
+    # Sagas are plain text box notes; the template handles the occlusion
+    assert saga.note_type == "MTG Text Box"
+    assert saga.fields == {"Front": "Legend of the Avatar", "UUID": "id-2"}
     assert adventure.note_type == "MTG Adventure"
     assert adventure.fields["Text"] == "{{c1::adventure}} {{c2::permanent}} Sokka's Boomerang"
 
@@ -106,7 +107,7 @@ def test_build_feed_shape():
 
     assert feed["latest_seq"] == 3
     assert feed["count"] == 3
-    assert set(feed["tsv_headers"]) == {"MTG Text Box", "MTG Saga", "MTG Adventure"}
+    assert set(feed["tsv_headers"]) == {"MTG Text Box", "MTG Adventure"}
     card = feed["cards"][0]
     assert card["seq"] == 1
     assert card["name"] == "Aang, Airbending Master"
