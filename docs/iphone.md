@@ -27,12 +27,8 @@ the Mac is asleep. Cards sync to AnkiWeb and back to the Mac as usual.
 
 1. Make sure Actions is enabled for the repo (Settings → Actions → General →
    "Allow all actions").
-2. Set the set code: Settings → Secrets and variables → Actions → Variables →
-   New repository variable, name `MTG2ANKI_SET`, value e.g. `tla`. Direct link:
-   <https://github.com/cahrehn/mtg2anki/settings/variables/actions>. This is a
-   *variable*, not a secret — its value shows in run logs, which is fine for a
-   set code. **Optional:** without it the workflow falls back to `tla`, so you
-   can skip this until you switch sets.
+2. Set the set code in `feeds.json` (see [Feeds](#feeds) below). It ships with
+   `tla`, so there's nothing to do until you switch sets.
 3. Get a feed built — see [Testing before you merge](#testing-before-you-merge)
    if the branch isn't merged yet, otherwise Actions → "Update card feed" → Run
    workflow, or just wait for the hourly schedule. It commits
@@ -174,12 +170,47 @@ first field and updates them, and these files only contain the two fields the
 script sets — anything you've since filled in by hand on those notes is at risk.
 For incremental updates, use the Shortcut.
 
-## Changing sets
+## Feeds
 
-Change the `MTG2ANKI_SET` repository variable and run the workflow. Sequence
-numbers keep counting up across sets, so the phone cursor keeps working and the
-new set's cards import as normal. The deck name follows the set name from
-Scryfall (`Main::MTG::<set name>`).
+`feeds.json` maps a feed name to a set code:
+
+```json
+{
+  "current": "tla",
+  "dmu": "dmu"
+}
+```
+
+Every entry gets built into `feed/<name>.json`, `feed/<name>-*.tsv` and its own
+`state/<name>.json`. Editing this file is all it takes to switch sets or to
+publish a second one — and it's editable from a phone in the GitHub web UI,
+which is why it lives here rather than in a repo variable. A push to it also
+triggers the workflow on `claude/**` branches.
+
+Names are yours to pick; `current` is only special in that it's the one the
+Shortcut points at and the one `MTG2ANKI_SET` overrides.
+
+**Changing sets:** point `current` at the new set code. Sequence numbers restart
+at 1 for a feed the first time it sees a set, so reset the phone cursor to `0`
+when you switch — a set change is exactly when you *want* the whole set to come
+in. The deck name follows the set name from Scryfall (`Main::MTG::<set name>`).
+
+**A second feed** is the safe way to try things: it has its own sequence
+numbering and its own deck, so nothing you do with it can disturb the set
+you're actually following. The `dmu` entry is there as a test target —
+Dominaria United lands in `Main::MTG::Dominaria United`, which you can delete
+in one go afterwards. Point the Shortcut at
+`.../feed/dmu.json` and a separate cursor file to try the whole loop without
+touching your real deck. Drop the entry from `feeds.json` when you're done
+(the generated files stay until you delete them).
+
+### Overriding without editing the file
+
+`MTG2ANKI_SET` — as a repository variable (Settings → Secrets and variables →
+Actions → Variables, or <https://github.com/cahrehn/mtg2anki/settings/variables/actions>)
+or as a workflow_dispatch input — redirects the `current` feed to a different
+set code without touching `feeds.json`. It's a *variable*, not a secret; the
+value shows in run logs, which is fine for a set code.
 
 ## Running the fetch somewhere other than Actions
 
@@ -203,6 +234,8 @@ Things that do apply:
   GitHub emails the owner and you re-enable with one click. During spoiler
   season the workflow's own commits count as activity; in the off-season expect
   to get that mail eventually.
+- **Every feed in `feeds.json` is built on every run**, in one job. Two feeds is
+  two or three extra Scryfall requests, not a second workflow run.
 - **Cron is best-effort.** The minimum interval is 5 minutes, and scheduled runs
   are queued on shared infrastructure — they can be delayed by several minutes
   to an hour at peak times, and can be dropped entirely under heavy load. Fine

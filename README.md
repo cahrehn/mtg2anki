@@ -36,17 +36,20 @@ Set up with cron/launchd to run periodically for automated monitoring.
 
 ## build_feed.py
 
-Same fetch, no Anki required. Writes:
+Same fetch, no Anki required. Builds every feed named in `feeds.json` (feed name
+→ set code), writing for each:
 
-- `feed/current.json` — every card in the set with a stable sequence number, an
+- `feed/<name>.json` — every card in the set with a stable sequence number, an
   `anki://x-callback-url/addnote` URL and a text-import row
-- `feed/current-*.tsv` — one importable text file per note type, for bulk
+- `feed/<name>-*.tsv` — one importable text file per note type, for bulk
   seeding a new set
-- `state/feed.json` — the sequence numbers assigned so far
+- `state/<name>.json` — the sequence numbers assigned so far
+
+`current` is the feed the Shortcut reads; extra entries let you publish a second
+set alongside it without disturbing it.
 
 `.github/workflows/update-feed.yml` runs this hourly and commits the result, so
-the feed stays current with no machine of yours running. Set the repository
-variable `MTG2ANKI_SET` to choose the set.
+the feed stays current with no machine of yours running.
 
 ```bash
 python build_feed.py
@@ -57,14 +60,17 @@ python build_feed.py
 `mtg2anki/config.py`:
 
 ```python
-SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # MTG set code to monitor
+SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # set the desktop run imports
 MTG_NOTE_TYPE = "MTG Text Box"
 SAGA_NOTE_TYPE = "MTG Saga"
 ADVENTURE_NOTE_TYPE = "MTG Adventure"
 DECK_PREFIX = "Main::MTG"  # cards land in "Main::MTG::<set name>"
 ```
 
-Environment overrides: `MTG2ANKI_SET`, `MTG2ANKI_DIR` (where the desktop run
+Feeds are configured in `feeds.json`, not here.
+
+Environment overrides: `MTG2ANKI_SET` (desktop set code, and the `current`
+feed's), `MTG2ANKI_DIR` (where the desktop run
 keeps its state and log), `ANKICONNECT_URL`, `MTG2ANKI_X_SUCCESS`.
 
 ## Setup
@@ -95,8 +101,9 @@ python -m pytest
 ```
 scryfall_to_anki.py   desktop entry point (AnkiConnect)
 build_feed.py         phone/CI entry point (JSON + TSV feed)
+feeds.json            feed name -> set code
 mtg2anki/
-  config.py           set code, note types, deck naming, paths
+  config.py           set codes, note types, deck naming, paths
   scryfall.py         Scryfall API access
   notes.py            card -> note type and fields
   ankiconnect.py      talking to desktop Anki

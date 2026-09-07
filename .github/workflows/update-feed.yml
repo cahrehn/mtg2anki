@@ -8,6 +8,7 @@ on:
     branches:
       - "claude/**"
     paths:
+      - "feeds.json"
       - "build_feed.py"
       - "mtg2anki/**"
       - "tests/**"
@@ -17,7 +18,7 @@ on:
   workflow_dispatch:
     inputs:
       set_code:
-        description: "MTG set code to monitor (defaults to the MTG2ANKI_SET repo variable)"
+        description: "Set code for the 'current' feed (overrides feeds.json and the MTG2ANKI_SET repo variable)"
         required: false
 
 permissions:

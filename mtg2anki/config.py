@@ -1,10 +1,11 @@
 """Configuration shared by the desktop and feed entry points."""
 
+import json
 import os
 from pathlib import Path
 
 # ===== CONFIGURATION =====
-SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # MTG set code to monitor
+SET_CODE = os.environ.get("MTG2ANKI_SET", "tla")  # set the desktop run imports
 MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards
 SAGA_NOTE_TYPE = "MTG Saga"  # Anki note type for saga cards
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
@@ -19,6 +20,7 @@ LOG_FILE = SCRIPT_DIR / "card-monitor.log"
 REPO_DIR = Path(__file__).resolve().parent.parent
 FEED_DIR = REPO_DIR / "feed"
 FEED_STATE_DIR = REPO_DIR / "state"
+FEEDS_FILE = REPO_DIR / "feeds.json"  # feed name -> set code
 
 # Handed to AnkiMobile as x-success so a running Shortcut resumes after each add
 X_SUCCESS_URL = os.environ.get("MTG2ANKI_X_SUCCESS", "shortcuts://")
@@ -29,13 +31,32 @@ def state_file(set_code):
     return SCRIPT_DIR / f"{set_code}_state.json"
 
 
-def feed_state_file():
+def feeds():
+    """Feed name -> set code, from feeds.json.
+
+    Each named feed gets its own feed/<name>.json and its own sequence
+    numbering, so a second set can be published alongside the main one without
+    disturbing it. MTG2ANKI_SET overrides the set code of the "current" feed.
+    """
+    with open(FEEDS_FILE) as f:
+        configured = json.load(f)
+    override = os.environ.get("MTG2ANKI_SET")
+    if override:
+        configured["current"] = override
+    return configured
+
+
+def feed_file(name):
+    return FEED_DIR / f"{name}.json"
+
+
+def feed_state_file(name):
     """Feed state file (card ID -> sequence number), committed to the repo.
 
-    One file across all sets, so sequence numbers keep climbing when the
-    monitored set changes and the phone's saved cursor stays meaningful.
+    Sequence numbers only ever climb within a feed, so the phone's saved
+    cursor keeps working when the feed switches to a new set.
     """
-    return FEED_STATE_DIR / "feed.json"
+    return FEED_STATE_DIR / f"{name}.json"
 
 
 def deck_name(set_name):

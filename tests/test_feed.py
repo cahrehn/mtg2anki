@@ -3,6 +3,7 @@
 import json
 from urllib.parse import parse_qs, urlparse
 
+from mtg2anki import config
 from mtg2anki.feed import addnote_url, build_feed, tsv_file, write_if_changed
 from mtg2anki.notes import build_note
 from mtg2anki.state import FeedState
@@ -96,6 +97,29 @@ def test_build_feed_shape():
     assert card["url"].startswith("anki://")
     assert card["tsv"] == "Aang, Airbending Master\tid-1"
     json.dumps(feed)  # must be serialisable
+
+
+def test_feeds_are_read_from_feeds_json(monkeypatch, tmp_path):
+    feeds_file = tmp_path / "feeds.json"
+    feeds_file.write_text('{"current": "tla", "dmu": "dmu"}')
+    monkeypatch.setattr(config, "FEEDS_FILE", feeds_file)
+
+    monkeypatch.delenv("MTG2ANKI_SET", raising=False)
+    assert config.feeds() == {"current": "tla", "dmu": "dmu"}
+
+    # The env override only redirects the main feed
+    monkeypatch.setenv("MTG2ANKI_SET", "blb")
+    assert config.feeds() == {"current": "blb", "dmu": "dmu"}
+
+
+def test_each_feed_keeps_its_own_state(monkeypatch, tmp_path):
+    monkeypatch.setattr(config, "FEED_STATE_DIR", tmp_path)
+    assert config.feed_state_file("current") != config.feed_state_file("dmu")
+
+    current, dmu = FeedState(), FeedState()
+    current.seq_for("id-1")
+    # A second feed numbers from 1 again rather than continuing the first
+    assert dmu.seq_for("id-9") == 1
 
 
 def test_write_if_changed_skips_identical_content(tmp_path):
