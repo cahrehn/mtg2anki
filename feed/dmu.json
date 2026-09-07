@@ -5,8 +5,8 @@
     "released_at": "2022-09-09"
   },
   "deck": "Main::MTG::Dominaria United",
-  "count": 181,
-  "latest_seq": 181,
+  "count": 64,
+  "latest_seq": 64,
   "tsv_headers": {
     "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Dominaria United\n#columns:Front\tUUID",
     "MTG Saga": "#separator:tab\n#html:true\n#notetype:MTG Saga\n#deck:Main::MTG::Dominaria United\n#columns:Front\tUUID"
@@ -14,2512 +14,6 @@
   "cards": [
     {
       "seq": 1,
-      "id": "1e62fe57-4fa4-4bfd-8e31-9f6db774d7e2",
-      "name": "Geothermal Bog",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Geothermal Bog",
-        "UUID": "1e62fe57-4fa4-4bfd-8e31-9f6db774d7e2"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Geothermal%20Bog&fldUUID=1e62fe57-4fa4-4bfd-8e31-9f6db774d7e2&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Geothermal Bog\t1e62fe57-4fa4-4bfd-8e31-9f6db774d7e2"
-    },
-    {
-      "seq": 2,
-      "id": "16f5e958-56e6-4666-a534-24deba6f652d",
-      "name": "Haunted Mire",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Haunted Mire",
-        "UUID": "16f5e958-56e6-4666-a534-24deba6f652d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Haunted%20Mire&fldUUID=16f5e958-56e6-4666-a534-24deba6f652d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Haunted Mire\t16f5e958-56e6-4666-a534-24deba6f652d"
-    },
-    {
-      "seq": 3,
-      "id": "c50ec22c-decb-419f-ae52-78ea1706eb11",
-      "name": "Idyllic Beachfront",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Idyllic Beachfront",
-        "UUID": "c50ec22c-decb-419f-ae52-78ea1706eb11"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Idyllic%20Beachfront&fldUUID=c50ec22c-decb-419f-ae52-78ea1706eb11&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Idyllic Beachfront\tc50ec22c-decb-419f-ae52-78ea1706eb11"
-    },
-    {
-      "seq": 4,
-      "id": "20aff4af-5128-432f-a8c8-65b6909d31ac",
-      "name": "Molten Tributary",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Molten Tributary",
-        "UUID": "20aff4af-5128-432f-a8c8-65b6909d31ac"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Molten%20Tributary&fldUUID=20aff4af-5128-432f-a8c8-65b6909d31ac&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Molten Tributary\t20aff4af-5128-432f-a8c8-65b6909d31ac"
-    },
-    {
-      "seq": 5,
-      "id": "e0f9dca6-e5ae-4714-8a59-2ef1d8f1e82d",
-      "name": "Radiant Grove",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Radiant Grove",
-        "UUID": "e0f9dca6-e5ae-4714-8a59-2ef1d8f1e82d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Radiant%20Grove&fldUUID=e0f9dca6-e5ae-4714-8a59-2ef1d8f1e82d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Radiant Grove\te0f9dca6-e5ae-4714-8a59-2ef1d8f1e82d"
-    },
-    {
-      "seq": 6,
-      "id": "24957d64-ad17-4d4f-8a00-3cdd83e1ce88",
-      "name": "Sacred Peaks",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sacred Peaks",
-        "UUID": "24957d64-ad17-4d4f-8a00-3cdd83e1ce88"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sacred%20Peaks&fldUUID=24957d64-ad17-4d4f-8a00-3cdd83e1ce88&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sacred Peaks\t24957d64-ad17-4d4f-8a00-3cdd83e1ce88"
-    },
-    {
-      "seq": 7,
-      "id": "f0588fbf-3c05-452a-b3f7-67604c1f921d",
-      "name": "Sunlit Marsh",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sunlit Marsh",
-        "UUID": "f0588fbf-3c05-452a-b3f7-67604c1f921d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sunlit%20Marsh&fldUUID=f0588fbf-3c05-452a-b3f7-67604c1f921d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sunlit Marsh\tf0588fbf-3c05-452a-b3f7-67604c1f921d"
-    },
-    {
-      "seq": 8,
-      "id": "4a325fb4-fe71-47f1-9a2f-05b8cfe88fe6",
-      "name": "Tangled Islet",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tangled Islet",
-        "UUID": "4a325fb4-fe71-47f1-9a2f-05b8cfe88fe6"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tangled%20Islet&fldUUID=4a325fb4-fe71-47f1-9a2f-05b8cfe88fe6&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tangled Islet\t4a325fb4-fe71-47f1-9a2f-05b8cfe88fe6"
-    },
-    {
-      "seq": 9,
-      "id": "e8e31184-dca4-48b1-be9d-581247c41d99",
-      "name": "Wooded Ridgeline",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Wooded Ridgeline",
-        "UUID": "e8e31184-dca4-48b1-be9d-581247c41d99"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Wooded%20Ridgeline&fldUUID=e8e31184-dca4-48b1-be9d-581247c41d99&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Wooded Ridgeline\te8e31184-dca4-48b1-be9d-581247c41d99"
-    },
-    {
-      "seq": 10,
-      "id": "6bb570f4-de68-4d8c-a9f3-8a3294163aa8",
-      "name": "Contaminated Aquifer",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Contaminated Aquifer",
-        "UUID": "6bb570f4-de68-4d8c-a9f3-8a3294163aa8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Contaminated%20Aquifer&fldUUID=6bb570f4-de68-4d8c-a9f3-8a3294163aa8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Contaminated Aquifer\t6bb570f4-de68-4d8c-a9f3-8a3294163aa8"
-    },
-    {
-      "seq": 11,
-      "id": "bd250c9d-c65f-4293-a6b0-007fac634d3d",
-      "name": "Crystal Grotto",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Crystal Grotto",
-        "UUID": "bd250c9d-c65f-4293-a6b0-007fac634d3d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Crystal%20Grotto&fldUUID=bd250c9d-c65f-4293-a6b0-007fac634d3d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Crystal Grotto\tbd250c9d-c65f-4293-a6b0-007fac634d3d"
-    },
-    {
-      "seq": 12,
-      "id": "5fc22ecb-5d87-464e-8c7d-5d40a52e1e4f",
-      "name": "Salvaged Manaworker",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Salvaged Manaworker",
-        "UUID": "5fc22ecb-5d87-464e-8c7d-5d40a52e1e4f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Salvaged%20Manaworker&fldUUID=5fc22ecb-5d87-464e-8c7d-5d40a52e1e4f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Salvaged Manaworker\t5fc22ecb-5d87-464e-8c7d-5d40a52e1e4f"
-    },
-    {
-      "seq": 13,
-      "id": "aef37244-deb9-464e-ab8c-4308369ae09b",
-      "name": "Vanquisher's Axe",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Vanquisher's Axe",
-        "UUID": "aef37244-deb9-464e-ab8c-4308369ae09b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Vanquisher%27s%20Axe&fldUUID=aef37244-deb9-464e-ab8c-4308369ae09b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Vanquisher's Axe\taef37244-deb9-464e-ab8c-4308369ae09b"
-    },
-    {
-      "seq": 14,
-      "id": "33eb2032-50af-4fd6-bdc7-7cae2211956c",
-      "name": "Meteorite",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Meteorite",
-        "UUID": "33eb2032-50af-4fd6-bdc7-7cae2211956c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Meteorite&fldUUID=33eb2032-50af-4fd6-bdc7-7cae2211956c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Meteorite\t33eb2032-50af-4fd6-bdc7-7cae2211956c"
-    },
-    {
-      "seq": 15,
-      "id": "294c5f08-08e7-458f-8838-ff321dc5d9f2",
-      "name": "Garna, Bloodfist of Keld",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Garna, Bloodfist of Keld",
-        "UUID": "294c5f08-08e7-458f-8838-ff321dc5d9f2"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Garna%2C%20Bloodfist%20of%20Keld&fldUUID=294c5f08-08e7-458f-8838-ff321dc5d9f2&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Garna, Bloodfist of Keld\t294c5f08-08e7-458f-8838-ff321dc5d9f2"
-    },
-    {
-      "seq": 16,
-      "id": "e2d714d8-0e9b-4761-a0ef-3429b4e2f5b7",
-      "name": "Llanowar Stalker",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Llanowar Stalker",
-        "UUID": "e2d714d8-0e9b-4761-a0ef-3429b4e2f5b7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Llanowar%20Stalker&fldUUID=e2d714d8-0e9b-4761-a0ef-3429b4e2f5b7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Llanowar Stalker\te2d714d8-0e9b-4761-a0ef-3429b4e2f5b7"
-    },
-    {
-      "seq": 17,
-      "id": "1f643d78-d8d8-4645-9357-a68ebd0d3517",
-      "name": "Baird, Argivian Recruiter",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Baird, Argivian Recruiter",
-        "UUID": "1f643d78-d8d8-4645-9357-a68ebd0d3517"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Baird%2C%20Argivian%20Recruiter&fldUUID=1f643d78-d8d8-4645-9357-a68ebd0d3517&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Baird, Argivian Recruiter\t1f643d78-d8d8-4645-9357-a68ebd0d3517"
-    },
-    {
-      "seq": 18,
-      "id": "acd5a635-bcf5-4a05-b00b-bf40322823fe",
-      "name": "Hexbane Tortoise",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Hexbane Tortoise",
-        "UUID": "acd5a635-bcf5-4a05-b00b-bf40322823fe"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hexbane%20Tortoise&fldUUID=acd5a635-bcf5-4a05-b00b-bf40322823fe&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Hexbane Tortoise\tacd5a635-bcf5-4a05-b00b-bf40322823fe"
-    },
-    {
-      "seq": 19,
-      "id": "8382b7c7-762e-43f6-b285-e0cebe749fab",
-      "name": "Floriferous Vinewall",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Floriferous Vinewall",
-        "UUID": "8382b7c7-762e-43f6-b285-e0cebe749fab"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Floriferous%20Vinewall&fldUUID=8382b7c7-762e-43f6-b285-e0cebe749fab&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Floriferous Vinewall\t8382b7c7-762e-43f6-b285-e0cebe749fab"
-    },
-    {
-      "seq": 20,
-      "id": "ef2dc99b-083d-473e-b352-e8264353e85b",
-      "name": "Elfhame Wurm",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Elfhame Wurm",
-        "UUID": "ef2dc99b-083d-473e-b352-e8264353e85b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Elfhame%20Wurm&fldUUID=ef2dc99b-083d-473e-b352-e8264353e85b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Elfhame Wurm\tef2dc99b-083d-473e-b352-e8264353e85b"
-    },
-    {
-      "seq": 21,
-      "id": "88dee3d1-0496-40ea-b208-7362a932f531",
-      "name": "Deathbloom Gardener",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Deathbloom Gardener",
-        "UUID": "88dee3d1-0496-40ea-b208-7362a932f531"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Deathbloom%20Gardener&fldUUID=88dee3d1-0496-40ea-b208-7362a932f531&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Deathbloom Gardener\t88dee3d1-0496-40ea-b208-7362a932f531"
-    },
-    {
-      "seq": 22,
-      "id": "5045027d-0ff4-484c-b4cb-e0b61885d428",
-      "name": "Splatter Goblin",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Splatter Goblin",
-        "UUID": "5045027d-0ff4-484c-b4cb-e0b61885d428"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Splatter%20Goblin&fldUUID=5045027d-0ff4-484c-b4cb-e0b61885d428&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Splatter Goblin\t5045027d-0ff4-484c-b4cb-e0b61885d428"
-    },
-    {
-      "seq": 23,
-      "id": "0ced8d87-ac22-41b0-a632-298159cbb316",
-      "name": "Broken Wings",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Broken Wings",
-        "UUID": "0ced8d87-ac22-41b0-a632-298159cbb316"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Broken%20Wings&fldUUID=0ced8d87-ac22-41b0-a632-298159cbb316&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Broken Wings\t0ced8d87-ac22-41b0-a632-298159cbb316"
-    },
-    {
-      "seq": 24,
-      "id": "bb078448-9e9f-4994-8aff-7e7c4fb62efc",
-      "name": "Shadow Prophecy",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Shadow Prophecy",
-        "UUID": "bb078448-9e9f-4994-8aff-7e7c4fb62efc"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shadow%20Prophecy&fldUUID=bb078448-9e9f-4994-8aff-7e7c4fb62efc&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Shadow Prophecy\tbb078448-9e9f-4994-8aff-7e7c4fb62efc"
-    },
-    {
-      "seq": 25,
-      "id": "0eacd3de-b803-4322-8d88-d533761aa748",
-      "name": "Bite Down",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Bite Down",
-        "UUID": "0eacd3de-b803-4322-8d88-d533761aa748"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bite%20Down&fldUUID=0eacd3de-b803-4322-8d88-d533761aa748&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Bite Down\t0eacd3de-b803-4322-8d88-d533761aa748"
-    },
-    {
-      "seq": 26,
-      "id": "65617a8f-4bd8-4edb-b5ec-e20b4482390b",
-      "name": "Phyrexian Vivisector",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phyrexian Vivisector",
-        "UUID": "65617a8f-4bd8-4edb-b5ec-e20b4482390b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Vivisector&fldUUID=65617a8f-4bd8-4edb-b5ec-e20b4482390b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phyrexian Vivisector\t65617a8f-4bd8-4edb-b5ec-e20b4482390b"
-    },
-    {
-      "seq": 27,
-      "id": "41c62c55-7b04-4987-9047-1322c842bb59",
-      "name": "Barkweave Crusher",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Barkweave Crusher",
-        "UUID": "41c62c55-7b04-4987-9047-1322c842bb59"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Barkweave%20Crusher&fldUUID=41c62c55-7b04-4987-9047-1322c842bb59&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Barkweave Crusher\t41c62c55-7b04-4987-9047-1322c842bb59"
-    },
-    {
-      "seq": 28,
-      "id": "33dfd2fe-e0e0-465c-b730-a30e6f5c271c",
-      "name": "Knight of Dusk's Shadow",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Knight of Dusk's Shadow",
-        "UUID": "33dfd2fe-e0e0-465c-b730-a30e6f5c271c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Knight%20of%20Dusk%27s%20Shadow&fldUUID=33dfd2fe-e0e0-465c-b730-a30e6f5c271c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Knight of Dusk's Shadow\t33dfd2fe-e0e0-465c-b730-a30e6f5c271c"
-    },
-    {
-      "seq": 29,
-      "id": "0674b340-420d-4864-92fe-7b268fe0874c",
-      "name": "Gibbering Barricade",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Gibbering Barricade",
-        "UUID": "0674b340-420d-4864-92fe-7b268fe0874c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Gibbering%20Barricade&fldUUID=0674b340-420d-4864-92fe-7b268fe0874c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Gibbering Barricade\t0674b340-420d-4864-92fe-7b268fe0874c"
-    },
-    {
-      "seq": 30,
-      "id": "335f3146-743c-4a25-86b5-c45e9c66eb15",
-      "name": "Eerie Soultender",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Eerie Soultender",
-        "UUID": "335f3146-743c-4a25-86b5-c45e9c66eb15"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Eerie%20Soultender&fldUUID=335f3146-743c-4a25-86b5-c45e9c66eb15&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Eerie Soultender\t335f3146-743c-4a25-86b5-c45e9c66eb15"
-    },
-    {
-      "seq": 31,
-      "id": "48aa964f-99b5-4b6b-b158-42f39514c910",
-      "name": "Meria's Outrider",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Meria's Outrider",
-        "UUID": "48aa964f-99b5-4b6b-b158-42f39514c910"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Meria%27s%20Outrider&fldUUID=48aa964f-99b5-4b6b-b158-42f39514c910&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Meria's Outrider\t48aa964f-99b5-4b6b-b158-42f39514c910"
-    },
-    {
-      "seq": 32,
-      "id": "4af4031e-b14e-4568-b047-b3d470d9b18e",
-      "name": "Keldon Strike Team",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Keldon Strike Team",
-        "UUID": "4af4031e-b14e-4568-b047-b3d470d9b18e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Keldon%20Strike%20Team&fldUUID=4af4031e-b14e-4568-b047-b3d470d9b18e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Keldon Strike Team\t4af4031e-b14e-4568-b047-b3d470d9b18e"
-    },
-    {
-      "seq": 33,
-      "id": "ba537452-3dab-4ecd-b65f-9e311a130d31",
-      "name": "Choking Miasma",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Choking Miasma",
-        "UUID": "ba537452-3dab-4ecd-b65f-9e311a130d31"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Choking%20Miasma&fldUUID=ba537452-3dab-4ecd-b65f-9e311a130d31&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Choking Miasma\tba537452-3dab-4ecd-b65f-9e311a130d31"
-    },
-    {
-      "seq": 34,
-      "id": "0f33284f-bdb1-4982-8636-8f2e12896053",
-      "name": "In Thrall to the Pit",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "In Thrall to the Pit",
-        "UUID": "0f33284f-bdb1-4982-8636-8f2e12896053"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=In%20Thrall%20to%20the%20Pit&fldUUID=0f33284f-bdb1-4982-8636-8f2e12896053&x-success=shortcuts%3A%2F%2F",
-      "tsv": "In Thrall to the Pit\t0f33284f-bdb1-4982-8636-8f2e12896053"
-    },
-    {
-      "seq": 35,
-      "id": "106b5c96-d1bd-433d-955e-ace0b60d3bc3",
-      "name": "Bone Splinters",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Bone Splinters",
-        "UUID": "106b5c96-d1bd-433d-955e-ace0b60d3bc3"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bone%20Splinters&fldUUID=106b5c96-d1bd-433d-955e-ace0b60d3bc3&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Bone Splinters\t106b5c96-d1bd-433d-955e-ace0b60d3bc3"
-    },
-    {
-      "seq": 36,
-      "id": "8d858e9e-452b-4281-9379-641ef6ebef39",
-      "name": "Hammerhand",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Hammerhand",
-        "UUID": "8d858e9e-452b-4281-9379-641ef6ebef39"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hammerhand&fldUUID=8d858e9e-452b-4281-9379-641ef6ebef39&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Hammerhand\t8d858e9e-452b-4281-9379-641ef6ebef39"
-    },
-    {
-      "seq": 37,
-      "id": "3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1",
-      "name": "Battlefly Swarm",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Battlefly Swarm",
-        "UUID": "3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Battlefly%20Swarm&fldUUID=3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Battlefly Swarm\t3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1"
-    },
-    {
-      "seq": 38,
-      "id": "6d8f1f06-dde5-41f2-923c-67d1d4d13fab",
-      "name": "Goblin Picker",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Goblin Picker",
-        "UUID": "6d8f1f06-dde5-41f2-923c-67d1d4d13fab"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Goblin%20Picker&fldUUID=6d8f1f06-dde5-41f2-923c-67d1d4d13fab&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Goblin Picker\t6d8f1f06-dde5-41f2-923c-67d1d4d13fab"
-    },
-    {
-      "seq": 39,
-      "id": "7cfc631b-49d1-4f1c-adac-5b07a2ccd06f",
-      "name": "Battle-Rage Blessing",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Battle-Rage Blessing",
-        "UUID": "7cfc631b-49d1-4f1c-adac-5b07a2ccd06f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Battle-Rage%20Blessing&fldUUID=7cfc631b-49d1-4f1c-adac-5b07a2ccd06f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Battle-Rage Blessing\t7cfc631b-49d1-4f1c-adac-5b07a2ccd06f"
-    },
-    {
-      "seq": 40,
-      "id": "b1845806-7585-40d5-9d3a-f13667e6a9d2",
-      "name": "Ghitu Amplifier",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Ghitu Amplifier",
-        "UUID": "b1845806-7585-40d5-9d3a-f13667e6a9d2"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Ghitu%20Amplifier&fldUUID=b1845806-7585-40d5-9d3a-f13667e6a9d2&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Ghitu Amplifier\tb1845806-7585-40d5-9d3a-f13667e6a9d2"
-    },
-    {
-      "seq": 41,
-      "id": "63d05659-bfff-4b73-80f7-a9f31a7ef957",
-      "name": "Furious Bellow",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Furious Bellow",
-        "UUID": "63d05659-bfff-4b73-80f7-a9f31a7ef957"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Furious%20Bellow&fldUUID=63d05659-bfff-4b73-80f7-a9f31a7ef957&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Furious Bellow\t63d05659-bfff-4b73-80f7-a9f31a7ef957"
-    },
-    {
-      "seq": 42,
-      "id": "ac809fca-664a-4e7d-a39f-2bc1dea0fbd8",
-      "name": "Aggressive Sabotage",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Aggressive Sabotage",
-        "UUID": "ac809fca-664a-4e7d-a39f-2bc1dea0fbd8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Aggressive%20Sabotage&fldUUID=ac809fca-664a-4e7d-a39f-2bc1dea0fbd8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Aggressive Sabotage\tac809fca-664a-4e7d-a39f-2bc1dea0fbd8"
-    },
-    {
-      "seq": 43,
-      "id": "73e40916-3502-448a-a509-f6a6ff3cd73d",
-      "name": "Flowstone Kavu",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Flowstone Kavu",
-        "UUID": "73e40916-3502-448a-a509-f6a6ff3cd73d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Flowstone%20Kavu&fldUUID=73e40916-3502-448a-a509-f6a6ff3cd73d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Flowstone Kavu\t73e40916-3502-448a-a509-f6a6ff3cd73d"
-    },
-    {
-      "seq": 44,
-      "id": "b57c3674-9a31-4418-b306-e6b0a2514d8f",
-      "name": "Flowstone Infusion",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Flowstone Infusion",
-        "UUID": "b57c3674-9a31-4418-b306-e6b0a2514d8f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Flowstone%20Infusion&fldUUID=b57c3674-9a31-4418-b306-e6b0a2514d8f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Flowstone Infusion\tb57c3674-9a31-4418-b306-e6b0a2514d8f"
-    },
-    {
-      "seq": 45,
-      "id": "554c422f-2a1b-47c0-9358-42b85cdbb84e",
-      "name": "Coalition Warbrute",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Coalition Warbrute",
-        "UUID": "554c422f-2a1b-47c0-9358-42b85cdbb84e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Coalition%20Warbrute&fldUUID=554c422f-2a1b-47c0-9358-42b85cdbb84e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Coalition Warbrute\t554c422f-2a1b-47c0-9358-42b85cdbb84e"
-    },
-    {
-      "seq": 46,
-      "id": "4aab611c-64e0-4b38-97b9-b29a1c6a79b7",
-      "name": "Heroic Charge",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Heroic Charge",
-        "UUID": "4aab611c-64e0-4b38-97b9-b29a1c6a79b7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Heroic%20Charge&fldUUID=4aab611c-64e0-4b38-97b9-b29a1c6a79b7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Heroic Charge\t4aab611c-64e0-4b38-97b9-b29a1c6a79b7"
-    },
-    {
-      "seq": 47,
-      "id": "10d1d701-841c-4bf3-9122-b01842a22ac6",
-      "name": "Griffin Protector",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Griffin Protector",
-        "UUID": "10d1d701-841c-4bf3-9122-b01842a22ac6"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Griffin%20Protector&fldUUID=10d1d701-841c-4bf3-9122-b01842a22ac6&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Griffin Protector\t10d1d701-841c-4bf3-9122-b01842a22ac6"
-    },
-    {
-      "seq": 48,
-      "id": "4f7862ef-2c8d-4d28-9e50-7cc41861f245",
-      "name": "Destroy Evil",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Destroy Evil",
-        "UUID": "4f7862ef-2c8d-4d28-9e50-7cc41861f245"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Destroy%20Evil&fldUUID=4f7862ef-2c8d-4d28-9e50-7cc41861f245&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Destroy Evil\t4f7862ef-2c8d-4d28-9e50-7cc41861f245"
-    },
-    {
-      "seq": 49,
-      "id": "d397fb84-8573-4b2c-be2c-f8fd820342f0",
-      "name": "Tidepool Turtle",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tidepool Turtle",
-        "UUID": "d397fb84-8573-4b2c-be2c-f8fd820342f0"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tidepool%20Turtle&fldUUID=d397fb84-8573-4b2c-be2c-f8fd820342f0&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tidepool Turtle\td397fb84-8573-4b2c-be2c-f8fd820342f0"
-    },
-    {
-      "seq": 50,
-      "id": "037cb79c-163d-4b36-bd93-954eca8fe26e",
-      "name": "Clockwork Drawbridge",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Clockwork Drawbridge",
-        "UUID": "037cb79c-163d-4b36-bd93-954eca8fe26e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Clockwork%20Drawbridge&fldUUID=037cb79c-163d-4b36-bd93-954eca8fe26e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Clockwork Drawbridge\t037cb79c-163d-4b36-bd93-954eca8fe26e"
-    },
-    {
-      "seq": 51,
-      "id": "0a4b9afe-aeb7-4c56-8a22-96e19a7a938c",
-      "name": "Talas Lookout",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Talas Lookout",
-        "UUID": "0a4b9afe-aeb7-4c56-8a22-96e19a7a938c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Talas%20Lookout&fldUUID=0a4b9afe-aeb7-4c56-8a22-96e19a7a938c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Talas Lookout\t0a4b9afe-aeb7-4c56-8a22-96e19a7a938c"
-    },
-    {
-      "seq": 52,
-      "id": "0c7ed7e0-0e80-44d3-a7af-b4c321239df8",
-      "name": "Captain's Call",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Captain's Call",
-        "UUID": "0c7ed7e0-0e80-44d3-a7af-b4c321239df8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Captain%27s%20Call&fldUUID=0c7ed7e0-0e80-44d3-a7af-b4c321239df8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Captain's Call\t0c7ed7e0-0e80-44d3-a7af-b4c321239df8"
-    },
-    {
-      "seq": 53,
-      "id": "0b0979f9-aae3-4fc7-beae-c8c6637ae596",
-      "name": "Soaring Drake",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Soaring Drake",
-        "UUID": "0b0979f9-aae3-4fc7-beae-c8c6637ae596"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Soaring%20Drake&fldUUID=0b0979f9-aae3-4fc7-beae-c8c6637ae596&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Soaring Drake\t0b0979f9-aae3-4fc7-beae-c8c6637ae596"
-    },
-    {
-      "seq": 54,
-      "id": "9d933bf1-14f0-4150-a0d2-6b845b9624cf",
-      "name": "Shore Up",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Shore Up",
-        "UUID": "9d933bf1-14f0-4150-a0d2-6b845b9624cf"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shore%20Up&fldUUID=9d933bf1-14f0-4150-a0d2-6b845b9624cf&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Shore Up\t9d933bf1-14f0-4150-a0d2-6b845b9624cf"
-    },
-    {
-      "seq": 55,
-      "id": "084d77df-a899-406f-9d79-e3fa3abeaebc",
-      "name": "Benalish Faithbonder",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Benalish Faithbonder",
-        "UUID": "084d77df-a899-406f-9d79-e3fa3abeaebc"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Benalish%20Faithbonder&fldUUID=084d77df-a899-406f-9d79-e3fa3abeaebc&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Benalish Faithbonder\t084d77df-a899-406f-9d79-e3fa3abeaebc"
-    },
-    {
-      "seq": 56,
-      "id": "171bfcb2-dd43-4d63-b2e2-6ca594c2ec40",
-      "name": "Pixie Illusionist",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Pixie Illusionist",
-        "UUID": "171bfcb2-dd43-4d63-b2e2-6ca594c2ec40"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Pixie%20Illusionist&fldUUID=171bfcb2-dd43-4d63-b2e2-6ca594c2ec40&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Pixie Illusionist\t171bfcb2-dd43-4d63-b2e2-6ca594c2ec40"
-    },
-    {
-      "seq": 57,
-      "id": "5aec2b2c-0764-4869-814d-aad921122af9",
-      "name": "Impulse",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Impulse",
-        "UUID": "5aec2b2c-0764-4869-814d-aad921122af9"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Impulse&fldUUID=5aec2b2c-0764-4869-814d-aad921122af9&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Impulse\t5aec2b2c-0764-4869-814d-aad921122af9"
-    },
-    {
-      "seq": 58,
-      "id": "b7ad4441-e300-4267-bedb-4ae6a64f59cd",
-      "name": "Essence Scatter",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Essence Scatter",
-        "UUID": "b7ad4441-e300-4267-bedb-4ae6a64f59cd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Essence%20Scatter&fldUUID=b7ad4441-e300-4267-bedb-4ae6a64f59cd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Essence Scatter\tb7ad4441-e300-4267-bedb-4ae6a64f59cd"
-    },
-    {
-      "seq": 59,
-      "id": "d14b07ea-18e4-41fb-8136-759d5349e88a",
-      "name": "Haunting Figment",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Haunting Figment",
-        "UUID": "d14b07ea-18e4-41fb-8136-759d5349e88a"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Haunting%20Figment&fldUUID=d14b07ea-18e4-41fb-8136-759d5349e88a&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Haunting Figment\td14b07ea-18e4-41fb-8136-759d5349e88a"
-    },
-    {
-      "seq": 60,
-      "id": "6129b0d3-b50a-4a4b-9111-39f8fc6718dd",
-      "name": "Ertai's Scorn",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Ertai's Scorn",
-        "UUID": "6129b0d3-b50a-4a4b-9111-39f8fc6718dd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Ertai%27s%20Scorn&fldUUID=6129b0d3-b50a-4a4b-9111-39f8fc6718dd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Ertai's Scorn\t6129b0d3-b50a-4a4b-9111-39f8fc6718dd"
-    },
-    {
-      "seq": 61,
-      "id": "6c44738c-706f-40b2-a09d-b21cd0889049",
-      "name": "Combat Research",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Combat Research",
-        "UUID": "6c44738c-706f-40b2-a09d-b21cd0889049"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Combat%20Research&fldUUID=6c44738c-706f-40b2-a09d-b21cd0889049&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Combat Research\t6c44738c-706f-40b2-a09d-b21cd0889049"
-    },
-    {
-      "seq": 62,
-      "id": "0d4d7293-657f-48ac-931b-fb6a44128e6d",
-      "name": "Artillery Blast",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Artillery Blast",
-        "UUID": "0d4d7293-657f-48ac-931b-fb6a44128e6d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Artillery%20Blast&fldUUID=0d4d7293-657f-48ac-931b-fb6a44128e6d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Artillery Blast\t0d4d7293-657f-48ac-931b-fb6a44128e6d"
-    },
-    {
-      "seq": 63,
-      "id": "afbadc37-1b4f-4237-a3c0-772bafb18aa0",
-      "name": "Argivian Phalanx",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Argivian Phalanx",
-        "UUID": "afbadc37-1b4f-4237-a3c0-772bafb18aa0"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Argivian%20Phalanx&fldUUID=afbadc37-1b4f-4237-a3c0-772bafb18aa0&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Argivian Phalanx\tafbadc37-1b4f-4237-a3c0-772bafb18aa0"
-    },
-    {
-      "seq": 64,
-      "id": "322f90b6-6b49-458d-9d5b-b601bfdd0af8",
-      "name": "Prayer of Binding",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Prayer of Binding",
-        "UUID": "322f90b6-6b49-458d-9d5b-b601bfdd0af8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Prayer%20of%20Binding&fldUUID=322f90b6-6b49-458d-9d5b-b601bfdd0af8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Prayer of Binding\t322f90b6-6b49-458d-9d5b-b601bfdd0af8"
-    },
-    {
-      "seq": 65,
-      "id": "2cec235e-7ce0-4947-b221-a555b2c865bd",
-      "name": "Radha, Coalition Warlord",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Radha, Coalition Warlord",
-        "UUID": "2cec235e-7ce0-4947-b221-a555b2c865bd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Radha%2C%20Coalition%20Warlord&fldUUID=2cec235e-7ce0-4947-b221-a555b2c865bd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Radha, Coalition Warlord\t2cec235e-7ce0-4947-b221-a555b2c865bd"
-    },
-    {
-      "seq": 66,
-      "id": "64a2809e-c441-416c-90ff-6fb1e246dff3",
-      "name": "Relic of Legends",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Relic of Legends",
-        "UUID": "64a2809e-c441-416c-90ff-6fb1e246dff3"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Relic%20of%20Legends&fldUUID=64a2809e-c441-416c-90ff-6fb1e246dff3&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Relic of Legends\t64a2809e-c441-416c-90ff-6fb1e246dff3"
-    },
-    {
-      "seq": 67,
-      "id": "747881c7-3788-4dd6-b78d-b2a5ded20e14",
-      "name": "Smash to Dust",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Smash to Dust",
-        "UUID": "747881c7-3788-4dd6-b78d-b2a5ded20e14"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Smash%20to%20Dust&fldUUID=747881c7-3788-4dd6-b78d-b2a5ded20e14&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Smash to Dust\t747881c7-3788-4dd6-b78d-b2a5ded20e14"
-    },
-    {
-      "seq": 68,
-      "id": "c7fdb424-4d2c-437e-b2a2-8bc56c028338",
-      "name": "Yavimaya Sojourner",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Yavimaya Sojourner",
-        "UUID": "c7fdb424-4d2c-437e-b2a2-8bc56c028338"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Yavimaya%20Sojourner&fldUUID=c7fdb424-4d2c-437e-b2a2-8bc56c028338&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Yavimaya Sojourner\tc7fdb424-4d2c-437e-b2a2-8bc56c028338"
-    },
-    {
-      "seq": 69,
-      "id": "0d446cb9-519a-4889-b057-029db9400021",
-      "name": "Tatyova, Steward of Tides",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tatyova, Steward of Tides",
-        "UUID": "0d446cb9-519a-4889-b057-029db9400021"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tatyova%2C%20Steward%20of%20Tides&fldUUID=0d446cb9-519a-4889-b057-029db9400021&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tatyova, Steward of Tides\t0d446cb9-519a-4889-b057-029db9400021"
-    },
-    {
-      "seq": 70,
-      "id": "95a39b26-8c83-40ea-b492-036251366d73",
-      "name": "Tail Swipe",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tail Swipe",
-        "UUID": "95a39b26-8c83-40ea-b492-036251366d73"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tail%20Swipe&fldUUID=95a39b26-8c83-40ea-b492-036251366d73&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tail Swipe\t95a39b26-8c83-40ea-b492-036251366d73"
-    },
-    {
-      "seq": 71,
-      "id": "25e5dc88-9573-4eaa-bd37-eb0dee4add03",
-      "name": "Thrill of Possibility",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Thrill of Possibility",
-        "UUID": "25e5dc88-9573-4eaa-bd37-eb0dee4add03"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Thrill%20of%20Possibility&fldUUID=25e5dc88-9573-4eaa-bd37-eb0dee4add03&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Thrill of Possibility\t25e5dc88-9573-4eaa-bd37-eb0dee4add03"
-    },
-    {
-      "seq": 72,
-      "id": "5ed2d72f-f1cf-45a7-adf7-969f531721ce",
-      "name": "Electrostatic Infantry",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Electrostatic Infantry",
-        "UUID": "5ed2d72f-f1cf-45a7-adf7-969f531721ce"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Electrostatic%20Infantry&fldUUID=5ed2d72f-f1cf-45a7-adf7-969f531721ce&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Electrostatic Infantry\t5ed2d72f-f1cf-45a7-adf7-969f531721ce"
-    },
-    {
-      "seq": 73,
-      "id": "b25ab334-1060-457e-b212-3d7a697c545e",
-      "name": "Joint Exploration",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Joint Exploration",
-        "UUID": "b25ab334-1060-457e-b212-3d7a697c545e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Joint%20Exploration&fldUUID=b25ab334-1060-457e-b212-3d7a697c545e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Joint Exploration\tb25ab334-1060-457e-b212-3d7a697c545e"
-    },
-    {
-      "seq": 74,
-      "id": "d2028115-f0de-4e8b-99bc-7369352e1e07",
-      "name": "Academy Wall",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Academy Wall",
-        "UUID": "d2028115-f0de-4e8b-99bc-7369352e1e07"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Academy%20Wall&fldUUID=d2028115-f0de-4e8b-99bc-7369352e1e07&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Academy Wall\td2028115-f0de-4e8b-99bc-7369352e1e07"
-    },
-    {
-      "seq": 75,
-      "id": "f42167ef-7858-4c66-b1bc-41c3288a8ee8",
-      "name": "Phyrexian Warhorse",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phyrexian Warhorse",
-        "UUID": "f42167ef-7858-4c66-b1bc-41c3288a8ee8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Warhorse&fldUUID=f42167ef-7858-4c66-b1bc-41c3288a8ee8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phyrexian Warhorse\tf42167ef-7858-4c66-b1bc-41c3288a8ee8"
-    },
-    {
-      "seq": 76,
-      "id": "7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98",
-      "name": "Sunbathing Rootwalla",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sunbathing Rootwalla",
-        "UUID": "7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sunbathing%20Rootwalla&fldUUID=7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sunbathing Rootwalla\t7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98"
-    },
-    {
-      "seq": 77,
-      "id": "5da59e8f-cbe5-4c14-a5a9-28d56048dc23",
-      "name": "Nael, Avizoa Aeronaut",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Nael, Avizoa Aeronaut",
-        "UUID": "5da59e8f-cbe5-4c14-a5a9-28d56048dc23"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Nael%2C%20Avizoa%20Aeronaut&fldUUID=5da59e8f-cbe5-4c14-a5a9-28d56048dc23&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Nael, Avizoa Aeronaut\t5da59e8f-cbe5-4c14-a5a9-28d56048dc23"
-    },
-    {
-      "seq": 78,
-      "id": "959ba62e-bb3a-49ad-8b1b-e787e413e5d4",
-      "name": "Balmor, Battlemage Captain",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Balmor, Battlemage Captain",
-        "UUID": "959ba62e-bb3a-49ad-8b1b-e787e413e5d4"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Balmor%2C%20Battlemage%20Captain&fldUUID=959ba62e-bb3a-49ad-8b1b-e787e413e5d4&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Balmor, Battlemage Captain\t959ba62e-bb3a-49ad-8b1b-e787e413e5d4"
-    },
-    {
-      "seq": 79,
-      "id": "49aa8d4c-04e9-4f38-9786-2c9ad735dd72",
-      "name": "Braids's Frightful Return",
-      "layout": "saga",
-      "note_type": "MTG Saga",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Braids's Frightful Return",
-        "UUID": "49aa8d4c-04e9-4f38-9786-2c9ad735dd72"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Braids%27s%20Frightful%20Return&fldUUID=49aa8d4c-04e9-4f38-9786-2c9ad735dd72&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Braids's Frightful Return\t49aa8d4c-04e9-4f38-9786-2c9ad735dd72"
-    },
-    {
-      "seq": 80,
-      "id": "7e57e1d7-da1d-4a2b-867f-85b8331b7bbc",
-      "name": "Shield-Wall Sentinel",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Shield-Wall Sentinel",
-        "UUID": "7e57e1d7-da1d-4a2b-867f-85b8331b7bbc"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shield-Wall%20Sentinel&fldUUID=7e57e1d7-da1d-4a2b-867f-85b8331b7bbc&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Shield-Wall Sentinel\t7e57e1d7-da1d-4a2b-867f-85b8331b7bbc"
-    },
-    {
-      "seq": 81,
-      "id": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7",
-      "name": "Love Song of Night and Day",
-      "layout": "saga",
-      "note_type": "MTG Saga",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Love Song of Night and Day",
-        "UUID": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Love%20Song%20of%20Night%20and%20Day&fldUUID=1e08d288-2f09-4856-a9ed-cc8aa8d953d7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Love Song of Night and Day\t1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
-    },
-    {
-      "seq": 82,
-      "id": "e2a54461-1f75-4304-b6d7-635171419456",
-      "name": "The Weatherseed Treaty",
-      "layout": "saga",
-      "note_type": "MTG Saga",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "The Weatherseed Treaty",
-        "UUID": "e2a54461-1f75-4304-b6d7-635171419456"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=The%20Weatherseed%20Treaty&fldUUID=e2a54461-1f75-4304-b6d7-635171419456&x-success=shortcuts%3A%2F%2F",
-      "tsv": "The Weatherseed Treaty\te2a54461-1f75-4304-b6d7-635171419456"
-    },
-    {
-      "seq": 83,
-      "id": "7e528d36-cea6-4013-83d5-ba837d570713",
-      "name": "Mossbeard Ancient",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Mossbeard Ancient",
-        "UUID": "7e528d36-cea6-4013-83d5-ba837d570713"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Mossbeard%20Ancient&fldUUID=7e528d36-cea6-4013-83d5-ba837d570713&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Mossbeard Ancient\t7e528d36-cea6-4013-83d5-ba837d570713"
-    },
-    {
-      "seq": 84,
-      "id": "b7c7a54e-4df6-4745-8bae-aeefda934d82",
-      "name": "Knight of Dawn's Light",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Knight of Dawn's Light",
-        "UUID": "b7c7a54e-4df6-4745-8bae-aeefda934d82"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Knight%20of%20Dawn%27s%20Light&fldUUID=b7c7a54e-4df6-4745-8bae-aeefda934d82&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Knight of Dawn's Light\tb7c7a54e-4df6-4745-8bae-aeefda934d82"
-    },
-    {
-      "seq": 85,
-      "id": "f1f8bf98-8911-4c86-978a-427377700544",
-      "name": "Aron, Benalia's Ruin",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Aron, Benalia's Ruin",
-        "UUID": "f1f8bf98-8911-4c86-978a-427377700544"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Aron%2C%20Benalia%27s%20Ruin&fldUUID=f1f8bf98-8911-4c86-978a-427377700544&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Aron, Benalia's Ruin\tf1f8bf98-8911-4c86-978a-427377700544"
-    },
-    {
-      "seq": 86,
-      "id": "01a51d08-f90e-4b72-8dce-fb2a6c72f181",
-      "name": "Extinguish the Light",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Extinguish the Light",
-        "UUID": "01a51d08-f90e-4b72-8dce-fb2a6c72f181"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Extinguish%20the%20Light&fldUUID=01a51d08-f90e-4b72-8dce-fb2a6c72f181&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Extinguish the Light\t01a51d08-f90e-4b72-8dce-fb2a6c72f181"
-    },
-    {
-      "seq": 87,
-      "id": "ed719f25-1aab-4a1e-8c9f-dd574db5de0c",
-      "name": "Sheoldred's Restoration",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sheoldred's Restoration",
-        "UUID": "ed719f25-1aab-4a1e-8c9f-dd574db5de0c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sheoldred%27s%20Restoration&fldUUID=ed719f25-1aab-4a1e-8c9f-dd574db5de0c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sheoldred's Restoration\ted719f25-1aab-4a1e-8c9f-dd574db5de0c"
-    },
-    {
-      "seq": 88,
-      "id": "dd3fc36c-682b-4352-a66f-eddd2baf0bf6",
-      "name": "Uurg, Spawn of Turg",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Uurg, Spawn of Turg",
-        "UUID": "dd3fc36c-682b-4352-a66f-eddd2baf0bf6"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Uurg%2C%20Spawn%20of%20Turg&fldUUID=dd3fc36c-682b-4352-a66f-eddd2baf0bf6&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Uurg, Spawn of Turg\tdd3fc36c-682b-4352-a66f-eddd2baf0bf6"
-    },
-    {
-      "seq": 89,
-      "id": "629aa907-9533-4681-9bf2-9e56450a4cc2",
-      "name": "Tear Asunder",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tear Asunder",
-        "UUID": "629aa907-9533-4681-9bf2-9e56450a4cc2"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tear%20Asunder&fldUUID=629aa907-9533-4681-9bf2-9e56450a4cc2&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tear Asunder\t629aa907-9533-4681-9bf2-9e56450a4cc2"
-    },
-    {
-      "seq": 90,
-      "id": "15cc59c7-6478-4f84-898a-7e0fed10f004",
-      "name": "Linebreaker Baloth",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Linebreaker Baloth",
-        "UUID": "15cc59c7-6478-4f84-898a-7e0fed10f004"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Linebreaker%20Baloth&fldUUID=15cc59c7-6478-4f84-898a-7e0fed10f004&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Linebreaker Baloth\t15cc59c7-6478-4f84-898a-7e0fed10f004"
-    },
-    {
-      "seq": 91,
-      "id": "7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8",
-      "name": "Phyrexian Missionary",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phyrexian Missionary",
-        "UUID": "7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Missionary&fldUUID=7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phyrexian Missionary\t7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8"
-    },
-    {
-      "seq": 92,
-      "id": "4016c6f7-7cb4-46c2-af73-3bd6d682ea5e",
-      "name": "Negate",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Negate",
-        "UUID": "4016c6f7-7cb4-46c2-af73-3bd6d682ea5e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Negate&fldUUID=4016c6f7-7cb4-46c2-af73-3bd6d682ea5e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Negate\t4016c6f7-7cb4-46c2-af73-3bd6d682ea5e"
-    },
-    {
-      "seq": 93,
-      "id": "6fd574e7-705f-4a65-aad0-68ff6d63bf0f",
-      "name": "Phyrexian Rager",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phyrexian Rager",
-        "UUID": "6fd574e7-705f-4a65-aad0-68ff6d63bf0f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Rager&fldUUID=6fd574e7-705f-4a65-aad0-68ff6d63bf0f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phyrexian Rager\t6fd574e7-705f-4a65-aad0-68ff6d63bf0f"
-    },
-    {
-      "seq": 94,
-      "id": "31274707-3e16-4f46-8450-6927d936064b",
-      "name": "Tribute to Urborg",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tribute to Urborg",
-        "UUID": "31274707-3e16-4f46-8450-6927d936064b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tribute%20to%20Urborg&fldUUID=31274707-3e16-4f46-8450-6927d936064b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tribute to Urborg\t31274707-3e16-4f46-8450-6927d936064b"
-    },
-    {
-      "seq": 95,
-      "id": "1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019",
-      "name": "Elas il-Kor, Sadistic Pilgrim",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Elas il-Kor, Sadistic Pilgrim",
-        "UUID": "1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Elas%20il-Kor%2C%20Sadistic%20Pilgrim&fldUUID=1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Elas il-Kor, Sadistic Pilgrim\t1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019"
-    },
-    {
-      "seq": 96,
-      "id": "807c7812-c108-45a7-a5b2-08cc693bc500",
-      "name": "Vohar, Vodalian Desecrator",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Vohar, Vodalian Desecrator",
-        "UUID": "807c7812-c108-45a7-a5b2-08cc693bc500"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Vohar%2C%20Vodalian%20Desecrator&fldUUID=807c7812-c108-45a7-a5b2-08cc693bc500&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Vohar, Vodalian Desecrator\t807c7812-c108-45a7-a5b2-08cc693bc500"
-    },
-    {
-      "seq": 97,
-      "id": "90dc4122-4f7a-4d9f-8427-de36e3e8a913",
-      "name": "Elvish Hydromancer",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Elvish Hydromancer",
-        "UUID": "90dc4122-4f7a-4d9f-8427-de36e3e8a913"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Elvish%20Hydromancer&fldUUID=90dc4122-4f7a-4d9f-8427-de36e3e8a913&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Elvish Hydromancer\t90dc4122-4f7a-4d9f-8427-de36e3e8a913"
-    },
-    {
-      "seq": 98,
-      "id": "602f5370-d096-4765-b612-16bcec3aafa7",
-      "name": "Sprouting Goblin",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sprouting Goblin",
-        "UUID": "602f5370-d096-4765-b612-16bcec3aafa7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sprouting%20Goblin&fldUUID=602f5370-d096-4765-b612-16bcec3aafa7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sprouting Goblin\t602f5370-d096-4765-b612-16bcec3aafa7"
-    },
-    {
-      "seq": 99,
-      "id": "6c3d7ece-0f57-4213-a0ab-a9d7c1536ebb",
-      "name": "Automatic Librarian",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Automatic Librarian",
-        "UUID": "6c3d7ece-0f57-4213-a0ab-a9d7c1536ebb"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Automatic%20Librarian&fldUUID=6c3d7ece-0f57-4213-a0ab-a9d7c1536ebb&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Automatic Librarian\t6c3d7ece-0f57-4213-a0ab-a9d7c1536ebb"
-    },
-    {
-      "seq": 100,
-      "id": "f55606da-de3e-4375-925b-cc16b03b6365",
-      "name": "Djinn of the Fountain",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Djinn of the Fountain",
-        "UUID": "f55606da-de3e-4375-925b-cc16b03b6365"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Djinn%20of%20the%20Fountain&fldUUID=f55606da-de3e-4375-925b-cc16b03b6365&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Djinn of the Fountain\tf55606da-de3e-4375-925b-cc16b03b6365"
-    },
-    {
-      "seq": 101,
-      "id": "3bd9e99a-ae8c-4323-aa86-b19288c877d4",
-      "name": "Yotia Declares War",
-      "layout": "saga",
-      "note_type": "MTG Saga",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Yotia Declares War",
-        "UUID": "3bd9e99a-ae8c-4323-aa86-b19288c877d4"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Yotia%20Declares%20War&fldUUID=3bd9e99a-ae8c-4323-aa86-b19288c877d4&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Yotia Declares War\t3bd9e99a-ae8c-4323-aa86-b19288c877d4"
-    },
-    {
-      "seq": 102,
-      "id": "89c46e9c-ae7c-466c-bb11-4f4d01ea7a63",
-      "name": "Gaea's Might",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Gaea's Might",
-        "UUID": "89c46e9c-ae7c-466c-bb11-4f4d01ea7a63"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Gaea%27s%20Might&fldUUID=89c46e9c-ae7c-466c-bb11-4f4d01ea7a63&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Gaea's Might\t89c46e9c-ae7c-466c-bb11-4f4d01ea7a63"
-    },
-    {
-      "seq": 103,
-      "id": "ff252e80-c155-467b-8df3-9bddc5cc45c3",
-      "name": "Hurloon Battle Hymn",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Hurloon Battle Hymn",
-        "UUID": "ff252e80-c155-467b-8df3-9bddc5cc45c3"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hurloon%20Battle%20Hymn&fldUUID=ff252e80-c155-467b-8df3-9bddc5cc45c3&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Hurloon Battle Hymn\tff252e80-c155-467b-8df3-9bddc5cc45c3"
-    },
-    {
-      "seq": 104,
-      "id": "000376ef-8b6c-490d-98cb-d6de15b2e585",
-      "name": "Battlewing Mystic",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Battlewing Mystic",
-        "UUID": "000376ef-8b6c-490d-98cb-d6de15b2e585"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Battlewing%20Mystic&fldUUID=000376ef-8b6c-490d-98cb-d6de15b2e585&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Battlewing Mystic\t000376ef-8b6c-490d-98cb-d6de15b2e585"
-    },
-    {
-      "seq": 105,
-      "id": "6544a289-3b27-4980-8ed7-22f50ae92c1a",
-      "name": "Cleaving Skyrider",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Cleaving Skyrider",
-        "UUID": "6544a289-3b27-4980-8ed7-22f50ae92c1a"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Cleaving%20Skyrider&fldUUID=6544a289-3b27-4980-8ed7-22f50ae92c1a&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Cleaving Skyrider\t6544a289-3b27-4980-8ed7-22f50ae92c1a"
-    },
-    {
-      "seq": 106,
-      "id": "f54413be-7d73-478d-a25a-8fe06f6491a5",
-      "name": "Runic Shot",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Runic Shot",
-        "UUID": "f54413be-7d73-478d-a25a-8fe06f6491a5"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Runic%20Shot&fldUUID=f54413be-7d73-478d-a25a-8fe06f6491a5&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Runic Shot\tf54413be-7d73-478d-a25a-8fe06f6491a5"
-    },
-    {
-      "seq": 107,
-      "id": "0b983366-385f-41a3-aa46-20151e68d140",
-      "name": "Phyrexian Espionage",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phyrexian Espionage",
-        "UUID": "0b983366-385f-41a3-aa46-20151e68d140"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Espionage&fldUUID=0b983366-385f-41a3-aa46-20151e68d140&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phyrexian Espionage\t0b983366-385f-41a3-aa46-20151e68d140"
-    },
-    {
-      "seq": 108,
-      "id": "d636da1e-4cc6-40a1-bd83-cc0dd761b1cc",
-      "name": "Jodah's Codex",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Jodah's Codex",
-        "UUID": "d636da1e-4cc6-40a1-bd83-cc0dd761b1cc"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Jodah%27s%20Codex&fldUUID=d636da1e-4cc6-40a1-bd83-cc0dd761b1cc&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Jodah's Codex\td636da1e-4cc6-40a1-bd83-cc0dd761b1cc"
-    },
-    {
-      "seq": 109,
-      "id": "cc8331ab-adc9-45c6-9728-66afc72d901c",
-      "name": "Rona, Sheoldred's Faithful",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Rona, Sheoldred's Faithful",
-        "UUID": "cc8331ab-adc9-45c6-9728-66afc72d901c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Rona%2C%20Sheoldred%27s%20Faithful&fldUUID=cc8331ab-adc9-45c6-9728-66afc72d901c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Rona, Sheoldred's Faithful\tcc8331ab-adc9-45c6-9728-66afc72d901c"
-    },
-    {
-      "seq": 110,
-      "id": "c56cf82f-8bbb-49ae-ad93-291cbec9126e",
-      "name": "Juniper Order Rootweaver",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Juniper Order Rootweaver",
-        "UUID": "c56cf82f-8bbb-49ae-ad93-291cbec9126e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Juniper%20Order%20Rootweaver&fldUUID=c56cf82f-8bbb-49ae-ad93-291cbec9126e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Juniper Order Rootweaver\tc56cf82f-8bbb-49ae-ad93-291cbec9126e"
-    },
-    {
-      "seq": 111,
-      "id": "4b78eaab-819c-4f06-b3b1-a25c17ab2235",
-      "name": "Jaya's Firenado",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Jaya's Firenado",
-        "UUID": "4b78eaab-819c-4f06-b3b1-a25c17ab2235"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Jaya%27s%20Firenado&fldUUID=4b78eaab-819c-4f06-b3b1-a25c17ab2235&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Jaya's Firenado\t4b78eaab-819c-4f06-b3b1-a25c17ab2235"
-    },
-    {
-      "seq": 112,
-      "id": "3d31d878-9114-4205-b7a9-bb13ce6aedd2",
-      "name": "Bog Badger",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Bog Badger",
-        "UUID": "3d31d878-9114-4205-b7a9-bb13ce6aedd2"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bog%20Badger&fldUUID=3d31d878-9114-4205-b7a9-bb13ce6aedd2&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Bog Badger\t3d31d878-9114-4205-b7a9-bb13ce6aedd2"
-    },
-    {
-      "seq": 113,
-      "id": "1a6bb0c2-1e3c-48cd-8f10-49f047e0514c",
-      "name": "Lagomos, Hand of Hatred",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Lagomos, Hand of Hatred",
-        "UUID": "1a6bb0c2-1e3c-48cd-8f10-49f047e0514c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Lagomos%2C%20Hand%20of%20Hatred&fldUUID=1a6bb0c2-1e3c-48cd-8f10-49f047e0514c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Lagomos, Hand of Hatred\t1a6bb0c2-1e3c-48cd-8f10-49f047e0514c"
-    },
-    {
-      "seq": 114,
-      "id": "f5800f3d-b2e0-4c74-94bf-f29b27f82130",
-      "name": "Wingmantle Chaplain",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Wingmantle Chaplain",
-        "UUID": "f5800f3d-b2e0-4c74-94bf-f29b27f82130"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Wingmantle%20Chaplain&fldUUID=f5800f3d-b2e0-4c74-94bf-f29b27f82130&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Wingmantle Chaplain\tf5800f3d-b2e0-4c74-94bf-f29b27f82130"
-    },
-    {
-      "seq": 115,
-      "id": "b16f2cf2-5908-4f49-9c5c-6c9e22a65a4d",
-      "name": "Hurler Cyclops",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Hurler Cyclops",
-        "UUID": "b16f2cf2-5908-4f49-9c5c-6c9e22a65a4d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hurler%20Cyclops&fldUUID=b16f2cf2-5908-4f49-9c5c-6c9e22a65a4d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Hurler Cyclops\tb16f2cf2-5908-4f49-9c5c-6c9e22a65a4d"
-    },
-    {
-      "seq": 116,
-      "id": "a83d571b-ad91-43f5-8498-115cede4867d",
-      "name": "Warhost's Frenzy",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Warhost's Frenzy",
-        "UUID": "a83d571b-ad91-43f5-8498-115cede4867d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Warhost%27s%20Frenzy&fldUUID=a83d571b-ad91-43f5-8498-115cede4867d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Warhost's Frenzy\ta83d571b-ad91-43f5-8498-115cede4867d"
-    },
-    {
-      "seq": 117,
-      "id": "3fa49711-473d-4774-99b8-2bfbabc6b735",
-      "name": "Rulik Mons, Warren Chief",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Rulik Mons, Warren Chief",
-        "UUID": "3fa49711-473d-4774-99b8-2bfbabc6b735"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Rulik%20Mons%2C%20Warren%20Chief&fldUUID=3fa49711-473d-4774-99b8-2bfbabc6b735&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Rulik Mons, Warren Chief\t3fa49711-473d-4774-99b8-2bfbabc6b735"
-    },
-    {
-      "seq": 118,
-      "id": "b44b4e8b-7675-4c6a-a16a-92f8b6a0259f",
-      "name": "Queen Allenal of Ruadach",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Queen Allenal of Ruadach",
-        "UUID": "b44b4e8b-7675-4c6a-a16a-92f8b6a0259f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Queen%20Allenal%20of%20Ruadach&fldUUID=b44b4e8b-7675-4c6a-a16a-92f8b6a0259f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Queen Allenal of Ruadach\tb44b4e8b-7675-4c6a-a16a-92f8b6a0259f"
-    },
-    {
-      "seq": 119,
-      "id": "017a3c6b-9a1e-403a-9c20-2360090d39ee",
-      "name": "Timely Interference",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Timely Interference",
-        "UUID": "017a3c6b-9a1e-403a-9c20-2360090d39ee"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Timely%20Interference&fldUUID=017a3c6b-9a1e-403a-9c20-2360090d39ee&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Timely Interference\t017a3c6b-9a1e-403a-9c20-2360090d39ee"
-    },
-    {
-      "seq": 120,
-      "id": "d9142f35-75f4-44c7-b03c-79c4a2d43c88",
-      "name": "Colossal Growth",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Colossal Growth",
-        "UUID": "d9142f35-75f4-44c7-b03c-79c4a2d43c88"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Colossal%20Growth&fldUUID=d9142f35-75f4-44c7-b03c-79c4a2d43c88&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Colossal Growth\td9142f35-75f4-44c7-b03c-79c4a2d43c88"
-    },
-    {
-      "seq": 121,
-      "id": "c35bab2f-8464-4968-8c50-8807638d687b",
-      "name": "Balduvian Berserker",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Balduvian Berserker",
-        "UUID": "c35bab2f-8464-4968-8c50-8807638d687b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Balduvian%20Berserker&fldUUID=c35bab2f-8464-4968-8c50-8807638d687b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Balduvian Berserker\tc35bab2f-8464-4968-8c50-8807638d687b"
-    },
-    {
-      "seq": 122,
-      "id": "622f96fc-179a-4ff6-95a5-de721492f7eb",
-      "name": "Slimefoot's Survey",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Slimefoot's Survey",
-        "UUID": "622f96fc-179a-4ff6-95a5-de721492f7eb"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Slimefoot%27s%20Survey&fldUUID=622f96fc-179a-4ff6-95a5-de721492f7eb&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Slimefoot's Survey\t622f96fc-179a-4ff6-95a5-de721492f7eb"
-    },
-    {
-      "seq": 123,
-      "id": "57746e72-ba9f-4717-a4a2-6c6a039080c3",
-      "name": "Argivian Cavalier",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Argivian Cavalier",
-        "UUID": "57746e72-ba9f-4717-a4a2-6c6a039080c3"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Argivian%20Cavalier&fldUUID=57746e72-ba9f-4717-a4a2-6c6a039080c3&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Argivian Cavalier\t57746e72-ba9f-4717-a4a2-6c6a039080c3"
-    },
-    {
-      "seq": 124,
-      "id": "8b12da45-aff4-406d-83a3-39ecaff6ff56",
-      "name": "Coalition Skyknight",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Coalition Skyknight",
-        "UUID": "8b12da45-aff4-406d-83a3-39ecaff6ff56"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Coalition%20Skyknight&fldUUID=8b12da45-aff4-406d-83a3-39ecaff6ff56&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Coalition Skyknight\t8b12da45-aff4-406d-83a3-39ecaff6ff56"
-    },
-    {
-      "seq": 125,
-      "id": "2d841faa-9e0b-45ff-9dfd-f8a169d9af76",
-      "name": "Founding the Third Path",
-      "layout": "saga",
-      "note_type": "MTG Saga",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Founding the Third Path",
-        "UUID": "2d841faa-9e0b-45ff-9dfd-f8a169d9af76"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Founding%20the%20Third%20Path&fldUUID=2d841faa-9e0b-45ff-9dfd-f8a169d9af76&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Founding the Third Path\t2d841faa-9e0b-45ff-9dfd-f8a169d9af76"
-    },
-    {
-      "seq": 126,
-      "id": "699d8655-d250-4ab6-92c5-376979bbabc7",
-      "name": "Inscribed Tablet",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Inscribed Tablet",
-        "UUID": "699d8655-d250-4ab6-92c5-376979bbabc7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Inscribed%20Tablet&fldUUID=699d8655-d250-4ab6-92c5-376979bbabc7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Inscribed Tablet\t699d8655-d250-4ab6-92c5-376979bbabc7"
-    },
-    {
-      "seq": 127,
-      "id": "c58096e5-3cd4-4edd-b71a-3bdb47ab2536",
-      "name": "Fires of Victory",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Fires of Victory",
-        "UUID": "c58096e5-3cd4-4edd-b71a-3bdb47ab2536"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Fires%20of%20Victory&fldUUID=c58096e5-3cd4-4edd-b71a-3bdb47ab2536&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Fires of Victory\tc58096e5-3cd4-4edd-b71a-3bdb47ab2536"
-    },
-    {
-      "seq": 128,
-      "id": "bc531409-26cb-4c58-ba69-f39dd8aee3d1",
-      "name": "Twinferno",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Twinferno",
-        "UUID": "bc531409-26cb-4c58-ba69-f39dd8aee3d1"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Twinferno&fldUUID=bc531409-26cb-4c58-ba69-f39dd8aee3d1&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Twinferno\tbc531409-26cb-4c58-ba69-f39dd8aee3d1"
-    },
-    {
-      "seq": 129,
-      "id": "65c903e3-d622-415e-9144-a5b2f3f7b9ed",
-      "name": "Zar Ojanen, Scion of Efrava",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Zar Ojanen, Scion of Efrava",
-        "UUID": "65c903e3-d622-415e-9144-a5b2f3f7b9ed"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Zar%20Ojanen%2C%20Scion%20of%20Efrava&fldUUID=65c903e3-d622-415e-9144-a5b2f3f7b9ed&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Zar Ojanen, Scion of Efrava\t65c903e3-d622-415e-9144-a5b2f3f7b9ed"
-    },
-    {
-      "seq": 130,
-      "id": "c839d302-bf85-4a30-a49a-dbbd48695b5c",
-      "name": "Tura Kennerüd, Skyknight",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tura Kennerüd, Skyknight",
-        "UUID": "c839d302-bf85-4a30-a49a-dbbd48695b5c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tura%20Kenner%C3%BCd%2C%20Skyknight&fldUUID=c839d302-bf85-4a30-a49a-dbbd48695b5c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tura Kennerüd, Skyknight\tc839d302-bf85-4a30-a49a-dbbd48695b5c"
-    },
-    {
-      "seq": 131,
-      "id": "6d872c10-4126-4130-a74a-1331ed418ca8",
-      "name": "Pilfer",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Pilfer",
-        "UUID": "6d872c10-4126-4130-a74a-1331ed418ca8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Pilfer&fldUUID=6d872c10-4126-4130-a74a-1331ed418ca8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Pilfer\t6d872c10-4126-4130-a74a-1331ed418ca8"
-    },
-    {
-      "seq": 132,
-      "id": "602d163c-d341-4b3b-9d3c-5d3419e9b10b",
-      "name": "Walking Bulwark",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Walking Bulwark",
-        "UUID": "602d163c-d341-4b3b-9d3c-5d3419e9b10b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Walking%20Bulwark&fldUUID=602d163c-d341-4b3b-9d3c-5d3419e9b10b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Walking Bulwark\t602d163c-d341-4b3b-9d3c-5d3419e9b10b"
-    },
-    {
-      "seq": 133,
-      "id": "9806370b-51e3-4144-a847-6b367fb937ef",
-      "name": "Citizen's Arrest",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Citizen's Arrest",
-        "UUID": "9806370b-51e3-4144-a847-6b367fb937ef"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Citizen%27s%20Arrest&fldUUID=9806370b-51e3-4144-a847-6b367fb937ef&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Citizen's Arrest\t9806370b-51e3-4144-a847-6b367fb937ef"
-    },
-    {
-      "seq": 134,
-      "id": "9c0e3882-1f97-48eb-b9e3-2f9683ff5897",
-      "name": "Coral Colony",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Coral Colony",
-        "UUID": "9c0e3882-1f97-48eb-b9e3-2f9683ff5897"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Coral%20Colony&fldUUID=9c0e3882-1f97-48eb-b9e3-2f9683ff5897&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Coral Colony\t9c0e3882-1f97-48eb-b9e3-2f9683ff5897"
-    },
-    {
-      "seq": 135,
-      "id": "0dcc2699-03e6-47d1-b976-1453fe9d27b7",
-      "name": "Blight Pile",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Blight Pile",
-        "UUID": "0dcc2699-03e6-47d1-b976-1453fe9d27b7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Blight%20Pile&fldUUID=0dcc2699-03e6-47d1-b976-1453fe9d27b7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Blight Pile\t0dcc2699-03e6-47d1-b976-1453fe9d27b7"
-    },
-    {
-      "seq": 136,
-      "id": "76bdc912-61da-428d-b0d7-3a38676a402a",
-      "name": "Phoenix Chick",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Phoenix Chick",
-        "UUID": "76bdc912-61da-428d-b0d7-3a38676a402a"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phoenix%20Chick&fldUUID=76bdc912-61da-428d-b0d7-3a38676a402a&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Phoenix Chick\t76bdc912-61da-428d-b0d7-3a38676a402a"
-    },
-    {
-      "seq": 137,
-      "id": "9a25855f-abfc-482d-a36b-088b023a7df6",
-      "name": "Bortuk Bonerattle",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Bortuk Bonerattle",
-        "UUID": "9a25855f-abfc-482d-a36b-088b023a7df6"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bortuk%20Bonerattle&fldUUID=9a25855f-abfc-482d-a36b-088b023a7df6&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Bortuk Bonerattle\t9a25855f-abfc-482d-a36b-088b023a7df6"
-    },
-    {
-      "seq": 138,
-      "id": "fed77513-94ab-44e2-b9a1-30ba927cd6ee",
-      "name": "Cult Conscript",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Cult Conscript",
-        "UUID": "fed77513-94ab-44e2-b9a1-30ba927cd6ee"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Cult%20Conscript&fldUUID=fed77513-94ab-44e2-b9a1-30ba927cd6ee&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Cult Conscript\tfed77513-94ab-44e2-b9a1-30ba927cd6ee"
-    },
-    {
-      "seq": 139,
-      "id": "5b7c0d2d-7107-4599-8d49-c7c57d21e467",
-      "name": "Hero's Heirloom",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Hero's Heirloom",
-        "UUID": "5b7c0d2d-7107-4599-8d49-c7c57d21e467"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hero%27s%20Heirloom&fldUUID=5b7c0d2d-7107-4599-8d49-c7c57d21e467&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Hero's Heirloom\t5b7c0d2d-7107-4599-8d49-c7c57d21e467"
-    },
-    {
-      "seq": 140,
-      "id": "bdf96533-f28a-4465-893b-0c9394d5b8d7",
-      "name": "Rona's Vortex",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Rona's Vortex",
-        "UUID": "bdf96533-f28a-4465-893b-0c9394d5b8d7"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Rona%27s%20Vortex&fldUUID=bdf96533-f28a-4465-893b-0c9394d5b8d7&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Rona's Vortex\tbdf96533-f28a-4465-893b-0c9394d5b8d7"
-    },
-    {
-      "seq": 141,
-      "id": "660d7983-b335-48b4-898d-f182effcf2de",
-      "name": "Monstrous War-Leech",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Monstrous War-Leech",
-        "UUID": "660d7983-b335-48b4-898d-f182effcf2de"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Monstrous%20War-Leech&fldUUID=660d7983-b335-48b4-898d-f182effcf2de&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Monstrous War-Leech\t660d7983-b335-48b4-898d-f182effcf2de"
-    },
-    {
-      "seq": 142,
-      "id": "d13d40b9-319b-4630-a5cd-228ff2f24367",
-      "name": "Dragon Whelp",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Dragon Whelp",
-        "UUID": "d13d40b9-319b-4630-a5cd-228ff2f24367"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Dragon%20Whelp&fldUUID=d13d40b9-319b-4630-a5cd-228ff2f24367&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Dragon Whelp\td13d40b9-319b-4630-a5cd-228ff2f24367"
-    },
-    {
-      "seq": 143,
-      "id": "1b1af9be-7f5e-48e9-a6e7-9261e199812e",
-      "name": "Yavimaya Iconoclast",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Yavimaya Iconoclast",
-        "UUID": "1b1af9be-7f5e-48e9-a6e7-9261e199812e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Yavimaya%20Iconoclast&fldUUID=1b1af9be-7f5e-48e9-a6e7-9261e199812e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Yavimaya Iconoclast\t1b1af9be-7f5e-48e9-a6e7-9261e199812e"
-    },
-    {
-      "seq": 144,
-      "id": "8418c504-24fe-470f-8102-dcad68ba1520",
-      "name": "Strength of the Coalition",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Strength of the Coalition",
-        "UUID": "8418c504-24fe-470f-8102-dcad68ba1520"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Strength%20of%20the%20Coalition&fldUUID=8418c504-24fe-470f-8102-dcad68ba1520&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Strength of the Coalition\t8418c504-24fe-470f-8102-dcad68ba1520"
-    },
-    {
-      "seq": 145,
-      "id": "bb6db604-8bbe-4719-88bd-f3cad8c4725d",
-      "name": "Protect the Negotiators",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Protect the Negotiators",
-        "UUID": "bb6db604-8bbe-4719-88bd-f3cad8c4725d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Protect%20the%20Negotiators&fldUUID=bb6db604-8bbe-4719-88bd-f3cad8c4725d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Protect the Negotiators\tbb6db604-8bbe-4719-88bd-f3cad8c4725d"
-    },
-    {
-      "seq": 146,
-      "id": "9c873c5b-61f6-49b9-8993-2d5e9823de62",
-      "name": "Tori D'Avenant, Fury Rider",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tori D'Avenant, Fury Rider",
-        "UUID": "9c873c5b-61f6-49b9-8993-2d5e9823de62"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tori%20D%27Avenant%2C%20Fury%20Rider&fldUUID=9c873c5b-61f6-49b9-8993-2d5e9823de62&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tori D'Avenant, Fury Rider\t9c873c5b-61f6-49b9-8993-2d5e9823de62"
-    },
-    {
-      "seq": 147,
-      "id": "753db072-5d6a-4f37-8f7d-255572ecd3bd",
-      "name": "Cut Down",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Cut Down",
-        "UUID": "753db072-5d6a-4f37-8f7d-255572ecd3bd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Cut%20Down&fldUUID=753db072-5d6a-4f37-8f7d-255572ecd3bd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Cut Down\t753db072-5d6a-4f37-8f7d-255572ecd3bd"
-    },
-    {
-      "seq": 148,
-      "id": "25175622-7b68-4916-adf2-3bf2d82e8356",
-      "name": "Yavimaya Steelcrusher",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Yavimaya Steelcrusher",
-        "UUID": "25175622-7b68-4916-adf2-3bf2d82e8356"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Yavimaya%20Steelcrusher&fldUUID=25175622-7b68-4916-adf2-3bf2d82e8356&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Yavimaya Steelcrusher\t25175622-7b68-4916-adf2-3bf2d82e8356"
-    },
-    {
-      "seq": 149,
-      "id": "409189da-53c9-4daf-b6b2-d155fc14f91a",
-      "name": "Samite Herbalist",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Samite Herbalist",
-        "UUID": "409189da-53c9-4daf-b6b2-d155fc14f91a"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Samite%20Herbalist&fldUUID=409189da-53c9-4daf-b6b2-d155fc14f91a&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Samite Herbalist\t409189da-53c9-4daf-b6b2-d155fc14f91a"
-    },
-    {
-      "seq": 150,
-      "id": "feeec740-7ffc-4f57-b52c-92209da91d69",
-      "name": "Mesa Cavalier",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Mesa Cavalier",
-        "UUID": "feeec740-7ffc-4f57-b52c-92209da91d69"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Mesa%20Cavalier&fldUUID=feeec740-7ffc-4f57-b52c-92209da91d69&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Mesa Cavalier\tfeeec740-7ffc-4f57-b52c-92209da91d69"
-    },
-    {
-      "seq": 151,
-      "id": "40141353-c0d6-4529-b26a-34dfccbcf231",
-      "name": "Frostfist Strider",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Frostfist Strider",
-        "UUID": "40141353-c0d6-4529-b26a-34dfccbcf231"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Frostfist%20Strider&fldUUID=40141353-c0d6-4529-b26a-34dfccbcf231&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Frostfist Strider\t40141353-c0d6-4529-b26a-34dfccbcf231"
-    },
-    {
-      "seq": 152,
-      "id": "7c9231f0-7733-46d9-b9c6-c6c5b7fe65dd",
-      "name": "Sengir Connoisseur",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Sengir Connoisseur",
-        "UUID": "7c9231f0-7733-46d9-b9c6-c6c5b7fe65dd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sengir%20Connoisseur&fldUUID=7c9231f0-7733-46d9-b9c6-c6c5b7fe65dd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Sengir Connoisseur\t7c9231f0-7733-46d9-b9c6-c6c5b7fe65dd"
-    },
-    {
-      "seq": 153,
-      "id": "365333c4-59a0-4365-b242-a67b6224c1b8",
-      "name": "Balduvian Atrocity",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Balduvian Atrocity",
-        "UUID": "365333c4-59a0-4365-b242-a67b6224c1b8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Balduvian%20Atrocity&fldUUID=365333c4-59a0-4365-b242-a67b6224c1b8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Balduvian Atrocity\t365333c4-59a0-4365-b242-a67b6224c1b8"
-    },
-    {
-      "seq": 154,
-      "id": "a166abef-f068-47e9-8a65-43ebf4b015bd",
-      "name": "Writhing Necromass",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Writhing Necromass",
-        "UUID": "a166abef-f068-47e9-8a65-43ebf4b015bd"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Writhing%20Necromass&fldUUID=a166abef-f068-47e9-8a65-43ebf4b015bd&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Writhing Necromass\ta166abef-f068-47e9-8a65-43ebf4b015bd"
-    },
-    {
-      "seq": 155,
-      "id": "ecb8dab0-ecce-4321-b382-c58b296c2fd3",
-      "name": "Urborg Repossession",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Urborg Repossession",
-        "UUID": "ecb8dab0-ecce-4321-b382-c58b296c2fd3"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Urborg%20Repossession&fldUUID=ecb8dab0-ecce-4321-b382-c58b296c2fd3&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Urborg Repossession\tecb8dab0-ecce-4321-b382-c58b296c2fd3"
-    },
-    {
-      "seq": 156,
-      "id": "5ccd67d4-1a22-4378-804d-6e2c93dc4938",
-      "name": "Scout the Wilderness",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Scout the Wilderness",
-        "UUID": "5ccd67d4-1a22-4378-804d-6e2c93dc4938"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Scout%20the%20Wilderness&fldUUID=5ccd67d4-1a22-4378-804d-6e2c93dc4938&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Scout the Wilderness\t5ccd67d4-1a22-4378-804d-6e2c93dc4938"
-    },
-    {
-      "seq": 157,
-      "id": "2a3cc789-cbb8-4dae-a749-af169832dd7b",
-      "name": "Voda Sea Scavenger",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Voda Sea Scavenger",
-        "UUID": "2a3cc789-cbb8-4dae-a749-af169832dd7b"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Voda%20Sea%20Scavenger&fldUUID=2a3cc789-cbb8-4dae-a749-af169832dd7b&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Voda Sea Scavenger\t2a3cc789-cbb8-4dae-a749-af169832dd7b"
-    },
-    {
-      "seq": 158,
-      "id": "ea61871b-9295-4ea0-86ef-e7a11e23bda8",
-      "name": "Volshe Tideturner",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Volshe Tideturner",
-        "UUID": "ea61871b-9295-4ea0-86ef-e7a11e23bda8"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Volshe%20Tideturner&fldUUID=ea61871b-9295-4ea0-86ef-e7a11e23bda8&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Volshe Tideturner\tea61871b-9295-4ea0-86ef-e7a11e23bda8"
-    },
-    {
-      "seq": 159,
-      "id": "d939d4bc-b7e8-4ee8-b904-68f0bff0fde1",
-      "name": "Magnigoth Sentry",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Magnigoth Sentry",
-        "UUID": "d939d4bc-b7e8-4ee8-b904-68f0bff0fde1"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Magnigoth%20Sentry&fldUUID=d939d4bc-b7e8-4ee8-b904-68f0bff0fde1&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Magnigoth Sentry\td939d4bc-b7e8-4ee8-b904-68f0bff0fde1"
-    },
-    {
-      "seq": 160,
-      "id": "0b51c3b5-db70-4976-986d-ed3fc8584d1a",
-      "name": "Snarespinner",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Snarespinner",
-        "UUID": "0b51c3b5-db70-4976-986d-ed3fc8584d1a"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Snarespinner&fldUUID=0b51c3b5-db70-4976-986d-ed3fc8584d1a&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Snarespinner\t0b51c3b5-db70-4976-986d-ed3fc8584d1a"
-    },
-    {
-      "seq": 161,
-      "id": "240957e5-ab0a-443f-92de-ae999b08c44f",
-      "name": "Molten Monstrosity",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Molten Monstrosity",
-        "UUID": "240957e5-ab0a-443f-92de-ae999b08c44f"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Molten%20Monstrosity&fldUUID=240957e5-ab0a-443f-92de-ae999b08c44f&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Molten Monstrosity\t240957e5-ab0a-443f-92de-ae999b08c44f"
-    },
-    {
-      "seq": 162,
-      "id": "1f08749e-05e0-4fb4-a4ae-35e7187584ab",
-      "name": "Viashino Branchrider",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Viashino Branchrider",
-        "UUID": "1f08749e-05e0-4fb4-a4ae-35e7187584ab"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Viashino%20Branchrider&fldUUID=1f08749e-05e0-4fb4-a4ae-35e7187584ab&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Viashino Branchrider\t1f08749e-05e0-4fb4-a4ae-35e7187584ab"
-    },
-    {
-      "seq": 163,
-      "id": "f346defa-ee4a-404e-8154-0e33ebe9102c",
-      "name": "Stall for Time",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Stall for Time",
-        "UUID": "f346defa-ee4a-404e-8154-0e33ebe9102c"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Stall%20for%20Time&fldUUID=f346defa-ee4a-404e-8154-0e33ebe9102c&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Stall for Time\tf346defa-ee4a-404e-8154-0e33ebe9102c"
-    },
-    {
-      "seq": 164,
-      "id": "851e842e-a497-4c36-90ee-8d64f806c378",
-      "name": "Take Up the Shield",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Take Up the Shield",
-        "UUID": "851e842e-a497-4c36-90ee-8d64f806c378"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Take%20Up%20the%20Shield&fldUUID=851e842e-a497-4c36-90ee-8d64f806c378&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Take Up the Shield\t851e842e-a497-4c36-90ee-8d64f806c378"
-    },
-    {
-      "seq": 165,
-      "id": "0368e91c-31ee-4b81-a361-30a4555b1a42",
-      "name": "Tattered Apparition",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tattered Apparition",
-        "UUID": "0368e91c-31ee-4b81-a361-30a4555b1a42"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tattered%20Apparition&fldUUID=0368e91c-31ee-4b81-a361-30a4555b1a42&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tattered Apparition\t0368e91c-31ee-4b81-a361-30a4555b1a42"
-    },
-    {
-      "seq": 166,
-      "id": "f435329e-6de7-4b05-ba70-cb63d121116e",
-      "name": "Toxic Abomination",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Toxic Abomination",
-        "UUID": "f435329e-6de7-4b05-ba70-cb63d121116e"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Toxic%20Abomination&fldUUID=f435329e-6de7-4b05-ba70-cb63d121116e&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Toxic Abomination\tf435329e-6de7-4b05-ba70-cb63d121116e"
-    },
-    {
-      "seq": 167,
-      "id": "545cddde-8018-4fdd-874d-b5193b73b414",
-      "name": "Vineshaper Prodigy",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Vineshaper Prodigy",
-        "UUID": "545cddde-8018-4fdd-874d-b5193b73b414"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Vineshaper%20Prodigy&fldUUID=545cddde-8018-4fdd-874d-b5193b73b414&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Vineshaper Prodigy\t545cddde-8018-4fdd-874d-b5193b73b414"
-    },
-    {
-      "seq": 168,
-      "id": "9017ee70-761b-434e-bc44-705cf14336fa",
-      "name": "Najal, the Storm Runner",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Najal, the Storm Runner",
-        "UUID": "9017ee70-761b-434e-bc44-705cf14336fa"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Najal%2C%20the%20Storm%20Runner&fldUUID=9017ee70-761b-434e-bc44-705cf14336fa&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Najal, the Storm Runner\t9017ee70-761b-434e-bc44-705cf14336fa"
-    },
-    {
-      "seq": 169,
-      "id": "5dd5f389-fea2-4aed-a218-eca162902775",
-      "name": "Tolarian Geyser",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tolarian Geyser",
-        "UUID": "5dd5f389-fea2-4aed-a218-eca162902775"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tolarian%20Geyser&fldUUID=5dd5f389-fea2-4aed-a218-eca162902775&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tolarian Geyser\t5dd5f389-fea2-4aed-a218-eca162902775"
-    },
-    {
-      "seq": 170,
-      "id": "42f01cba-43d4-46ad-b7a5-d7631b0e1347",
-      "name": "Tolarian Terror",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Tolarian Terror",
-        "UUID": "42f01cba-43d4-46ad-b7a5-d7631b0e1347"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tolarian%20Terror&fldUUID=42f01cba-43d4-46ad-b7a5-d7631b0e1347&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Tolarian Terror\t42f01cba-43d4-46ad-b7a5-d7631b0e1347"
-    },
-    {
-      "seq": 171,
-      "id": "853ddf31-826b-411e-9b6d-75d53cdd1b84",
-      "name": "Territorial Maro",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Territorial Maro",
-        "UUID": "853ddf31-826b-411e-9b6d-75d53cdd1b84"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Territorial%20Maro&fldUUID=853ddf31-826b-411e-9b6d-75d53cdd1b84&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Territorial Maro\t853ddf31-826b-411e-9b6d-75d53cdd1b84"
-    },
-    {
-      "seq": 172,
-      "id": "b21203c8-a935-4ce0-a742-148587e32145",
-      "name": "Micromancer",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Micromancer",
-        "UUID": "b21203c8-a935-4ce0-a742-148587e32145"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Micromancer&fldUUID=b21203c8-a935-4ce0-a742-148587e32145&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Micromancer\tb21203c8-a935-4ce0-a742-148587e32145"
-    },
-    {
-      "seq": 173,
-      "id": "3e11ad33-b9d7-43ef-840a-61955683b599",
-      "name": "Resolute Reinforcements",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Resolute Reinforcements",
-        "UUID": "3e11ad33-b9d7-43ef-840a-61955683b599"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Resolute%20Reinforcements&fldUUID=3e11ad33-b9d7-43ef-840a-61955683b599&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Resolute Reinforcements\t3e11ad33-b9d7-43ef-840a-61955683b599"
-    },
-    {
-      "seq": 174,
-      "id": "7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d",
-      "name": "Lightning Strike",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Lightning Strike",
-        "UUID": "7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Lightning%20Strike&fldUUID=7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Lightning Strike\t7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d"
-    },
-    {
-      "seq": 175,
-      "id": "e4dce5e7-c864-4239-bab7-af6a3adcb731",
-      "name": "Join Forces",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Join Forces",
-        "UUID": "e4dce5e7-c864-4239-bab7-af6a3adcb731"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Join%20Forces&fldUUID=e4dce5e7-c864-4239-bab7-af6a3adcb731&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Join Forces\te4dce5e7-c864-4239-bab7-af6a3adcb731"
-    },
-    {
-      "seq": 176,
-      "id": "39996722-e7f2-41e4-aa1e-2b6778d7b535",
-      "name": "Shalai's Acolyte",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Shalai's Acolyte",
-        "UUID": "39996722-e7f2-41e4-aa1e-2b6778d7b535"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shalai%27s%20Acolyte&fldUUID=39996722-e7f2-41e4-aa1e-2b6778d7b535&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Shalai's Acolyte\t39996722-e7f2-41e4-aa1e-2b6778d7b535"
-    },
-    {
-      "seq": 177,
-      "id": "a51764fe-0d75-4cfa-a699-0d9e7ffb7843",
-      "name": "Charismatic Vanguard",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Charismatic Vanguard",
-        "UUID": "a51764fe-0d75-4cfa-a699-0d9e7ffb7843"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Charismatic%20Vanguard&fldUUID=a51764fe-0d75-4cfa-a699-0d9e7ffb7843&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Charismatic Vanguard\ta51764fe-0d75-4cfa-a699-0d9e7ffb7843"
-    },
-    {
-      "seq": 178,
-      "id": "f96089ea-20cf-496d-84a6-9b660c2ef672",
-      "name": "Benalish Sleeper",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Benalish Sleeper",
-        "UUID": "f96089ea-20cf-496d-84a6-9b660c2ef672"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Benalish%20Sleeper&fldUUID=f96089ea-20cf-496d-84a6-9b660c2ef672&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Benalish Sleeper\tf96089ea-20cf-496d-84a6-9b660c2ef672"
-    },
-    {
-      "seq": 179,
-      "id": "259c04f7-86f2-4584-97fb-8278dca9a213",
-      "name": "Impede Momentum",
-      "layout": "normal",
-      "note_type": "MTG Text Box",
-      "deck": "Main::MTG::Dominaria United",
-      "fields": {
-        "Front": "Impede Momentum",
-        "UUID": "259c04f7-86f2-4584-97fb-8278dca9a213"
-      },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Impede%20Momentum&fldUUID=259c04f7-86f2-4584-97fb-8278dca9a213&x-success=shortcuts%3A%2F%2F",
-      "tsv": "Impede Momentum\t259c04f7-86f2-4584-97fb-8278dca9a213"
-    },
-    {
-      "seq": 180,
       "id": "2ef6cb5f-0ab3-4652-9b39-c2cbf6d693d5",
       "name": "Nishoba Brawler",
       "layout": "normal",
@@ -2533,7 +27,413 @@
       "tsv": "Nishoba Brawler\t2ef6cb5f-0ab3-4652-9b39-c2cbf6d693d5"
     },
     {
-      "seq": 181,
+      "seq": 2,
+      "id": "e2a54461-1f75-4304-b6d7-635171419456",
+      "name": "The Weatherseed Treaty",
+      "layout": "saga",
+      "note_type": "MTG Saga",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "The Weatherseed Treaty",
+        "UUID": "e2a54461-1f75-4304-b6d7-635171419456"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=The%20Weatherseed%20Treaty&fldUUID=e2a54461-1f75-4304-b6d7-635171419456&x-success=shortcuts%3A%2F%2F",
+      "tsv": "The Weatherseed Treaty\te2a54461-1f75-4304-b6d7-635171419456"
+    },
+    {
+      "seq": 3,
+      "id": "f5800f3d-b2e0-4c74-94bf-f29b27f82130",
+      "name": "Wingmantle Chaplain",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Wingmantle Chaplain",
+        "UUID": "f5800f3d-b2e0-4c74-94bf-f29b27f82130"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Wingmantle%20Chaplain&fldUUID=f5800f3d-b2e0-4c74-94bf-f29b27f82130&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Wingmantle Chaplain\tf5800f3d-b2e0-4c74-94bf-f29b27f82130"
+    },
+    {
+      "seq": 4,
+      "id": "0d446cb9-519a-4889-b057-029db9400021",
+      "name": "Tatyova, Steward of Tides",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tatyova, Steward of Tides",
+        "UUID": "0d446cb9-519a-4889-b057-029db9400021"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tatyova%2C%20Steward%20of%20Tides&fldUUID=0d446cb9-519a-4889-b057-029db9400021&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tatyova, Steward of Tides\t0d446cb9-519a-4889-b057-029db9400021"
+    },
+    {
+      "seq": 5,
+      "id": "7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8",
+      "name": "Phyrexian Missionary",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Phyrexian Missionary",
+        "UUID": "7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Missionary&fldUUID=7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Phyrexian Missionary\t7f22fcfa-a5f0-4fae-b578-cdfd7d46a4c8"
+    },
+    {
+      "seq": 6,
+      "id": "b21203c8-a935-4ce0-a742-148587e32145",
+      "name": "Micromancer",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Micromancer",
+        "UUID": "b21203c8-a935-4ce0-a742-148587e32145"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Micromancer&fldUUID=b21203c8-a935-4ce0-a742-148587e32145&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Micromancer\tb21203c8-a935-4ce0-a742-148587e32145"
+    },
+    {
+      "seq": 7,
+      "id": "bb6db604-8bbe-4719-88bd-f3cad8c4725d",
+      "name": "Protect the Negotiators",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Protect the Negotiators",
+        "UUID": "bb6db604-8bbe-4719-88bd-f3cad8c4725d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Protect%20the%20Negotiators&fldUUID=bb6db604-8bbe-4719-88bd-f3cad8c4725d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Protect the Negotiators\tbb6db604-8bbe-4719-88bd-f3cad8c4725d"
+    },
+    {
+      "seq": 8,
+      "id": "b7c7a54e-4df6-4745-8bae-aeefda934d82",
+      "name": "Knight of Dawn's Light",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Knight of Dawn's Light",
+        "UUID": "b7c7a54e-4df6-4745-8bae-aeefda934d82"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Knight%20of%20Dawn%27s%20Light&fldUUID=b7c7a54e-4df6-4745-8bae-aeefda934d82&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Knight of Dawn's Light\tb7c7a54e-4df6-4745-8bae-aeefda934d82"
+    },
+    {
+      "seq": 9,
+      "id": "5dd5f389-fea2-4aed-a218-eca162902775",
+      "name": "Tolarian Geyser",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tolarian Geyser",
+        "UUID": "5dd5f389-fea2-4aed-a218-eca162902775"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tolarian%20Geyser&fldUUID=5dd5f389-fea2-4aed-a218-eca162902775&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tolarian Geyser\t5dd5f389-fea2-4aed-a218-eca162902775"
+    },
+    {
+      "seq": 10,
+      "id": "7e57e1d7-da1d-4a2b-867f-85b8331b7bbc",
+      "name": "Shield-Wall Sentinel",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Shield-Wall Sentinel",
+        "UUID": "7e57e1d7-da1d-4a2b-867f-85b8331b7bbc"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shield-Wall%20Sentinel&fldUUID=7e57e1d7-da1d-4a2b-867f-85b8331b7bbc&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Shield-Wall Sentinel\t7e57e1d7-da1d-4a2b-867f-85b8331b7bbc"
+    },
+    {
+      "seq": 11,
+      "id": "1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019",
+      "name": "Elas il-Kor, Sadistic Pilgrim",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Elas il-Kor, Sadistic Pilgrim",
+        "UUID": "1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Elas%20il-Kor%2C%20Sadistic%20Pilgrim&fldUUID=1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Elas il-Kor, Sadistic Pilgrim\t1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019"
+    },
+    {
+      "seq": 12,
+      "id": "322f90b6-6b49-458d-9d5b-b601bfdd0af8",
+      "name": "Prayer of Binding",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Prayer of Binding",
+        "UUID": "322f90b6-6b49-458d-9d5b-b601bfdd0af8"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Prayer%20of%20Binding&fldUUID=322f90b6-6b49-458d-9d5b-b601bfdd0af8&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Prayer of Binding\t322f90b6-6b49-458d-9d5b-b601bfdd0af8"
+    },
+    {
+      "seq": 13,
+      "id": "851e842e-a497-4c36-90ee-8d64f806c378",
+      "name": "Take Up the Shield",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Take Up the Shield",
+        "UUID": "851e842e-a497-4c36-90ee-8d64f806c378"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Take%20Up%20the%20Shield&fldUUID=851e842e-a497-4c36-90ee-8d64f806c378&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Take Up the Shield\t851e842e-a497-4c36-90ee-8d64f806c378"
+    },
+    {
+      "seq": 14,
+      "id": "bdf96533-f28a-4465-893b-0c9394d5b8d7",
+      "name": "Rona's Vortex",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Rona's Vortex",
+        "UUID": "bdf96533-f28a-4465-893b-0c9394d5b8d7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Rona%27s%20Vortex&fldUUID=bdf96533-f28a-4465-893b-0c9394d5b8d7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Rona's Vortex\tbdf96533-f28a-4465-893b-0c9394d5b8d7"
+    },
+    {
+      "seq": 15,
+      "id": "959ba62e-bb3a-49ad-8b1b-e787e413e5d4",
+      "name": "Balmor, Battlemage Captain",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Balmor, Battlemage Captain",
+        "UUID": "959ba62e-bb3a-49ad-8b1b-e787e413e5d4"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Balmor%2C%20Battlemage%20Captain&fldUUID=959ba62e-bb3a-49ad-8b1b-e787e413e5d4&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Balmor, Battlemage Captain\t959ba62e-bb3a-49ad-8b1b-e787e413e5d4"
+    },
+    {
+      "seq": 16,
+      "id": "602f5370-d096-4765-b612-16bcec3aafa7",
+      "name": "Sprouting Goblin",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Sprouting Goblin",
+        "UUID": "602f5370-d096-4765-b612-16bcec3aafa7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sprouting%20Goblin&fldUUID=602f5370-d096-4765-b612-16bcec3aafa7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sprouting Goblin\t602f5370-d096-4765-b612-16bcec3aafa7"
+    },
+    {
+      "seq": 17,
+      "id": "4f7862ef-2c8d-4d28-9e50-7cc41861f245",
+      "name": "Destroy Evil",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Destroy Evil",
+        "UUID": "4f7862ef-2c8d-4d28-9e50-7cc41861f245"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Destroy%20Evil&fldUUID=4f7862ef-2c8d-4d28-9e50-7cc41861f245&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Destroy Evil\t4f7862ef-2c8d-4d28-9e50-7cc41861f245"
+    },
+    {
+      "seq": 18,
+      "id": "c58096e5-3cd4-4edd-b71a-3bdb47ab2536",
+      "name": "Fires of Victory",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Fires of Victory",
+        "UUID": "c58096e5-3cd4-4edd-b71a-3bdb47ab2536"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Fires%20of%20Victory&fldUUID=c58096e5-3cd4-4edd-b71a-3bdb47ab2536&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Fires of Victory\tc58096e5-3cd4-4edd-b71a-3bdb47ab2536"
+    },
+    {
+      "seq": 19,
+      "id": "602d163c-d341-4b3b-9d3c-5d3419e9b10b",
+      "name": "Walking Bulwark",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Walking Bulwark",
+        "UUID": "602d163c-d341-4b3b-9d3c-5d3419e9b10b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Walking%20Bulwark&fldUUID=602d163c-d341-4b3b-9d3c-5d3419e9b10b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Walking Bulwark\t602d163c-d341-4b3b-9d3c-5d3419e9b10b"
+    },
+    {
+      "seq": 20,
+      "id": "57746e72-ba9f-4717-a4a2-6c6a039080c3",
+      "name": "Argivian Cavalier",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Argivian Cavalier",
+        "UUID": "57746e72-ba9f-4717-a4a2-6c6a039080c3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Argivian%20Cavalier&fldUUID=57746e72-ba9f-4717-a4a2-6c6a039080c3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Argivian Cavalier\t57746e72-ba9f-4717-a4a2-6c6a039080c3"
+    },
+    {
+      "seq": 21,
+      "id": "33dfd2fe-e0e0-465c-b730-a30e6f5c271c",
+      "name": "Knight of Dusk's Shadow",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Knight of Dusk's Shadow",
+        "UUID": "33dfd2fe-e0e0-465c-b730-a30e6f5c271c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Knight%20of%20Dusk%27s%20Shadow&fldUUID=33dfd2fe-e0e0-465c-b730-a30e6f5c271c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Knight of Dusk's Shadow\t33dfd2fe-e0e0-465c-b730-a30e6f5c271c"
+    },
+    {
+      "seq": 22,
+      "id": "1b1af9be-7f5e-48e9-a6e7-9261e199812e",
+      "name": "Yavimaya Iconoclast",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Yavimaya Iconoclast",
+        "UUID": "1b1af9be-7f5e-48e9-a6e7-9261e199812e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Yavimaya%20Iconoclast&fldUUID=1b1af9be-7f5e-48e9-a6e7-9261e199812e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Yavimaya Iconoclast\t1b1af9be-7f5e-48e9-a6e7-9261e199812e"
+    },
+    {
+      "seq": 23,
+      "id": "853ddf31-826b-411e-9b6d-75d53cdd1b84",
+      "name": "Territorial Maro",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Territorial Maro",
+        "UUID": "853ddf31-826b-411e-9b6d-75d53cdd1b84"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Territorial%20Maro&fldUUID=853ddf31-826b-411e-9b6d-75d53cdd1b84&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Territorial Maro\t853ddf31-826b-411e-9b6d-75d53cdd1b84"
+    },
+    {
+      "seq": 24,
+      "id": "ff252e80-c155-467b-8df3-9bddc5cc45c3",
+      "name": "Hurloon Battle Hymn",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Hurloon Battle Hymn",
+        "UUID": "ff252e80-c155-467b-8df3-9bddc5cc45c3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Hurloon%20Battle%20Hymn&fldUUID=ff252e80-c155-467b-8df3-9bddc5cc45c3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Hurloon Battle Hymn\tff252e80-c155-467b-8df3-9bddc5cc45c3"
+    },
+    {
+      "seq": 25,
+      "id": "7e528d36-cea6-4013-83d5-ba837d570713",
+      "name": "Mossbeard Ancient",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Mossbeard Ancient",
+        "UUID": "7e528d36-cea6-4013-83d5-ba837d570713"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Mossbeard%20Ancient&fldUUID=7e528d36-cea6-4013-83d5-ba837d570713&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Mossbeard Ancient\t7e528d36-cea6-4013-83d5-ba837d570713"
+    },
+    {
+      "seq": 26,
+      "id": "4af4031e-b14e-4568-b047-b3d470d9b18e",
+      "name": "Keldon Strike Team",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Keldon Strike Team",
+        "UUID": "4af4031e-b14e-4568-b047-b3d470d9b18e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Keldon%20Strike%20Team&fldUUID=4af4031e-b14e-4568-b047-b3d470d9b18e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Keldon Strike Team\t4af4031e-b14e-4568-b047-b3d470d9b18e"
+    },
+    {
+      "seq": 27,
+      "id": "629aa907-9533-4681-9bf2-9e56450a4cc2",
+      "name": "Tear Asunder",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tear Asunder",
+        "UUID": "629aa907-9533-4681-9bf2-9e56450a4cc2"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tear%20Asunder&fldUUID=629aa907-9533-4681-9bf2-9e56450a4cc2&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tear Asunder\t629aa907-9533-4681-9bf2-9e56450a4cc2"
+    },
+    {
+      "seq": 28,
+      "id": "b7ad4441-e300-4267-bedb-4ae6a64f59cd",
+      "name": "Essence Scatter",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Essence Scatter",
+        "UUID": "b7ad4441-e300-4267-bedb-4ae6a64f59cd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Essence%20Scatter&fldUUID=b7ad4441-e300-4267-bedb-4ae6a64f59cd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Essence Scatter\tb7ad4441-e300-4267-bedb-4ae6a64f59cd"
+    },
+    {
+      "seq": 29,
+      "id": "0b983366-385f-41a3-aa46-20151e68d140",
+      "name": "Phyrexian Espionage",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Phyrexian Espionage",
+        "UUID": "0b983366-385f-41a3-aa46-20151e68d140"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Espionage&fldUUID=0b983366-385f-41a3-aa46-20151e68d140&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Phyrexian Espionage\t0b983366-385f-41a3-aa46-20151e68d140"
+    },
+    {
+      "seq": 30,
+      "id": "807c7812-c108-45a7-a5b2-08cc693bc500",
+      "name": "Vohar, Vodalian Desecrator",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Vohar, Vodalian Desecrator",
+        "UUID": "807c7812-c108-45a7-a5b2-08cc693bc500"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Vohar%2C%20Vodalian%20Desecrator&fldUUID=807c7812-c108-45a7-a5b2-08cc693bc500&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Vohar, Vodalian Desecrator\t807c7812-c108-45a7-a5b2-08cc693bc500"
+    },
+    {
+      "seq": 31,
       "id": "cc0cba4c-d9f0-421f-acf4-ab1adcd59c80",
       "name": "Raff, Weatherlight Stalwart",
       "layout": "normal",
@@ -2545,6 +445,468 @@
       },
       "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Raff%2C%20Weatherlight%20Stalwart&fldUUID=cc0cba4c-d9f0-421f-acf4-ab1adcd59c80&x-success=shortcuts%3A%2F%2F",
       "tsv": "Raff, Weatherlight Stalwart\tcc0cba4c-d9f0-421f-acf4-ab1adcd59c80"
+    },
+    {
+      "seq": 32,
+      "id": "01a51d08-f90e-4b72-8dce-fb2a6c72f181",
+      "name": "Extinguish the Light",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Extinguish the Light",
+        "UUID": "01a51d08-f90e-4b72-8dce-fb2a6c72f181"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Extinguish%20the%20Light&fldUUID=01a51d08-f90e-4b72-8dce-fb2a6c72f181&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Extinguish the Light\t01a51d08-f90e-4b72-8dce-fb2a6c72f181"
+    },
+    {
+      "seq": 33,
+      "id": "5aec2b2c-0764-4869-814d-aad921122af9",
+      "name": "Impulse",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Impulse",
+        "UUID": "5aec2b2c-0764-4869-814d-aad921122af9"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Impulse&fldUUID=5aec2b2c-0764-4869-814d-aad921122af9&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Impulse\t5aec2b2c-0764-4869-814d-aad921122af9"
+    },
+    {
+      "seq": 34,
+      "id": "7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d",
+      "name": "Lightning Strike",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Lightning Strike",
+        "UUID": "7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Lightning%20Strike&fldUUID=7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Lightning Strike\t7d541125-bfb8-4f88-8bf3-ad7b6af7ad1d"
+    },
+    {
+      "seq": 35,
+      "id": "3e11ad33-b9d7-43ef-840a-61955683b599",
+      "name": "Resolute Reinforcements",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Resolute Reinforcements",
+        "UUID": "3e11ad33-b9d7-43ef-840a-61955683b599"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Resolute%20Reinforcements&fldUUID=3e11ad33-b9d7-43ef-840a-61955683b599&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Resolute Reinforcements\t3e11ad33-b9d7-43ef-840a-61955683b599"
+    },
+    {
+      "seq": 36,
+      "id": "95a39b26-8c83-40ea-b492-036251366d73",
+      "name": "Tail Swipe",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tail Swipe",
+        "UUID": "95a39b26-8c83-40ea-b492-036251366d73"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tail%20Swipe&fldUUID=95a39b26-8c83-40ea-b492-036251366d73&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tail Swipe\t95a39b26-8c83-40ea-b492-036251366d73"
+    },
+    {
+      "seq": 37,
+      "id": "753db072-5d6a-4f37-8f7d-255572ecd3bd",
+      "name": "Cut Down",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Cut Down",
+        "UUID": "753db072-5d6a-4f37-8f7d-255572ecd3bd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Cut%20Down&fldUUID=753db072-5d6a-4f37-8f7d-255572ecd3bd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cut Down\t753db072-5d6a-4f37-8f7d-255572ecd3bd"
+    },
+    {
+      "seq": 38,
+      "id": "fed77513-94ab-44e2-b9a1-30ba927cd6ee",
+      "name": "Cult Conscript",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Cult Conscript",
+        "UUID": "fed77513-94ab-44e2-b9a1-30ba927cd6ee"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Cult%20Conscript&fldUUID=fed77513-94ab-44e2-b9a1-30ba927cd6ee&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Cult Conscript\tfed77513-94ab-44e2-b9a1-30ba927cd6ee"
+    },
+    {
+      "seq": 39,
+      "id": "0a4b9afe-aeb7-4c56-8a22-96e19a7a938c",
+      "name": "Talas Lookout",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Talas Lookout",
+        "UUID": "0a4b9afe-aeb7-4c56-8a22-96e19a7a938c"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Talas%20Lookout&fldUUID=0a4b9afe-aeb7-4c56-8a22-96e19a7a938c&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Talas Lookout\t0a4b9afe-aeb7-4c56-8a22-96e19a7a938c"
+    },
+    {
+      "seq": 40,
+      "id": "037cb79c-163d-4b36-bd93-954eca8fe26e",
+      "name": "Clockwork Drawbridge",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Clockwork Drawbridge",
+        "UUID": "037cb79c-163d-4b36-bd93-954eca8fe26e"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Clockwork%20Drawbridge&fldUUID=037cb79c-163d-4b36-bd93-954eca8fe26e&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Clockwork Drawbridge\t037cb79c-163d-4b36-bd93-954eca8fe26e"
+    },
+    {
+      "seq": 41,
+      "id": "89c46e9c-ae7c-466c-bb11-4f4d01ea7a63",
+      "name": "Gaea's Might",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Gaea's Might",
+        "UUID": "89c46e9c-ae7c-466c-bb11-4f4d01ea7a63"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Gaea%27s%20Might&fldUUID=89c46e9c-ae7c-466c-bb11-4f4d01ea7a63&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Gaea's Might\t89c46e9c-ae7c-466c-bb11-4f4d01ea7a63"
+    },
+    {
+      "seq": 42,
+      "id": "31274707-3e16-4f46-8450-6927d936064b",
+      "name": "Tribute to Urborg",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tribute to Urborg",
+        "UUID": "31274707-3e16-4f46-8450-6927d936064b"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tribute%20to%20Urborg&fldUUID=31274707-3e16-4f46-8450-6927d936064b&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tribute to Urborg\t31274707-3e16-4f46-8450-6927d936064b"
+    },
+    {
+      "seq": 43,
+      "id": "48aa964f-99b5-4b6b-b158-42f39514c910",
+      "name": "Meria's Outrider",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Meria's Outrider",
+        "UUID": "48aa964f-99b5-4b6b-b158-42f39514c910"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Meria%27s%20Outrider&fldUUID=48aa964f-99b5-4b6b-b158-42f39514c910&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Meria's Outrider\t48aa964f-99b5-4b6b-b158-42f39514c910"
+    },
+    {
+      "seq": 44,
+      "id": "9a25855f-abfc-482d-a36b-088b023a7df6",
+      "name": "Bortuk Bonerattle",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Bortuk Bonerattle",
+        "UUID": "9a25855f-abfc-482d-a36b-088b023a7df6"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bortuk%20Bonerattle&fldUUID=9a25855f-abfc-482d-a36b-088b023a7df6&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bortuk Bonerattle\t9a25855f-abfc-482d-a36b-088b023a7df6"
+    },
+    {
+      "seq": 45,
+      "id": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7",
+      "name": "Love Song of Night and Day",
+      "layout": "saga",
+      "note_type": "MTG Saga",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Love Song of Night and Day",
+        "UUID": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Love%20Song%20of%20Night%20and%20Day&fldUUID=1e08d288-2f09-4856-a9ed-cc8aa8d953d7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Love Song of Night and Day\t1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
+    },
+    {
+      "seq": 46,
+      "id": "ecb8dab0-ecce-4321-b382-c58b296c2fd3",
+      "name": "Urborg Repossession",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Urborg Repossession",
+        "UUID": "ecb8dab0-ecce-4321-b382-c58b296c2fd3"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Urborg%20Repossession&fldUUID=ecb8dab0-ecce-4321-b382-c58b296c2fd3&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Urborg Repossession\tecb8dab0-ecce-4321-b382-c58b296c2fd3"
+    },
+    {
+      "seq": 47,
+      "id": "9806370b-51e3-4144-a847-6b367fb937ef",
+      "name": "Citizen's Arrest",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Citizen's Arrest",
+        "UUID": "9806370b-51e3-4144-a847-6b367fb937ef"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Citizen%27s%20Arrest&fldUUID=9806370b-51e3-4144-a847-6b367fb937ef&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Citizen's Arrest\t9806370b-51e3-4144-a847-6b367fb937ef"
+    },
+    {
+      "seq": 48,
+      "id": "9c0e3882-1f97-48eb-b9e3-2f9683ff5897",
+      "name": "Coral Colony",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Coral Colony",
+        "UUID": "9c0e3882-1f97-48eb-b9e3-2f9683ff5897"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Coral%20Colony&fldUUID=9c0e3882-1f97-48eb-b9e3-2f9683ff5897&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Coral Colony\t9c0e3882-1f97-48eb-b9e3-2f9683ff5897"
+    },
+    {
+      "seq": 49,
+      "id": "5ed2d72f-f1cf-45a7-adf7-969f531721ce",
+      "name": "Electrostatic Infantry",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Electrostatic Infantry",
+        "UUID": "5ed2d72f-f1cf-45a7-adf7-969f531721ce"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Electrostatic%20Infantry&fldUUID=5ed2d72f-f1cf-45a7-adf7-969f531721ce&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Electrostatic Infantry\t5ed2d72f-f1cf-45a7-adf7-969f531721ce"
+    },
+    {
+      "seq": 50,
+      "id": "1f643d78-d8d8-4645-9357-a68ebd0d3517",
+      "name": "Baird, Argivian Recruiter",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Baird, Argivian Recruiter",
+        "UUID": "1f643d78-d8d8-4645-9357-a68ebd0d3517"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Baird%2C%20Argivian%20Recruiter&fldUUID=1f643d78-d8d8-4645-9357-a68ebd0d3517&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Baird, Argivian Recruiter\t1f643d78-d8d8-4645-9357-a68ebd0d3517"
+    },
+    {
+      "seq": 51,
+      "id": "6129b0d3-b50a-4a4b-9111-39f8fc6718dd",
+      "name": "Ertai's Scorn",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Ertai's Scorn",
+        "UUID": "6129b0d3-b50a-4a4b-9111-39f8fc6718dd"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Ertai%27s%20Scorn&fldUUID=6129b0d3-b50a-4a4b-9111-39f8fc6718dd&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Ertai's Scorn\t6129b0d3-b50a-4a4b-9111-39f8fc6718dd"
+    },
+    {
+      "seq": 52,
+      "id": "545cddde-8018-4fdd-874d-b5193b73b414",
+      "name": "Vineshaper Prodigy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Vineshaper Prodigy",
+        "UUID": "545cddde-8018-4fdd-874d-b5193b73b414"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Vineshaper%20Prodigy&fldUUID=545cddde-8018-4fdd-874d-b5193b73b414&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Vineshaper Prodigy\t545cddde-8018-4fdd-874d-b5193b73b414"
+    },
+    {
+      "seq": 53,
+      "id": "42f01cba-43d4-46ad-b7a5-d7631b0e1347",
+      "name": "Tolarian Terror",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Tolarian Terror",
+        "UUID": "42f01cba-43d4-46ad-b7a5-d7631b0e1347"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Tolarian%20Terror&fldUUID=42f01cba-43d4-46ad-b7a5-d7631b0e1347&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Tolarian Terror\t42f01cba-43d4-46ad-b7a5-d7631b0e1347"
+    },
+    {
+      "seq": 54,
+      "id": "000376ef-8b6c-490d-98cb-d6de15b2e585",
+      "name": "Battlewing Mystic",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Battlewing Mystic",
+        "UUID": "000376ef-8b6c-490d-98cb-d6de15b2e585"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Battlewing%20Mystic&fldUUID=000376ef-8b6c-490d-98cb-d6de15b2e585&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Battlewing Mystic\t000376ef-8b6c-490d-98cb-d6de15b2e585"
+    },
+    {
+      "seq": 55,
+      "id": "0dcc2699-03e6-47d1-b976-1453fe9d27b7",
+      "name": "Blight Pile",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Blight Pile",
+        "UUID": "0dcc2699-03e6-47d1-b976-1453fe9d27b7"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Blight%20Pile&fldUUID=0dcc2699-03e6-47d1-b976-1453fe9d27b7&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Blight Pile\t0dcc2699-03e6-47d1-b976-1453fe9d27b7"
+    },
+    {
+      "seq": 56,
+      "id": "7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98",
+      "name": "Sunbathing Rootwalla",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Sunbathing Rootwalla",
+        "UUID": "7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Sunbathing%20Rootwalla&fldUUID=7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Sunbathing Rootwalla\t7ae6f015-2ad6-4b8e-8590-c2c2d01b6d98"
+    },
+    {
+      "seq": 57,
+      "id": "f96089ea-20cf-496d-84a6-9b660c2ef672",
+      "name": "Benalish Sleeper",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Benalish Sleeper",
+        "UUID": "f96089ea-20cf-496d-84a6-9b660c2ef672"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Benalish%20Sleeper&fldUUID=f96089ea-20cf-496d-84a6-9b660c2ef672&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Benalish Sleeper\tf96089ea-20cf-496d-84a6-9b660c2ef672"
+    },
+    {
+      "seq": 58,
+      "id": "dd3fc36c-682b-4352-a66f-eddd2baf0bf6",
+      "name": "Uurg, Spawn of Turg",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Uurg, Spawn of Turg",
+        "UUID": "dd3fc36c-682b-4352-a66f-eddd2baf0bf6"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Uurg%2C%20Spawn%20of%20Turg&fldUUID=dd3fc36c-682b-4352-a66f-eddd2baf0bf6&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Uurg, Spawn of Turg\tdd3fc36c-682b-4352-a66f-eddd2baf0bf6"
+    },
+    {
+      "seq": 59,
+      "id": "6fd574e7-705f-4a65-aad0-68ff6d63bf0f",
+      "name": "Phyrexian Rager",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Phyrexian Rager",
+        "UUID": "6fd574e7-705f-4a65-aad0-68ff6d63bf0f"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Phyrexian%20Rager&fldUUID=6fd574e7-705f-4a65-aad0-68ff6d63bf0f&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Phyrexian Rager\t6fd574e7-705f-4a65-aad0-68ff6d63bf0f"
+    },
+    {
+      "seq": 60,
+      "id": "40141353-c0d6-4529-b26a-34dfccbcf231",
+      "name": "Frostfist Strider",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Frostfist Strider",
+        "UUID": "40141353-c0d6-4529-b26a-34dfccbcf231"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Frostfist%20Strider&fldUUID=40141353-c0d6-4529-b26a-34dfccbcf231&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Frostfist Strider\t40141353-c0d6-4529-b26a-34dfccbcf231"
+    },
+    {
+      "seq": 61,
+      "id": "d939d4bc-b7e8-4ee8-b904-68f0bff0fde1",
+      "name": "Magnigoth Sentry",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Magnigoth Sentry",
+        "UUID": "d939d4bc-b7e8-4ee8-b904-68f0bff0fde1"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Magnigoth%20Sentry&fldUUID=d939d4bc-b7e8-4ee8-b904-68f0bff0fde1&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Magnigoth Sentry\td939d4bc-b7e8-4ee8-b904-68f0bff0fde1"
+    },
+    {
+      "seq": 62,
+      "id": "0eacd3de-b803-4322-8d88-d533761aa748",
+      "name": "Bite Down",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Bite Down",
+        "UUID": "0eacd3de-b803-4322-8d88-d533761aa748"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Bite%20Down&fldUUID=0eacd3de-b803-4322-8d88-d533761aa748&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Bite Down\t0eacd3de-b803-4322-8d88-d533761aa748"
+    },
+    {
+      "seq": 63,
+      "id": "bb078448-9e9f-4994-8aff-7e7c4fb62efc",
+      "name": "Shadow Prophecy",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Shadow Prophecy",
+        "UUID": "bb078448-9e9f-4994-8aff-7e7c4fb62efc"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Shadow%20Prophecy&fldUUID=bb078448-9e9f-4994-8aff-7e7c4fb62efc&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Shadow Prophecy\tbb078448-9e9f-4994-8aff-7e7c4fb62efc"
+    },
+    {
+      "seq": 64,
+      "id": "5da59e8f-cbe5-4c14-a5a9-28d56048dc23",
+      "name": "Nael, Avizoa Aeronaut",
+      "layout": "normal",
+      "note_type": "MTG Text Box",
+      "deck": "Main::MTG::Dominaria United",
+      "fields": {
+        "Front": "Nael, Avizoa Aeronaut",
+        "UUID": "5da59e8f-cbe5-4c14-a5a9-28d56048dc23"
+      },
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Nael%2C%20Avizoa%20Aeronaut&fldUUID=5da59e8f-cbe5-4c14-a5a9-28d56048dc23&x-success=shortcuts%3A%2F%2F",
+      "tsv": "Nael, Avizoa Aeronaut\t5da59e8f-cbe5-4c14-a5a9-28d56048dc23"
     }
   ]
 }
