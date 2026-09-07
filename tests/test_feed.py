@@ -4,7 +4,14 @@ import json
 from urllib.parse import parse_qs, urlparse
 
 from mtg2anki import config, scryfall
-from mtg2anki.feed import addnote_url, build_feed, tsv_file, write_if_changed
+from mtg2anki.feed import (
+    addnote_url,
+    build_feed,
+    load_card_list,
+    select_cards,
+    tsv_file,
+    write_if_changed,
+)
 from mtg2anki.notes import build_note
 from mtg2anki.state import FeedState
 
@@ -110,15 +117,47 @@ def test_build_feed_shape():
 
 def test_feeds_are_read_from_feeds_json(monkeypatch, tmp_path):
     feeds_file = tmp_path / "feeds.json"
-    feeds_file.write_text('{"current": "tla", "dmu": "dmu"}')
+    feeds_file.write_text(
+        '{"current": "tla", "dmu": {"set": "dmu", "cards": "cards/dmu.txt"}}'
+    )
     monkeypatch.setattr(config, "FEEDS_FILE", feeds_file)
 
     monkeypatch.delenv("MTG2ANKI_SET", raising=False)
-    assert config.feeds() == {"current": "tla", "dmu": "dmu"}
+    specs = config.feeds()
+    assert specs["current"] == {"set": "tla", "cards": None}
+    assert specs["dmu"]["set"] == "dmu"
+    assert specs["dmu"]["cards"] == config.REPO_DIR / "cards/dmu.txt"
 
     # The env override only redirects the main feed
     monkeypatch.setenv("MTG2ANKI_SET", "blb")
-    assert config.feeds() == {"current": "blb", "dmu": "dmu"}
+    assert config.feeds()["current"]["set"] == "blb"
+    assert config.feeds()["dmu"]["set"] == "dmu"
+
+
+def test_card_list_skips_comments_blanks_and_repeats(tmp_path):
+    path = tmp_path / "dmu.txt"
+    path.write_text("# a comment\n\nCut Down\n  Impulse  \nCut Down\n")
+    assert load_card_list(path) == ["Cut Down", "Impulse"]
+
+
+def test_select_cards_follows_list_order_and_reports_misses():
+    pool = [
+        {"name": "Impulse", "id": "id-a", "layout": "normal"},
+        {"name": "Cut Down", "id": "id-b", "layout": "normal"},
+        {"name": "Bite Down", "id": "id-c", "layout": "normal"},
+    ]
+    selected, missing = select_cards(pool, ["Cut Down", "impulse", "Shivan Dragon"])
+
+    # List order wins over Scryfall order, so a win-rate sorted list imports best first
+    assert [card["name"] for card in selected] == ["Cut Down", "Impulse"]
+    assert missing == ["Shivan Dragon"]
+
+
+def test_missing_names_surface_in_the_feed():
+    entries = list(zip([1], CARDS[:1], notes()[:1]))
+    feed = build_feed({"code": "dmu"}, DECK, entries, None, ["Shivan Dragon"])
+    assert feed["missing"] == ["Shivan Dragon"]
+    assert "missing" not in build_feed({"code": "dmu"}, DECK, entries, None, [])
 
 
 def test_each_feed_keeps_its_own_state(monkeypatch, tmp_path):

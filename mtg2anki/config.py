@@ -32,7 +32,10 @@ def state_file(set_code):
 
 
 def feeds():
-    """Feed name -> set code, from feeds.json.
+    """Feed name -> {"set": code, "cards": path or None}, from feeds.json.
+
+    An entry is either a bare set code, or an object naming a card list to
+    limit the feed to: {"set": "dmu", "cards": "cards/dmu.txt"}.
 
     Each named feed gets its own feed/<name>.json and its own sequence
     numbering, so a second set can be published alongside the main one without
@@ -43,7 +46,17 @@ def feeds():
     override = os.environ.get("MTG2ANKI_SET")
     if override:
         configured["current"] = override
-    return configured
+
+    specs = {}
+    for name, spec in configured.items():
+        if isinstance(spec, str):
+            spec = {"set": spec}
+        cards = spec.get("cards")
+        specs[name] = {
+            "set": spec["set"],
+            "cards": REPO_DIR / cards if cards else None,
+        }
+    return specs
 
 
 def feed_file(name):

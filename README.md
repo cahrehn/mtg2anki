@@ -37,7 +37,7 @@ Set up with cron/launchd to run periodically for automated monitoring.
 ## build_feed.py
 
 Same fetch, no Anki required. Builds every feed named in `feeds.json` (feed name
-→ set code), writing for each:
+→ set code, optionally limited to a list of card names), writing for each:
 
 - `feed/<name>.json` — every card in the set with a stable sequence number, an
   `anki://x-callback-url/addnote` URL and a text-import row
@@ -101,7 +101,8 @@ python -m pytest
 ```
 scryfall_to_anki.py   desktop entry point (AnkiConnect)
 build_feed.py         phone/CI entry point (JSON + TSV feed)
-feeds.json            feed name -> set code
+feeds.json            feed name -> set code (and optional card list)
+cards/                card lists limiting a feed to named cards
 mtg2anki/
   config.py           set codes, note types, deck naming, paths
   scryfall.py         Scryfall API access

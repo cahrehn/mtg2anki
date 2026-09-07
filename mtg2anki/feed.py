@@ -42,7 +42,36 @@ def tsv_file(notes):
     return tsv_header(notes[0]) + "\n" + "\n".join(tsv_row(note) for note in notes) + "\n"
 
 
-def build_feed(set_info, deck, entries, x_success=None):
+def load_card_list(path):
+    """Card names from a list file, in order. Blank lines and # comments skipped."""
+    names = []
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            if line not in names:
+                names.append(line)
+    return names
+
+
+def select_cards(cards, names):
+    """Keep only the named cards, in the order the list gives them.
+
+    Returns (selected, missing). Matching ignores case, but the feed carries
+    Scryfall's spelling. Ordering by the list means a list sorted by win rate
+    imports its best cards first.
+    """
+    by_name = {card["name"].casefold(): card for card in cards}
+    selected, missing = [], []
+    for name in names:
+        card = by_name.get(name.casefold())
+        if card:
+            selected.append(card)
+        else:
+            missing.append(name)
+    return selected, missing
+
+
+def build_feed(set_info, deck, entries, x_success=None, missing=None):
     """The JSON the phone reads.
 
     entries is a list of (seq, card, note) tuples, oldest sequence first.
@@ -65,7 +94,7 @@ def build_feed(set_info, deck, entries, x_success=None):
     for _, _, note in entries:
         headers.setdefault(note.note_type, tsv_header(note))
 
-    return {
+    feed = {
         "set": set_info,
         "deck": deck,
         "count": len(cards),
@@ -73,6 +102,11 @@ def build_feed(set_info, deck, entries, x_success=None):
         "tsv_headers": headers,
         "cards": cards,
     }
+    if missing:
+        # Names in the card list Scryfall didn't return, so they are visible
+        # from the phone without digging through CI logs
+        feed["missing"] = missing
+    return feed
 
 
 def write_if_changed(path, content, log=print):

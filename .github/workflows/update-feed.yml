@@ -9,6 +9,7 @@ on:
       - "claude/**"
     paths:
       - "feeds.json"
+      - "cards/**"
       - "build_feed.py"
       - "mtg2anki/**"
       - "tests/**"

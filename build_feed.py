@@ -18,7 +18,14 @@ Runs anywhere (GitHub Actions, a Mac, a-Shell on iOS); needs no Anki.
 import re
 
 from mtg2anki import config, scryfall
-from mtg2anki.feed import build_feed, tsv_file, write_if_changed, write_json_if_changed
+from mtg2anki.feed import (
+    build_feed,
+    load_card_list,
+    select_cards,
+    tsv_file,
+    write_if_changed,
+    write_json_if_changed,
+)
 from mtg2anki.log import make_logger
 from mtg2anki.notes import build_note
 from mtg2anki.state import FeedState
@@ -49,8 +56,9 @@ def write_tsv_files(name, entries, log):
             log(f"Removed {path.name}")
 
 
-def build(name, set_code, log):
+def build(name, spec, log):
     """Build one named feed"""
+    set_code = spec["set"]
     log("=" * 60)
     log(f"Feed '{name}': set '{set_code}'")
 
@@ -61,6 +69,14 @@ def build(name, set_code, log):
 
     cards = scryfall.fetch_cards(set_code, log)
 
+    missing = []
+    if spec["cards"]:
+        names = load_card_list(spec["cards"])
+        cards, missing = select_cards(cards, names)
+        log(f"Limited to {spec['cards'].name}: {len(cards)} of {len(names)} listed cards")
+        for card_name in missing:
+            log(f"  Not found in {set_code}: {card_name}")
+
     state_path = config.feed_state_file(name)
     state = FeedState.load(state_path)
     new_count = sum(1 for card in cards if not state.is_known(card["id"]))
@@ -68,7 +84,7 @@ def build(name, set_code, log):
     entries = [(state.seq_for(card["id"]), card, build_note(card, deck)) for card in cards]
     entries.sort(key=lambda entry: entry[0])
 
-    feed = build_feed(set_info, deck, entries, config.X_SUCCESS_URL)
+    feed = build_feed(set_info, deck, entries, config.X_SUCCESS_URL, missing)
     log(f"{len(cards)} cards, {new_count} new, latest sequence {feed['latest_seq']}")
 
     changed = write_json_if_changed(config.feed_file(name), feed, log)
@@ -81,9 +97,9 @@ def build(name, set_code, log):
 
 def main():
     failed = []
-    for name, set_code in config.feeds().items():
+    for name, spec in config.feeds().items():
         try:
-            build(name, set_code, log_message)
+            build(name, spec, log_message)
         except Exception as e:
             # One bad set code shouldn't stop the others from updating
             log_message(f"Feed '{name}' failed: {e}")

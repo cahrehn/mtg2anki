@@ -172,12 +172,16 @@ For incremental updates, use the Shortcut.
 
 ## Feeds
 
-`feeds.json` maps a feed name to a set code:
+`feeds.json` maps a feed name to a set code, optionally limited to a list of
+cards:
 
 ```json
 {
   "current": "tla",
-  "dmu": "dmu"
+  "dmu": {
+    "set": "dmu",
+    "cards": "cards/dmu.txt"
+  }
 }
 ```
 
@@ -195,11 +199,26 @@ at 1 for a feed the first time it sees a set, so reset the phone cursor to `0`
 when you switch — a set change is exactly when you *want* the whole set to come
 in. The deck name follows the set name from Scryfall (`Main::MTG::<set name>`).
 
+### Limiting a feed to specific cards
+
+Point a feed's `cards` at a text file of card names, one per line (`#` starts a
+comment). Only those cards go into the feed, **in the order the file lists
+them** — so a list sorted by 17lands GIH WR imports the best cards first, and
+stopping halfway still leaves you with the ones worth knowing.
+
+Names are matched case-insensitively against Scryfall's spelling. Anything in
+the list that the set search doesn't return — a typo, or a rare, since the query
+is commons and uncommons only — is reported in the run log *and* in the feed's
+`missing` key, so it's visible from the phone without opening CI.
+
+`cards/dmu.txt` is the worked example: 64 Dominaria United commons and uncommons
+by win rate.
+
 **A second feed** is the safe way to try things: it has its own sequence
 numbering and its own deck, so nothing you do with it can disturb the set
 you're actually following. The `dmu` entry is there as a test target —
 Dominaria United lands in `Main::MTG::Dominaria United`, which you can delete
-in one go afterwards. Point the Shortcut at
+in one go afterwards, and the card list keeps it to a manageable 64. Point the Shortcut at
 `.../feed/dmu.json` and a separate cursor file to try the whole loop without
 touching your real deck. Drop the entry from `feeds.json` when you're done
 (the generated files stay until you delete them).

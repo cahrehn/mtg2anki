@@ -1,4 +1,7 @@
 {
   "current": "tla",
-  "dmu": "dmu"
+  "dmu": {
+    "set": "dmu",
+    "cards": "cards/dmu.txt"
+  }
 }
