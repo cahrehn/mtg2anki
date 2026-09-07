@@ -8,8 +8,7 @@
   "count": 201,
   "latest_seq": 201,
   "tsv_headers": {
-    "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Avatar: The Last Airbender\n#columns:Front\tUUID",
-    "MTG Saga": "#separator:tab\n#html:true\n#notetype:MTG Saga\n#deck:Main::MTG::Avatar: The Last Airbender\n#columns:Front\tUUID"
+    "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Avatar: The Last Airbender\n#columns:Front\tUUID"
   },
   "cards": [
     {
@@ -1627,13 +1626,13 @@
       "id": "b18995c2-efe3-46ca-8204-e2dc0e42f6e3",
       "name": "Leaves from the Vine",
       "layout": "saga",
-      "note_type": "MTG Saga",
+      "note_type": "MTG Text Box",
       "deck": "Main::MTG::Avatar: The Last Airbender",
       "fields": {
         "Front": "Leaves from the Vine",
         "UUID": "b18995c2-efe3-46ca-8204-e2dc0e42f6e3"
       },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Leaves%20from%20the%20Vine&fldUUID=b18995c2-efe3-46ca-8204-e2dc0e42f6e3&x-success=shortcuts%3A%2F%2F",
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=Leaves%20from%20the%20Vine&fldUUID=b18995c2-efe3-46ca-8204-e2dc0e42f6e3&x-success=shortcuts%3A%2F%2F",
       "tsv": "Leaves from the Vine\tb18995c2-efe3-46ca-8204-e2dc0e42f6e3"
     },
     {
@@ -1739,13 +1738,13 @@
       "id": "50bf5c8b-f218-46b7-843c-8d8083f02fd2",
       "name": "The Cave of Two Lovers",
       "layout": "saga",
-      "note_type": "MTG Saga",
+      "note_type": "MTG Text Box",
       "deck": "Main::MTG::Avatar: The Last Airbender",
       "fields": {
         "Front": "The Cave of Two Lovers",
         "UUID": "50bf5c8b-f218-46b7-843c-8d8083f02fd2"
       },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=The%20Cave%20of%20Two%20Lovers&fldUUID=50bf5c8b-f218-46b7-843c-8d8083f02fd2&x-success=shortcuts%3A%2F%2F",
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3AAvatar%3A%20The%20Last%20Airbender&fldFront=The%20Cave%20of%20Two%20Lovers&fldUUID=50bf5c8b-f218-46b7-843c-8d8083f02fd2&x-success=shortcuts%3A%2F%2F",
       "tsv": "The Cave of Two Lovers\t50bf5c8b-f218-46b7-843c-8d8083f02fd2"
     },
     {

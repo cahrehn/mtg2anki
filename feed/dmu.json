@@ -8,8 +8,7 @@
   "count": 64,
   "latest_seq": 64,
   "tsv_headers": {
-    "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Dominaria United\n#columns:Front\tUUID",
-    "MTG Saga": "#separator:tab\n#html:true\n#notetype:MTG Saga\n#deck:Main::MTG::Dominaria United\n#columns:Front\tUUID"
+    "MTG Text Box": "#separator:tab\n#html:true\n#notetype:MTG Text Box\n#deck:Main::MTG::Dominaria United\n#columns:Front\tUUID"
   },
   "cards": [
     {
@@ -31,13 +30,13 @@
       "id": "e2a54461-1f75-4304-b6d7-635171419456",
       "name": "The Weatherseed Treaty",
       "layout": "saga",
-      "note_type": "MTG Saga",
+      "note_type": "MTG Text Box",
       "deck": "Main::MTG::Dominaria United",
       "fields": {
         "Front": "The Weatherseed Treaty",
         "UUID": "e2a54461-1f75-4304-b6d7-635171419456"
       },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=The%20Weatherseed%20Treaty&fldUUID=e2a54461-1f75-4304-b6d7-635171419456&x-success=shortcuts%3A%2F%2F",
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=The%20Weatherseed%20Treaty&fldUUID=e2a54461-1f75-4304-b6d7-635171419456&x-success=shortcuts%3A%2F%2F",
       "tsv": "The Weatherseed Treaty\te2a54461-1f75-4304-b6d7-635171419456"
     },
     {
@@ -633,13 +632,13 @@
       "id": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7",
       "name": "Love Song of Night and Day",
       "layout": "saga",
-      "note_type": "MTG Saga",
+      "note_type": "MTG Text Box",
       "deck": "Main::MTG::Dominaria United",
       "fields": {
         "Front": "Love Song of Night and Day",
         "UUID": "1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
       },
-      "url": "anki://x-callback-url/addnote?type=MTG%20Saga&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Love%20Song%20of%20Night%20and%20Day&fldUUID=1e08d288-2f09-4856-a9ed-cc8aa8d953d7&x-success=shortcuts%3A%2F%2F",
+      "url": "anki://x-callback-url/addnote?type=MTG%20Text%20Box&deck=Main%3A%3AMTG%3A%3ADominaria%20United&fldFront=Love%20Song%20of%20Night%20and%20Day&fldUUID=1e08d288-2f09-4856-a9ed-cc8aa8d953d7&x-success=shortcuts%3A%2F%2F",
       "tsv": "Love Song of Night and Day\t1e08d288-2f09-4856-a9ed-cc8aa8d953d7"
     },
     {
