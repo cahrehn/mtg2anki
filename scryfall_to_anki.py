@@ -4,59 +4,21 @@ Scryfall to Anki Importer
 Monitors Scryfall for new cards and imports them directly to Anki via AnkiConnect
 """
 
-import requests
 import json
-import os
-import time
-import tomllib
 from datetime import datetime
-from pathlib import Path
 
-# ===== CONFIGURATION =====
-# The monitored set lives in config.toml.
-
-MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards (and sagas)
-ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
-PREPARE_NOTE_TYPE = "MTG Prepare"  # Anki note type for prepare cards
-DFC_NOTE_TYPE = "MTG DFC"  # Anki note type for double-faced cards
-ANKICONNECT_URL = "http://localhost:8765"
-
-# Scryfall requires a User-Agent and Accept header; requests without them get a 400
-SCRYFALL_HEADERS = {
-    "User-Agent": "mtg2anki/1.0",
-    "Accept": "application/json",
-}
-
-# File paths
-SCRIPT_DIR = Path(__file__).resolve().parent
-LOG_FILE = SCRIPT_DIR / "card-monitor.log"
-CONFIG_FILE = SCRIPT_DIR / "config.toml"
+from mtg2anki.anki import ankiconnect_available, invoke_ankiconnect
+from mtg2anki.cards import CLOZE_LAYOUTS, note_for_layout
+from mtg2anki.config import (
+    ConfigError,
+    LOG_FILE,
+    ROOT_DIR,
+    resolve_set_code,
+    state_file,
+)
+from mtg2anki.scryfall import fetch_set_info, scryfall_get
 
 # ===== HELPER FUNCTIONS =====
-
-class ConfigError(Exception):
-    """Raised when the set code can't be determined"""
-
-def resolve_set_code():
-    """Read the set code from config.toml, raising ConfigError if unusable"""
-    if not CONFIG_FILE.exists():
-        raise ConfigError(
-            f"{CONFIG_FILE} not found. Create it with:\n\n    set = \"xyz\"\n"
-        )
-    try:
-        with open(CONFIG_FILE, "rb") as f:
-            config = tomllib.load(f)
-    except (tomllib.TOMLDecodeError, OSError) as e:
-        raise ConfigError(f"Could not read {CONFIG_FILE}: {e}")
-
-    set_code = config.get("set")
-    if not isinstance(set_code, str) or not set_code.strip():
-        raise ConfigError(f'{CONFIG_FILE} must define a non-empty `set`, e.g. set = "xyz"')
-    return set_code.strip().lower()
-
-def state_file(set_code):
-    """Path to the state file tracking imported cards for this set"""
-    return SCRIPT_DIR / f"{set_code}_state.json"
 
 def log_message(message):
     """Log message to file and print to console"""
@@ -66,53 +28,6 @@ def log_message(message):
     with open(LOG_FILE, "a") as f:
         f.write(log_entry + "\n")
 
-def invoke_ankiconnect(action, **params):
-    """Call AnkiConnect API"""
-    response = requests.post(ANKICONNECT_URL, json={
-        "action": action,
-        "version": 6,
-        "params": params
-    })
-    result = response.json()
-    if result.get("error"):
-        raise Exception(f"AnkiConnect error: {result['error']}")
-    return result["result"]
-
-def ankiconnect_available():
-    """Return True if AnkiConnect responds on localhost"""
-    try:
-        invoke_ankiconnect("version")
-        return True
-    except Exception as e:
-        log_message(f"AnkiConnect not reachable: {e}")
-        return False
-
-def scryfall_get(url, attempts=4):
-    """GET a Scryfall URL with retries on transient failures"""
-    delay = 2
-    for attempt in range(1, attempts + 1):
-        try:
-            response = requests.get(url, headers=SCRYFALL_HEADERS, timeout=30)
-            response.raise_for_status()
-            return response
-        except requests.exceptions.RequestException as e:
-            if attempt == attempts:
-                raise
-            log_message(f"  Scryfall request failed ({e}); retry {attempt}/{attempts - 1} in {delay}s")
-            time.sleep(delay)
-            delay *= 2
-
-def fetch_set_info(set_code):
-    """Fetch set information from Scryfall API"""
-    url = f"https://api.scryfall.com/sets/{set_code}"
-    response = scryfall_get(url)
-    data = response.json()
-    return {
-        "code": data["code"],
-        "name": data["name"],
-        "released_at": data.get("released_at", "Unknown")
-    }
-
 def fetch_scryfall_cards(set_code):
     """Fetch cards from Scryfall API"""
     query = f"set:{set_code} r<r -type:basic"
@@ -120,7 +35,7 @@ def fetch_scryfall_cards(set_code):
 
     all_cards = []
     while url:
-        response = scryfall_get(url)
+        response = scryfall_get(url, log=log_message)
         data = response.json()
 
         for card in data.get("data", []):
@@ -147,7 +62,7 @@ def load_state(set_code):
 
 def save_state(set_code, card_ids):
     """Save current card IDs to this set's state file"""
-    SCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+    ROOT_DIR.mkdir(parents=True, exist_ok=True)
     with open(state_file(set_code), "w") as f:
         json.dump({"card_ids": card_ids}, f, indent=2)
 
@@ -183,40 +98,7 @@ def update_note(note_id, card_id, deck_name):
 
 def create_anki_note(card_name, card_id, layout, deck_name, card_faces=None):
     """Create a note in Anki via AnkiConnect, or update if it exists"""
-    if layout == "adventure":
-        note_type = ADVENTURE_NOTE_TYPE
-        fields = {
-            "Text": f"{{{{c1::adventure}}}} {{{{c2::permanent}}}} {card_name}",
-            "UUID": card_id
-        }
-    elif layout == "prepare":
-        note_type = PREPARE_NOTE_TYPE
-        fields = {
-            "Text": f"{{{{c1::permanent}}}} {{{{c2::spell}}}} {card_name}",
-            "UUID": card_id
-        }
-    elif layout in ["transform", "modal_dfc"]:
-        note_type = DFC_NOTE_TYPE
-        # Extract front and back names from card_faces if available
-        if card_faces and len(card_faces) >= 2:
-            front_name = card_faces[0].get("name", "")
-            back_name = card_faces[1].get("name", "")
-        else:
-            # Fallback to splitting on " // "
-            parts = card_name.split(" // ")
-            front_name = parts[0] if len(parts) > 0 else ""
-            back_name = parts[1] if len(parts) > 1 else ""
-
-        fields = {
-            "Text": f"{{{{c1::{front_name}}}}} {{{{c2::{back_name}}}}}",
-            "UUID": card_id
-        }
-    else:
-        note_type = MTG_NOTE_TYPE
-        fields = {
-            "Front": card_name,
-            "UUID": card_id
-        }
+    note_type, fields = note_for_layout(card_name, card_id, layout, card_faces)
 
     # Check if note already exists
     existing_note_id = find_existing_note(card_name, card_id)
@@ -236,7 +118,7 @@ def create_anki_note(card_name, card_id, layout, deck_name, card_faces=None):
     }
 
     try:
-        card_type = layout if layout in ["adventure", "prepare", "transform", "modal_dfc"] else "card"
+        card_type = layout if layout in CLOZE_LAYOUTS else "card"
         log_message(f"  Creating new {card_type}: {card_name} in deck {deck_name}")
         note_id = invoke_ankiconnect("addNote", note=note)
         log_message(f"  Successfully created note ID: {note_id}")
@@ -283,12 +165,12 @@ def main():
     log_message("Starting Scryfall to Anki import check")
 
     try:
-        if not ankiconnect_available():
+        if not ankiconnect_available(log=log_message):
             log_message("Aborting: Anki/AnkiConnect is not running. Will retry on next run.")
             return
 
         # Fetch set info
-        set_info = fetch_set_info(set_code)
+        set_info = fetch_set_info(set_code, log=log_message)
         deck_name = f"Main::MTG::{set_info['name']}"
         log_message(f"Set: '{set_info['name']}' ({set_code})")
         log_message(f"Target deck: {deck_name}")
