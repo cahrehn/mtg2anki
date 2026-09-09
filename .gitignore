@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Per-run local state and logs
+*_state.json
+*.log

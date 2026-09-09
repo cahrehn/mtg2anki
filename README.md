@@ -54,5 +54,16 @@ Set up with cron/launchd to run periodically for automated monitoring.
 4. Set your target set in `config.toml`
 5. Ensure Anki is running when executing scripts
 
+### Tests
+
+Shared logic lives in the `mtg2anki/` package (config, Scryfall client, AnkiConnect client, card parsing) and is covered by unit tests:
+
+```bash
+pip install pytest
+pytest
+```
+
+The tests don't touch the network or Anki, so they run anywhere. GitHub Actions runs them on every pull request (`.github/workflows/tests.yml`).
+
 ### Automation
 Set up `scryfall_to_anki.py` to run periodically using launchd or cron:
