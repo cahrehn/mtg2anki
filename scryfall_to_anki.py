@@ -125,12 +125,15 @@ def save_state(card_ids):
     with open(STATE_FILE, "w") as f:
         json.dump({"card_ids": card_ids}, f, indent=2)
 
-def find_note_by_front(card_name):
-    """Find a note by its Front field value"""
+def find_existing_note(card_name, card_id):
+    """Find a note matching this card by UUID (any layout) or Front (regular cards)"""
     try:
+        note_ids = invoke_ankiconnect("findNotes", query=f'"UUID:{card_id}"')
+        if note_ids:
+            return note_ids[0]
         note_ids = invoke_ankiconnect("findNotes", query=f'"Front:{card_name}"')
         if note_ids:
-            return note_ids[0]  # Return the first matching note
+            return note_ids[0]
         return None
     except Exception:
         return None
@@ -190,7 +193,7 @@ def create_anki_note(card_name, card_id, layout, deck_name, card_faces=None):
         }
 
     # Check if note already exists
-    existing_note_id = find_note_by_front(card_name)
+    existing_note_id = find_existing_note(card_name, card_id)
     if existing_note_id:
         log_message(f"  Note '{card_name}' already exists, updating...")
         update_note(existing_note_id, card_id, deck_name)
@@ -217,14 +220,14 @@ def create_anki_note(card_name, card_id, layout, deck_name, card_faces=None):
         raise
 
 def import_new_cards(new_cards, deck_name):
-    """Import new cards to Anki"""
+    """Import new cards to Anki, returning the set of card IDs that succeeded"""
     if not new_cards:
         log_message("No new cards to import")
-        return
+        return set()
 
     log_message(f"Importing {len(new_cards)} new cards to Anki...")
 
-    imported_count = 0
+    imported_ids = set()
     for card in new_cards:
         try:
             note_id = create_anki_note(
@@ -235,11 +238,12 @@ def import_new_cards(new_cards, deck_name):
                 card.get("card_faces")
             )
             if note_id:
-                imported_count += 1
+                imported_ids.add(card["id"])
         except Exception as e:
             log_message(f"  Error importing '{card['name']}': {e}")
 
-    log_message(f"Successfully imported {imported_count} cards")
+    log_message(f"Successfully imported {len(imported_ids)} of {len(new_cards)} cards")
+    return imported_ids
 
 def main():
     """Main execution"""
@@ -259,37 +263,33 @@ def main():
 
         # Fetch current cards from Scryfall
         current_cards = fetch_scryfall_cards(SET_CODE)
-        current_card_ids = [card["id"] for card in current_cards]
+        current_card_ids = set(card["id"] for card in current_cards)
 
         # Load previous state
         state = load_state()
-        previous_card_ids = state.get("card_ids", [])
+        previous_card_ids = set(state.get("card_ids", []))
 
-        log_message(f"Current cards: {len(current_card_ids)}, Previous cards: {len(previous_card_ids)}")
+        log_message(f"Current cards: {len(current_card_ids)}, Previously imported: {len(previous_card_ids)}")
 
-        # Check if this is the first run
-        if not previous_card_ids:
-            log_message("Initial run - importing all cards")
-            # Treat all cards as new on first run
-            new_cards = current_cards
-            import_new_cards(new_cards, deck_name)
-            save_state(current_card_ids)
+        # Cards we haven't successfully imported yet (includes prior failures)
+        pending_ids = current_card_ids - previous_card_ids
+
+        if not pending_ids:
+            log_message("No new cards detected")
             return
 
-        # Find new cards
-        new_card_ids = set(current_card_ids) - set(previous_card_ids)
+        pending_cards = [card for card in current_cards if card["id"] in pending_ids]
+        log_message(f"Detected {len(pending_cards)} cards to import (new or previously failed)")
 
-        if new_card_ids:
-            new_cards = [card for card in current_cards if card["id"] in new_card_ids]
-            log_message(f"Detected {len(new_cards)} new cards!")
+        imported_ids = import_new_cards(pending_cards, deck_name)
 
-            # Import to Anki
-            import_new_cards(new_cards, deck_name)
+        # Persist only successes, scoped to cards still present on Scryfall
+        new_state_ids = (previous_card_ids | imported_ids) & current_card_ids
+        save_state(sorted(new_state_ids))
 
-            # Update state file
-            save_state(current_card_ids)
-        else:
-            log_message("No new cards detected")
+        failed = len(pending_cards) - len(imported_ids)
+        if failed:
+            log_message(f"{failed} cards failed; will retry on next run")
 
     except Exception as e:
         log_message(f"Error: {e}")
