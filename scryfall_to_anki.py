@@ -13,9 +13,11 @@ from pathlib import Path
 
 # ===== CONFIGURATION =====
 SET_CODE = "tla"  # MTG set code to monitor
-MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards
-SAGA_NOTE_TYPE = "MTG Saga"  # Anki note type for saga cards
+
+MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards (and sagas)
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
+PREPARE_NOTE_TYPE = "MTG Prepare"  # Anki note type for prepare cards
+DFC_NOTE_TYPE = "MTG DFC"  # Anki note type for double-faced cards
 ANKICONNECT_URL = "http://localhost:8765"
 
 # Scryfall requires a User-Agent and Accept header; requests without them get a 400
@@ -88,7 +90,7 @@ def fetch_set_info(set_code):
 
 def fetch_scryfall_cards(set_code):
     """Fetch cards from Scryfall API"""
-    query = f"set:{set_code} r<r -type:basic -is:dfc"
+    query = f"set:{set_code} r<r -type:basic"
     url = f"https://api.scryfall.com/cards/search?q={query}&order=spoiled"
 
     all_cards = []
@@ -101,7 +103,8 @@ def fetch_scryfall_cards(set_code):
                 all_cards.append({
                     "name": card["name"],
                     "id": card["id"],
-                    "layout": card.get("layout", "normal")
+                    "layout": card.get("layout", "normal"),
+                    "card_faces": card.get("card_faces", [])
                 })
 
         url = data.get("next_page")
@@ -149,18 +152,34 @@ def update_note(note_id, card_id, deck_name):
         log_message(f"  Error updating note {note_id}: {e}")
         return False
 
-def create_anki_note(card_name, card_id, layout, deck_name):
+def create_anki_note(card_name, card_id, layout, deck_name, card_faces=None):
     """Create a note in Anki via AnkiConnect, or update if it exists"""
-    if layout == "saga":
-        note_type = SAGA_NOTE_TYPE
-        fields = {
-            "Front": card_name,
-            "UUID": card_id
-        }
-    elif layout == "adventure":
+    if layout == "adventure":
         note_type = ADVENTURE_NOTE_TYPE
         fields = {
             "Text": f"{{{{c1::adventure}}}} {{{{c2::permanent}}}} {card_name}",
+            "UUID": card_id
+        }
+    elif layout == "prepare":
+        note_type = PREPARE_NOTE_TYPE
+        fields = {
+            "Text": f"{{{{c1::permanent}}}} {{{{c2::spell}}}} {card_name}",
+            "UUID": card_id
+        }
+    elif layout in ["transform", "modal_dfc"]:
+        note_type = DFC_NOTE_TYPE
+        # Extract front and back names from card_faces if available
+        if card_faces and len(card_faces) >= 2:
+            front_name = card_faces[0].get("name", "")
+            back_name = card_faces[1].get("name", "")
+        else:
+            # Fallback to splitting on " // "
+            parts = card_name.split(" // ")
+            front_name = parts[0] if len(parts) > 0 else ""
+            back_name = parts[1] if len(parts) > 1 else ""
+
+        fields = {
+            "Text": f"{{{{c1::{front_name}}}}} {{{{c2::{back_name}}}}}",
             "UUID": card_id
         }
     else:
@@ -188,7 +207,7 @@ def create_anki_note(card_name, card_id, layout, deck_name):
     }
 
     try:
-        card_type = layout if layout in ["saga", "adventure"] else "card"
+        card_type = layout if layout in ["adventure", "prepare", "transform", "modal_dfc"] else "card"
         log_message(f"  Creating new {card_type}: {card_name} in deck {deck_name}")
         note_id = invoke_ankiconnect("addNote", note=note)
         log_message(f"  Successfully created note ID: {note_id}")
@@ -208,7 +227,13 @@ def import_new_cards(new_cards, deck_name):
     imported_count = 0
     for card in new_cards:
         try:
-            note_id = create_anki_note(card["name"], card["id"], card["layout"], deck_name)
+            note_id = create_anki_note(
+                card["name"],
+                card["id"],
+                card["layout"],
+                deck_name,
+                card.get("card_faces")
+            )
             if note_id:
                 imported_count += 1
         except Exception as e:
