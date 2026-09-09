@@ -8,11 +8,12 @@ import requests
 import json
 import os
 import time
+import tomllib
 from datetime import datetime
 from pathlib import Path
 
 # ===== CONFIGURATION =====
-SET_CODE = "tla"  # MTG set code to monitor
+# The monitored set lives in config.toml.
 
 MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards (and sagas)
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
@@ -27,11 +28,35 @@ SCRYFALL_HEADERS = {
 }
 
 # File paths
-SCRIPT_DIR = Path.home() / "dev" / "mtg2anki"
-STATE_FILE = SCRIPT_DIR / f"{SET_CODE}_state.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
 LOG_FILE = SCRIPT_DIR / "card-monitor.log"
+CONFIG_FILE = SCRIPT_DIR / "config.toml"
 
 # ===== HELPER FUNCTIONS =====
+
+class ConfigError(Exception):
+    """Raised when the set code can't be determined"""
+
+def resolve_set_code():
+    """Read the set code from config.toml, raising ConfigError if unusable"""
+    if not CONFIG_FILE.exists():
+        raise ConfigError(
+            f"{CONFIG_FILE} not found. Create it with:\n\n    set = \"xyz\"\n"
+        )
+    try:
+        with open(CONFIG_FILE, "rb") as f:
+            config = tomllib.load(f)
+    except (tomllib.TOMLDecodeError, OSError) as e:
+        raise ConfigError(f"Could not read {CONFIG_FILE}: {e}")
+
+    set_code = config.get("set")
+    if not isinstance(set_code, str) or not set_code.strip():
+        raise ConfigError(f'{CONFIG_FILE} must define a non-empty `set`, e.g. set = "xyz"')
+    return set_code.strip().lower()
+
+def state_file(set_code):
+    """Path to the state file tracking imported cards for this set"""
+    return SCRIPT_DIR / f"{set_code}_state.json"
 
 def log_message(message):
     """Log message to file and print to console"""
@@ -112,17 +137,18 @@ def fetch_scryfall_cards(set_code):
     log_message(f"Found {len(all_cards)} cards")
     return all_cards
 
-def load_state():
-    """Load previously seen card IDs"""
-    if STATE_FILE.exists():
-        with open(STATE_FILE, "r") as f:
+def load_state(set_code):
+    """Load previously seen card IDs for this set"""
+    path = state_file(set_code)
+    if path.exists():
+        with open(path, "r") as f:
             return json.load(f)
     return {"card_ids": []}
 
-def save_state(card_ids):
-    """Save current card IDs to state file"""
+def save_state(set_code, card_ids):
+    """Save current card IDs to this set's state file"""
     SCRIPT_DIR.mkdir(parents=True, exist_ok=True)
-    with open(STATE_FILE, "w") as f:
+    with open(state_file(set_code), "w") as f:
         json.dump({"card_ids": card_ids}, f, indent=2)
 
 def find_existing_note(card_name, card_id):
@@ -247,6 +273,12 @@ def import_new_cards(new_cards, deck_name):
 
 def main():
     """Main execution"""
+    try:
+        set_code = resolve_set_code()
+    except ConfigError as e:
+        log_message(f"Configuration error: {e}")
+        raise SystemExit(1)
+
     log_message("=" * 60)
     log_message("Starting Scryfall to Anki import check")
 
@@ -256,17 +288,17 @@ def main():
             return
 
         # Fetch set info
-        set_info = fetch_set_info(SET_CODE)
+        set_info = fetch_set_info(set_code)
         deck_name = f"Main::MTG::{set_info['name']}"
-        log_message(f"Set: '{set_info['name']}' ({SET_CODE})")
+        log_message(f"Set: '{set_info['name']}' ({set_code})")
         log_message(f"Target deck: {deck_name}")
 
         # Fetch current cards from Scryfall
-        current_cards = fetch_scryfall_cards(SET_CODE)
+        current_cards = fetch_scryfall_cards(set_code)
         current_card_ids = set(card["id"] for card in current_cards)
 
         # Load previous state
-        state = load_state()
+        state = load_state(set_code)
         previous_card_ids = set(state.get("card_ids", []))
 
         log_message(f"Current cards: {len(current_card_ids)}, Previously imported: {len(previous_card_ids)}")
@@ -285,7 +317,7 @@ def main():
 
         # Persist only successes, scoped to cards still present on Scryfall
         new_state_ids = (previous_card_ids | imported_ids) & current_card_ids
-        save_state(sorted(new_state_ids))
+        save_state(set_code, sorted(new_state_ids))
 
         failed = len(pending_cards) - len(imported_ids)
         if failed:
