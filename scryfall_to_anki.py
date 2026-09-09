@@ -7,6 +7,7 @@ Monitors Scryfall for new cards and imports them directly to Anki via AnkiConnec
 import requests
 import json
 import os
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -16,6 +17,12 @@ MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards
 SAGA_NOTE_TYPE = "MTG Saga"  # Anki note type for saga cards
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
 ANKICONNECT_URL = "http://localhost:8765"
+
+# Scryfall requires a User-Agent and Accept header; requests without them get a 400
+SCRYFALL_HEADERS = {
+    "User-Agent": "mtg2anki/1.0",
+    "Accept": "application/json",
+}
 
 # File paths
 SCRIPT_DIR = Path.home() / "dev" / "mtg2anki"
@@ -44,11 +51,34 @@ def invoke_ankiconnect(action, **params):
         raise Exception(f"AnkiConnect error: {result['error']}")
     return result["result"]
 
+def ankiconnect_available():
+    """Return True if AnkiConnect responds on localhost"""
+    try:
+        invoke_ankiconnect("version")
+        return True
+    except Exception as e:
+        log_message(f"AnkiConnect not reachable: {e}")
+        return False
+
+def scryfall_get(url, attempts=4):
+    """GET a Scryfall URL with retries on transient failures"""
+    delay = 2
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(url, headers=SCRYFALL_HEADERS, timeout=30)
+            response.raise_for_status()
+            return response
+        except requests.exceptions.RequestException as e:
+            if attempt == attempts:
+                raise
+            log_message(f"  Scryfall request failed ({e}); retry {attempt}/{attempts - 1} in {delay}s")
+            time.sleep(delay)
+            delay *= 2
+
 def fetch_set_info(set_code):
     """Fetch set information from Scryfall API"""
     url = f"https://api.scryfall.com/sets/{set_code}"
-    response = requests.get(url)
-    response.raise_for_status()
+    response = scryfall_get(url)
     data = response.json()
     return {
         "code": data["code"],
@@ -63,8 +93,7 @@ def fetch_scryfall_cards(set_code):
 
     all_cards = []
     while url:
-        response = requests.get(url)
-        response.raise_for_status()
+        response = scryfall_get(url)
         data = response.json()
 
         for card in data.get("data", []):
@@ -193,6 +222,10 @@ def main():
     log_message("Starting Scryfall to Anki import check")
 
     try:
+        if not ankiconnect_available():
+            log_message("Aborting: Anki/AnkiConnect is not running. Will retry on next run.")
+            return
+
         # Fetch set info
         set_info = fetch_set_info(SET_CODE)
         deck_name = f"Main::MTG::{set_info['name']}"
