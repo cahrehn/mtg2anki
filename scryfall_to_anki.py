@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 # ===== CONFIGURATION =====
-SET_CODE = "tla"  # MTG set code to monitor
+SET_CODE = "fra"  # MTG set code to monitor
 
 MTG_NOTE_TYPE = "MTG Text Box"  # Anki note type for regular cards (and sagas)
 ADVENTURE_NOTE_TYPE = "MTG Adventure"  # Anki note type for adventure cards
