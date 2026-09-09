@@ -1,0 +1,5 @@
+# mtg2anki configuration
+
+# Scryfall set code to monitor for newly spoiled cards.
+# Change this when a new set starts spoiling.
+set = "fra"
